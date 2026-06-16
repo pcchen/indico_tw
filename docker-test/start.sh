@@ -5,7 +5,8 @@
 #   ./start.sh          – build image, start all services
 #   ./start.sh stop     – stop and remove all containers
 #   ./start.sh logs     – tail Indico logs
-#   ./start.sh rebuild  – rebuild image and restart (after translation changes)
+#   ./start.sh reload   – recompile PO→MO, rebuild app, restart (keeps DB data)
+#   ./start.sh rebuild  – full teardown + rebuild + restart
 
 set -euo pipefail
 
@@ -49,7 +50,23 @@ run_indico() {
         "$IMAGE" "$@"
 }
 
+compile_translations() {
+    local po="$DIR/../indico/translations/zh_Hant_TW/LC_MESSAGES/messages-all.po"
+    local mo="$DIR/../indico/translations/zh_Hant_TW/LC_MESSAGES/messages.mo"
+    echo "==> Compiling messages-all.po → messages.mo ..."
+    if ! command -v msgfmt &>/dev/null; then
+        echo "ERROR: msgfmt not found. Install gettext: brew install gettext" >&2
+        exit 1
+    fi
+    msgfmt --check -o "$mo" "$po"
+    # Copy into docker build context
+    cp "$po" "$DIR/messages-all.po"
+    cp "$mo" "$DIR/messages.mo"
+    echo "    OK ($(wc -l < "$po" | tr -d ' ') lines)"
+}
+
 build_image() {
+    compile_translations
     echo "==> Building Indico image with zh_Hant_TW translation..."
     docker build -t "$IMAGE" "$DIR"
 }
@@ -65,6 +82,25 @@ do_stop() {
 
 do_logs() {
     docker logs -f "$APP"
+}
+
+do_reload() {
+    # Recompile PO→MO, rebuild image, restart only the app container.
+    # PostgreSQL and Redis keep running so all data is preserved.
+    compile_translations
+    echo "==> Rebuilding app image..."
+    docker build -t "$IMAGE" "$DIR"
+    echo "==> Restarting app container..."
+    docker rm -f "$APP" 2>/dev/null || true
+    docker run -d \
+        --name "$APP" \
+        --network "$NETWORK" \
+        -p "$PORT:8080" \
+        -v "$CONF:/opt/indico/etc/indico.conf:ro" \
+        "$IMAGE" \
+        indico run -h 0.0.0.0 -p 8080 --reloader none --url "http://localhost:$PORT"
+    wait_for_http
+    echo "Reload complete. Open http://localhost:$PORT"
 }
 
 do_rebuild() {
@@ -163,7 +199,8 @@ PYEOF
 case "${1:-start}" in
     stop)    do_stop ;;
     logs)    do_logs ;;
+    reload)  do_reload ;;
     rebuild) do_rebuild ;;
     start)   do_start ;;
-    *)       echo "Usage: $0 [start|stop|logs|rebuild]"; exit 1 ;;
+    *)       echo "Usage: $0 [start|stop|logs|reload|rebuild]"; exit 1 ;;
 esac
