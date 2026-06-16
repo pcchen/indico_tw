@@ -50,12 +50,12 @@ msgstr "密碼必須匹配"
 msgid ""
 "There is already some information in Indico that concerns you. We are going "
 "to link it automatically."
-msgstr "Indico中已經有了一些關於您的信息。我們將自動連接到它。"
+msgstr "Indico中已經有了一些關於您的訊息。我們將自動連接到它。"
 
 #: indico/modules/auth/client/js/signup.jsx
 #: indico/modules/users/templates/users_admin_create.html
 msgid "User information"
-msgstr "用戶信息"
+msgstr "用戶訊息"
 
 #: indico/modules/auth/client/js/signup.jsx indico/modules/auth/forms.py
 #: indico/modules/bootstrap/forms.py indico/modules/events/abstracts/forms.py
@@ -118,7 +118,7 @@ msgstr "電話號碼"
 #: indico/modules/auth/client/js/signup.jsx
 #: indico/modules/users/templates/users_admin_create.html
 msgid "Login details"
-msgstr "登錄詳細信息"
+msgstr "登錄詳細訊息"
 
 #: indico/modules/auth/client/js/signup.jsx indico/modules/auth/forms.py
 msgid "Username"
@@ -164,7 +164,7 @@ msgstr "評論"
 msgid ""
 "You can provide additional information or a comment for the administrators "
 "who will review your registration."
-msgstr "您可以為將審核您的註冊的管理員提供附加信息或注釋。"
+msgstr "您可以為將審核您的註冊的管理員提供附加訊息或注釋。"
 
 #: indico/modules/auth/client/js/signup.jsx
 msgid "Terms of service"
@@ -1301,7 +1301,7 @@ msgstr "隱藏"
 #: indico/modules/events/editing/client/js/editing/timeline/TimelineItem.jsx
 #: indico/modules/users/controllers.py
 msgid "Show details"
-msgstr "顯示詳細信息"
+msgstr "顯示詳細訊息"
 
 #: indico/modules/events/editing/client/js/editing/timeline/TimelineItem.jsx
 msgid "This revision has been retracted by the editor."
@@ -1569,7 +1569,7 @@ msgid ""
 "Please note that connecting to this service may immediately update your "
 "editing settings and create e.g. new tags and file types. Only connect if "
 "you intend to use this workflow in your event!"
-msgstr "請注意，連接到該服務可能會立即更新您的編輯設置並創建。例如 新標籤和文件類型。 僅在您打算在活動中使用此工作流程時才連接！"
+msgstr "請注意，連接到該服務可能會立即更新您的編輯設置並建立。例如 新標籤和文件類型。 僅在您打算在活動中使用此工作流程時才連接！"
 
 #: indico/modules/events/editing/client/js/management/ManageService.jsx
 #, python-brace-format
@@ -2016,7 +2016,7 @@ msgstr "編輯文件類型"
 
 #: indico/modules/events/editing/client/js/management/editable_type/file_types/FileTypeManager.tsx
 msgid "Create a new file type"
-msgstr "創建新文件類型"
+msgstr "建立新文件類型"
 
 #: indico/modules/events/editing/client/js/management/editable_type/file_types/FileTypeManager.tsx
 #, python-brace-format
@@ -2114,7 +2114,7 @@ msgstr "您確定要刪除此條件？"
 
 #: indico/modules/events/editing/client/js/management/editable_type/review_conditions/ReviewConditionForm.jsx
 msgid "Select filetypes to create a condition"
-msgstr "選擇文件類型以創建條件"
+msgstr "選擇文件類型以建立條件"
 
 #: indico/modules/events/editing/client/js/management/editable_type/review_conditions/ReviewConditionsManager.jsx
 msgid ""
@@ -2139,7 +2139,7 @@ msgstr "Or"
 
 #: indico/modules/events/editing/client/js/management/editable_type/review_conditions/ReviewConditionsManager.jsx
 msgid "Create new filetype condition"
-msgstr "創建新文件類型條件"
+msgstr "建立新文件類型條件"
 
 #: indico/modules/events/editing/client/js/management/editable_type/review_conditions/index.jsx
 msgid "Review conditions"
@@ -2171,7 +2171,7 @@ msgstr "添加新標籤"
 
 #: indico/modules/events/editing/client/js/management/tags/TagManager.jsx
 msgid "Create a new tag"
-msgstr "創建新標籤"
+msgstr "建立新標籤"
 
 #: indico/modules/events/editing/client/js/management/tags/TagManager.jsx
 #, python-brace-format
@@ -2766,7 +2766,7 @@ msgstr "關閉"
 
 #: indico/modules/events/persons/client/js/EditEventPerson.jsx
 msgid "Edit person information"
-msgstr "編輯人員信息"
+msgstr "編輯人員訊息"
 
 #: indico/modules/events/abstracts/fields.py
 #: indico/modules/events/contributions/fields.py
@@ -4038,7 +4038,7 @@ msgstr "指定此欄位的使用者提供資料要保留多長時間。"
 msgid ""
 "Please note that invoice information will be lost as well once a field's "
 "retention period expires."
-msgstr "請注意，一旦欄位的保留期到期，發票信息也將丟失。"
+msgstr "請注意，一旦欄位的保留期到期，發票訊息也將丟失。"
 
 #: indico/modules/events/registration/client/js/form_setup/ItemTypeDropdown.jsx
 msgid "Choose type"
@@ -4329,7 +4329,7 @@ msgstr "請確認拒絕預訂。"
 
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 msgid "You can provide an optional message when accepting this booking"
-msgstr "您可以在接受預訂時提供可選信息"
+msgstr "您可以在接受預訂時提供可選訊息"
 
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 msgid "Cancel booking"
@@ -4410,7 +4410,7 @@ msgstr "原始預訂將被縮短；"
 #: indico/modules/rb/client/js/common/bookings/BookingEditCalendar.jsx
 msgid ""
 "a new booking, which will take into account the updated time information."
-msgstr "新的預訂將考慮更新時間信息。"
+msgstr "新的預訂將考慮更新時間訊息。"
 
 #: indico/modules/rb/client/js/common/bookings/BookingEditCalendar.jsx
 msgid "Original booking"
@@ -4639,7 +4639,7 @@ msgstr "您沒有被授權預訂這個會議室。"
 
 #: indico/modules/rb/client/js/common/rooms/RoomDetailsModal.jsx
 msgid "Room Details"
-msgstr "會議室詳細信息"
+msgstr "會議室詳細訊息"
 
 #: indico/modules/rb/client/js/common/rooms/RoomStats.jsx
 msgid "Times booked"
@@ -4706,7 +4706,7 @@ msgstr "電話"
 
 #: indico/modules/rb/client/js/common/rooms/edit/RoomEditDetails.jsx
 msgid "Information"
-msgstr "信息"
+msgstr "訊息"
 
 #: indico/modules/events/registration/forms.py
 #: indico/modules/events/surveys/forms.py
@@ -4802,11 +4802,11 @@ msgstr "添加會議室"
 
 #: indico/modules/rb/client/js/common/rooms/edit/RoomEditModal.jsx
 msgid "Edit Room Details"
-msgstr "編輯會議室詳細信息"
+msgstr "編輯會議室詳細訊息"
 
 #: indico/modules/rb/client/js/common/rooms/edit/RoomEditModal.jsx
 msgid "Room has been successfully created."
-msgstr "會議室已成功創建。"
+msgstr "會議室已成功建立。"
 
 #: indico/modules/rb/client/js/common/rooms/edit/RoomEditModal.jsx
 msgid "Room has been successfully updated."
@@ -4956,7 +4956,7 @@ msgstr "{date} 周"
 
 #: indico/modules/rb/client/js/common/timeline/EditableTimelineItem.jsx
 msgid "Drag the mouse to create a booking"
-msgstr "移動滑鼠創建預訂"
+msgstr "移動滑鼠建立預訂"
 
 #: indico/modules/rb/client/js/common/timeline/EditableTimelineItem.jsx
 msgid "Tip: click and drag to book!"
@@ -5313,7 +5313,7 @@ msgstr "您確定要刪除此會議室嗎？"
 
 #: indico/modules/rb/client/js/modules/admin/AttributesPage.jsx
 msgid "This attribute is not shown in the public room details."
-msgstr "此屬性不顯示在公用會議室詳細信息中。"
+msgstr "此屬性不顯示在公用會議室詳細訊息中。"
 
 #: indico/modules/rb/client/js/modules/admin/AttributesPage.jsx
 #: indico/modules/rb/client/js/modules/admin/EquipmentTypeList.jsx
@@ -5448,7 +5448,7 @@ msgstr "添加位置"
 
 #: indico/modules/rb/client/js/modules/admin/MapAreasPage.jsx
 msgid "Create new area"
-msgstr "創建新區域"
+msgstr "建立新區域"
 
 #: indico/modules/rb/client/js/modules/admin/MapAreasPage.jsx
 msgid "Update area"
@@ -5483,7 +5483,7 @@ msgstr "東北經度"
 #: indico/modules/rb/client/js/modules/admin/MapAreasPage.jsx
 #: indico/modules/vc/templates/manage_event_select.html
 msgid "Create"
-msgstr "創建"
+msgstr "建立"
 
 #: indico/modules/rb/client/js/modules/admin/MapAreasPage.jsx
 #: indico/web/client/js/react/components/PersonDetailsModal.jsx
@@ -5683,13 +5683,13 @@ msgstr "允許房間擁有者/管理者在預訂中新增內部備註，僅其�
 
 #: indico/modules/rb/client/js/modules/admin/SettingsPage.jsx
 msgid "Disable booking during event creation"
-msgstr "活動創建期間禁用預訂"
+msgstr "活動建立期間禁用預訂"
 
 #: indico/modules/rb/client/js/modules/admin/SettingsPage.jsx
 msgid ""
 "Specify the IDs of categories for which booking a room during event creation"
 " will not be suggested."
-msgstr "指定類別ID用於活動創建期間預訂會議室是不建議的。"
+msgstr "指定類別ID用於活動建立期間預訂會議室是不建議的。"
 
 #: indico/modules/rb/client/js/modules/admin/SettingsPage.jsx
 msgid "Grace period"
@@ -5713,7 +5713,7 @@ msgstr[0] "{count} 个会议室"
 #: indico/modules/rb/client/js/modules/blockings/BlockingCard.jsx
 #, python-brace-format
 msgid "Created by {createdBy}"
-msgstr "由 {createdBy} 創建"
+msgstr "由 {createdBy} 建立"
 
 #: indico/modules/rb/client/js/modules/blockings/BlockingFilterBar.jsx
 msgid "Active and future"
@@ -5791,7 +5791,7 @@ msgstr "禁用所選會議室"
 
 #: indico/modules/rb/client/js/modules/blockings/BlockingModal.jsx
 msgid "Blocking details"
-msgstr "禁用的詳細信息"
+msgstr "禁用的詳細訊息"
 
 #: indico/modules/rb/client/js/modules/blockings/BlockingModal.jsx
 msgid "Edit blocking"
@@ -5804,7 +5804,7 @@ msgstr "您確定要刪除此禁用嗎？"
 #: indico/modules/rb/client/js/modules/blockings/BlockingModal.jsx
 #, python-brace-format
 msgid "Blocking created by {createdBy}"
-msgstr "由 {createdBy} 創建的禁用"
+msgstr "由 {createdBy} 建立的禁用"
 
 #: indico/modules/rb/client/js/modules/blockings/BlockingModal.jsx
 msgid ""
@@ -5860,7 +5860,7 @@ msgstr "已成功更新禁用。 "
 
 #: indico/modules/rb/client/js/modules/blockings/BlockingModal.jsx
 msgid "The blocking has been successfully created."
-msgstr "已成功創建禁用。"
+msgstr "已成功建立禁用。"
 
 #: indico/modules/rb/client/js/modules/blockings/BlockingModal.jsx
 #, python-brace-format
@@ -5949,7 +5949,7 @@ msgid_plural ""
 "You have events taking place during the selected time. If you are booking "
 "this room for one of your events, please select it below. The room of the "
 "selected event will automatically be updated."
-msgstr[0] "您在所选时间内有若干活動。如果您预订此会议室来举办您的活动之一，请在下面选择它。选中活動的会议室信息将自动更新。"
+msgstr[0] "您在所选时间内有若干活動。如果您预订此会议室来举办您的活动之一，请在下面选择它。选中活動的会议室訊息将自动更新。"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 msgid "The space has been successfully pre-booked!"
@@ -5962,12 +5962,12 @@ msgstr "會議室已成功預定！"
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 #, python-brace-format
 msgid "You can consult your pre-booking {link}here{/link}."
-msgstr "你可以 {link}在這裡{/link} 查看您的預先預訂信息。"
+msgstr "你可以 {link}在這裡{/link} 查看您的預先預訂訊息。"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 #, python-brace-format
 msgid "You can consult your booking {link}here{/link}."
-msgstr "你可以 {link}在這裡{/link} 查看您的預訂信息。"
+msgstr "你可以 {link}在這裡{/link} 查看您的預訂訊息。"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 msgid "Couldn't book the room"
@@ -6003,13 +6003,13 @@ msgstr "預先預訂衝突"
 msgid ""
 "If you create this pre-booking, some of your days may get rejected as they "
 "overlap with the following pre-bookings:"
-msgstr "如果您創建此預先預訂，您的一些預訂天數可能會被拒絕因為它們和下面的預先預訂重疊："
+msgstr "如果您建立此預先預訂，您的一些預訂天數可能會被拒絕因為它們和下面的預先預訂重疊："
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 msgid ""
 "If you create this booking, the following overlapping days of existing pre-"
 "bookings will automatically be rejected:"
-msgstr "如果您創建此預訂，下面已存在的預先預訂重疊的天數將自動被拒絕："
+msgstr "如果您建立此預訂，下面已存在的預先預訂重疊的天數將自動被拒絕："
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 #, python-brace-format
@@ -6052,11 +6052,11 @@ msgstr "我改主意了！"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 msgid "Create Booking"
-msgstr "創建預訂"
+msgstr "建立預訂"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 msgid "Create Pre-booking"
-msgstr "創建預先預定"
+msgstr "建立預先預定"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookingFilterBar.jsx
 msgid "Recurrence"
@@ -7545,7 +7545,7 @@ msgstr "模擬用戶"
 #: indico/modules/users/templates/base.html indico/modules/users/views.py
 #: indico/web/client/js/react/components/UserMenu.jsx
 msgid "My Profile"
-msgstr "我的個人信息"
+msgstr "我的個人訊息"
 
 #: indico/web/client/js/react/components/UserMenu.jsx
 msgid "My Preferences"
@@ -8636,7 +8636,7 @@ msgstr "保護"
 
 #: indico/core/oauth/scopes.py
 msgid "User information (read only)"
-msgstr "用戶信息 (只讀)"
+msgstr "用戶訊息 (只讀)"
 
 #: indico/core/oauth/scopes.py
 msgid "Classic API (read only)"
@@ -8734,7 +8734,7 @@ msgstr "註冊人"
 #: indico/modules/events/registration/wallets/apple.py
 #: indico/modules/logs/models/entries.py
 msgid "Registration details"
-msgstr "註冊詳細信息"
+msgstr "註冊詳細訊息"
 
 #: indico/legacy/pdfinterface/conference.py
 msgid "Registration date"
@@ -9085,7 +9085,7 @@ msgid ""
 " enabling this you agree to keep those links private and ensure that no "
 "unauthorized people will use them."
 msgstr ""
-"啟用持久籤名將允許無時間戳的籤名請求。這意味著可以永遠使用同一連結來訪問私人信息。這就帶來了風險：如果有人發現了這個連結，他們就可以訪問與您相同的私人信息。通過啟用此功能，您同意將這些連結保密，並確保未經授權的人不會使用它們。"
+"啟用持久籤名將允許無時間戳的籤名請求。這意味著可以永遠使用同一連結來訪問私人訊息。這就帶來了風險：如果有人發現了這個連結，他們就可以訪問與您相同的私人訊息。通過啟用此功能，您同意將這些連結保密，並確保未經授權的人不會使用它們。"
 
 #: indico/modules/api/templates/_messages.html
 msgid ""
@@ -9095,7 +9095,7 @@ msgid ""
 " key!"
 msgstr ""
 "禁用持久籤名時，所有籤名的請求都需要再次使用有效的時間戳。如果您再次啟用它們，舊的持久連結將再次開始工作 - "
-"如果需要使它們無效，您必須創建一個新的API密鑰！"
+"如果需要使它們無效，您必須建立一個新的API密鑰！"
 
 #: indico/modules/api/templates/admin_keys.html
 msgid "API Keys"
@@ -9150,9 +9150,9 @@ msgid ""
 "script/application where you need to access the Indico API. To reduce the "
 "risk from a leaked token they also let you specify more fine-grained scopes."
 msgstr ""
-"請創建 %(link_start)s API 令牌 %(link_end)s。他們使用更標準的身份驗證方式 ( 不記名令牌身份驗證而不是 HMAC 籤名"
+"請建立 %(link_start)s API 令牌 %(link_end)s。他們使用更標準的身份驗證方式 ( 不記名令牌身份驗證而不是 HMAC 籤名"
 " ) ，並且你可以 ( 而且應該！ ) 為每個需要訪問 Indico API "
-"的腳本/應用程式創建一個令牌。為了降低令牌洩露的風險，它們還允許您指定更細粒度的範圍。"
+"的腳本/應用程式建立一個令牌。為了降低令牌洩露的風險，它們還允許您指定更細粒度的範圍。"
 
 #: indico/modules/api/templates/user_profile.html
 msgid "API Key"
@@ -9160,13 +9160,13 @@ msgstr "API  密鑰"
 
 #: indico/modules/api/templates/user_profile.html
 msgid "Create new API key"
-msgstr "創建新的 API 密鑰"
+msgstr "建立新的 API 密鑰"
 
 #: indico/modules/api/templates/user_profile.html
 msgid ""
 "Do you really want to create a new API key? Your old key will stop working "
 "immediately!"
-msgstr "您確實要創建新API 密鑰？ 您的舊密鑰將馬上停止工作！"
+msgstr "您確實要建立新API 密鑰？ 您的舊密鑰將馬上停止工作！"
 
 #: indico/modules/api/templates/user_profile.html
 msgid "Delete API key"
@@ -9180,17 +9180,17 @@ msgstr "你確實要刪除你的 API 密鑰？"
 msgid ""
 "You do not have an API key at the moment. If you would like to use our API, "
 "please create an API key using the button below."
-msgstr "你現在沒有API密鑰。如果你要使用我們的API，請使用下面的按鈕創建一個API密鑰。"
+msgstr "你現在沒有API密鑰。如果你要使用我們的API，請使用下面的按鈕建立一個API密鑰。"
 
 #: indico/modules/api/templates/user_profile.html
 msgid "Create API key"
-msgstr "創建 API 密鑰"
+msgstr "建立 API 密鑰"
 
 #: indico/modules/api/templates/user_profile.html
 msgid ""
 "Your API key has been blocked. Please contact an administrator for further "
 "details."
-msgstr "您的 API 密鑰被禁用了。請聯繫管理員獲得詳細信息。"
+msgstr "您的 API 密鑰被禁用了。請聯繫管理員獲得詳細訊息。"
 
 #: indico/modules/api/templates/user_profile.html
 msgid "Secret"
@@ -9198,7 +9198,7 @@ msgstr "秘碼"
 
 #: indico/modules/api/templates/user_profile.html
 msgid "Created"
-msgstr "創建於"
+msgstr "建立於"
 
 #: indico/modules/api/templates/user_profile.html
 msgid "Total uses"
@@ -9478,7 +9478,7 @@ msgstr "附件 \"{name}\" 已更新"
 #: indico/modules/attachments/controllers/management/base.py
 #, python-brace-format
 msgid "Folder \"{name}\" created"
-msgstr "文件夾 \"{name}\" 已創建"
+msgstr "文件夾 \"{name}\" 已建立"
 
 #: indico/modules/attachments/controllers/management/base.py
 #, python-brace-format
@@ -9596,7 +9596,7 @@ msgstr "還沒有材料"
 
 #: indico/modules/attachments/templates/_attachments.html
 msgid "Create a new folder"
-msgstr "創建新文件夾"
+msgstr "建立新文件夾"
 
 #: indico/modules/attachments/templates/_attachments.html
 msgid "New folder"
@@ -9713,11 +9713,11 @@ msgstr "下載包"
 
 #: indico/modules/auth/__init__.py
 msgid "Your Indico profile has been deleted."
-msgstr "您的 Indico 個人信息已被刪除。"
+msgstr "您的 Indico 個人訊息已被刪除。"
 
 #: indico/modules/auth/__init__.py
 msgid "Your Indico profile has been blocked."
-msgstr "您的 Indico 個人信息已被禁用。"
+msgstr "您的 Indico 個人訊息已被禁用。"
 
 #: indico/modules/auth/__init__.py
 msgid "Accounts"
@@ -9837,7 +9837,7 @@ msgstr "選擇您要驗證的電子郵件地址。"
 
 #: indico/modules/auth/forms.py
 msgid "There is no profile with this email address."
-msgstr "沒有包含此電子郵件地址的個人信息。"
+msgstr "沒有包含此電子郵件地址的個人訊息。"
 
 #: indico/modules/auth/providers.py
 msgid "Please use your email address to log in"
@@ -9873,11 +9873,11 @@ msgstr "您還沒有本地帳號。"
 
 #: indico/modules/auth/templates/accounts.html
 msgid "Create one"
-msgstr "創建一個"
+msgstr "建立一個"
 
 #: indico/modules/auth/templates/accounts.html
 msgid "Create account"
-msgstr "創建帳號"
+msgstr "建立帳號"
 
 #: indico/modules/auth/templates/accounts.html
 msgid "Modify credentials"
@@ -9908,7 +9908,7 @@ msgstr "外部帳號"
 
 #: indico/modules/auth/templates/accounts.html
 msgid "External accounts linked with your Indico profile."
-msgstr "與您的 Indico 個人信息關聯的外部帳戶。"
+msgstr "與您的 Indico 個人訊息關聯的外部帳戶。"
 
 #: indico/modules/auth/templates/accounts.html
 msgid "The account used to log in cannot be unlinked"
@@ -9964,7 +9964,7 @@ msgid ""
 "will be linked with this account once you have verified that "
 "<strong>%(emails)s</strong> is actually your email address."
 msgstr ""
-"我們已經找到一個存在的 Indico 個人信息 <strong>%(name)s</strong>，一旦您驗證 <strong>  %(emails)s"
+"我們已經找到一個存在的 Indico 個人訊息 <strong>%(name)s</strong>，一旦您驗證 <strong>  %(emails)s"
 " </strong> 是您的電子郵件地址，它將與此帳戶關聯。"
 
 #: indico/modules/auth/templates/link_identity.html
@@ -9973,7 +9973,7 @@ msgid ""
 "We have found an existing Indico profile <strong>%(name)s</strong> which "
 "will be linked with this account once you click the button below."
 msgstr ""
-"我們已經找到一個存在的 Indico 個人信息  <strong> %(name)s</strong>，一旦您點擊下面的按鈕，它將與此帳戶關聯。"
+"我們已經找到一個存在的 Indico 個人訊息  <strong> %(name)s</strong>，一旦您點擊下面的按鈕，它將與此帳戶關聯。"
 
 #: indico/modules/auth/templates/link_identity.html
 msgid "Add this account and log in"
@@ -10003,7 +10003,7 @@ msgstr "或更改身份驗證提供者"
 msgid ""
 "If you do not have an Indico account yet, you can <a href=\"%(url)s\">create"
 " one here</a>."
-msgstr "如果您還沒有 Indico 帳號，可以<a href=\"%(url)s\">在這裡創建</a>。"
+msgstr "如果您還沒有 Indico 帳號，可以<a href=\"%(url)s\">在這裡建立</a>。"
 
 #: indico/modules/auth/templates/login_page.html
 msgid "or connect with"
@@ -10016,7 +10016,7 @@ msgid ""
 "target=\"_blank\" rel=\"noopener noreferrer\">create one here</a>."
 msgstr ""
 "如果您還沒有帳號，可以<a href=\"%(url)s\" target=\"_blank\" rel=\"noopener "
-"noreferrer\">在這裡創建一個帳號</a>。"
+"noreferrer\">在這裡建立一個帳號</a>。"
 
 #: indico/modules/auth/templates/login_page.html
 #: indico/modules/events/payment/templates/event_plugin_edit.html
@@ -10037,12 +10037,12 @@ msgstr "返回"
 #: indico/modules/auth/templates/register.html
 #: indico/modules/auth/templates/register_verify.html
 msgid "Create a new Indico profile"
-msgstr "創建新的 Indico 個人信息"
+msgstr "建立新的 Indico 個人訊息"
 
 #: indico/modules/auth/templates/register_verify.html
 msgid ""
 "To create a new Indico profile you first need to verify your email address."
-msgstr "創建新的個人信息您首先需要驗證您的電子郵件地址。"
+msgstr "建立新的個人訊息您首先需要驗證您的電子郵件地址。"
 
 #: indico/modules/auth/templates/reset_password.html
 msgid "Reset your Indico password"
@@ -10053,7 +10053,7 @@ msgid ""
 "If you forgot your password you can reset it. Simply enter your email "
 "address and we'll send you an email containing with information on how to "
 "set a new password."
-msgstr "如果您忘了密碼可以重置。只需輸入您的電子郵件地址，我們將向您發送一封電子郵件，其中包含有關如何設置新密碼的信息。"
+msgstr "如果您忘了密碼可以重置。只需輸入您的電子郵件地址，我們將向您發送一封電子郵件，其中包含有關如何設置新密碼的訊息。"
 
 #: indico/modules/auth/templates/reset_password.html
 msgid "Change my password"
@@ -10186,13 +10186,13 @@ msgstr "管理員帳號"
 
 #: indico/modules/bootstrap/templates/bootstrap.html
 msgid "Insert here all basic information needed to create your account."
-msgstr "在這兒插入所有創建帳號需要的基本信息。"
+msgstr "在這兒插入所有建立帳號需要的基本訊息。"
 
 #: indico/modules/bootstrap/templates/bootstrap.html
 msgid ""
 "You can change any extra parameters (like your address or phone number) "
 "afterwards by accessing \"Account Details\" (from \"My Profile\")."
-msgstr "之後，您可以通過訪問 「帳戶詳細信息」（從「我的個人信息」）更改任何其他參數（如您的地址或電話號碼）。"
+msgstr "之後，您可以通過訪問 「帳戶詳細訊息」（從「我的個人訊息」）更改任何其他參數（如您的地址或電話號碼）。"
 
 #: indico/modules/bootstrap/templates/bootstrap.html
 msgid "Site configuration"
@@ -10206,7 +10206,7 @@ msgstr "這些是您的 Indico 站點的默認參數。"
 msgid ""
 "Please note that this information will also be used for your own user "
 "profile. You can change it later."
-msgstr "請注意這些信息將還用於您自己的個人信息。稍後你可以修改。"
+msgstr "請注意這些訊息將還用於您自己的個人訊息。稍後你可以修改。"
 
 #: indico/modules/bootstrap/templates/bootstrap.html
 #, python-format
@@ -10290,7 +10290,7 @@ msgid ""
 "to the Community Hub or the Indico Project and that you can disable it any "
 "time (from the \"Community Hub\" section of the administrative area)."
 msgstr ""
-"請注意<strong>不會有私有信息</strong> 被送到社區中心或者 Indico 項目並且您可以在任何時候禁用它 (從管理區域的 「社區中心」 "
+"請注意<strong>不會有私有訊息</strong> 被送到社區中心或者 Indico 項目並且您可以在任何時候禁用它 (從管理區域的 「社區中心」 "
 "部分) 。"
 
 #: indico/modules/bootstrap/templates/bootstrap.html
@@ -10306,7 +10306,7 @@ msgid ""
 msgstr ""
 "Indico現在已準備就緒，您將以具有管理權限的 %(name)s  登錄！<br>別忘了調整 <a "
 "href=\"%(settings_link)s\"> indico 的設置</a>並更新您的<a "
-"href=\"%(profile_link)s\">個人信息</a>"
+"href=\"%(profile_link)s\">個人訊息</a>"
 
 #: indico/modules/bootstrap/templates/flash_messages.html
 #, python-format
@@ -10330,7 +10330,7 @@ msgstr "註冊社區中心失敗：%(err)s。"
 #: indico/modules/bootstrap/templates/flash_messages.html
 #, python-format
 msgid "See the logs for details and try again <a href=\"%(link)s\">here</a>."
-msgstr "有關詳細信息，請參閱日誌，然後在<a href=\"%(link)s\">此處</a>重試。"
+msgstr "有關詳細訊息，請參閱日誌，然後在<a href=\"%(link)s\">此處</a>重試。"
 
 #: indico/modules/bootstrap/templates/flash_messages.html
 #, python-format
@@ -10363,11 +10363,11 @@ msgstr "即將發生的活動"
 
 #: indico/modules/categories/__init__.py
 msgid "Event creation"
-msgstr "活動創建"
+msgstr "活動建立"
 
 #: indico/modules/categories/__init__.py
 msgid "Allows creating events in the category"
-msgstr "允許在類別中創建活動"
+msgstr "允許在類別中建立活動"
 
 #: indico/modules/categories/__init__.py
 msgid "Request event move"
@@ -10456,7 +10456,7 @@ msgstr "通知管理員"
 msgid ""
 "Whether to send email notifications to all managers of this category when an"
 " event is created inside it or in any of its subcategories."
-msgstr "當在該類別或其任何子類別中創建活動時，是否向該類別的所有管理員發送電子郵件通知。"
+msgstr "當在該類別或其任何子類別中建立活動時，是否向該類別的所有管理員發送電子郵件通知。"
 
 #: indico/modules/categories/forms.py
 msgid "Notification E-mails"
@@ -10467,7 +10467,7 @@ msgid ""
 "List of emails that will receive a notification every time a new event is "
 "created inside the category or one of its subcategories. One email address "
 "per line."
-msgstr "每當在類別或其子類別之中創建新活動時，都會收到通知的電子郵件列表。 每行一個電子郵件地址。"
+msgstr "每當在類別或其子類別之中建立新活動時，都會收到通知的電子郵件列表。 每行一個電子郵件地址。"
 
 #: indico/modules/categories/forms.py
 msgid "Configuration"
@@ -10611,7 +10611,7 @@ msgstr "無法訪問時聯繫人"
 
 #: indico/modules/categories/forms.py
 msgid "Contact information shown when someone lacks access to the category"
-msgstr "當某人無法訪問該類別時顯示的聯繫人信息"
+msgstr "當某人無法訪問該類別時顯示的聯繫人訊息"
 
 #: indico/modules/categories/forms.py
 msgid "Event visibility"
@@ -10626,14 +10626,14 @@ msgstr "從類別樹的該點開始，內容將從（向上的類別數）中可
 
 #: indico/modules/categories/forms.py
 msgid "Event creation mode"
-msgstr "活動創建模式"
+msgstr "活動建立模式"
 
 #: indico/modules/categories/forms.py
 msgid ""
 "Specify who can create events in the category and whether they need to be "
 "approved. Regardless of this setting, users cannot create/propose events "
 "unless they have at least read access to the category."
-msgstr "指定誰可以在該類別中創建活動以及是否需要批准。 無論此設置如何，用戶都無法創建/提議活動，除非他們至少具有對該類別的讀取權限。"
+msgstr "指定誰可以在該類別中建立活動以及是否需要批准。 無論此設置如何，用戶都無法建立/提議活動，除非他們至少具有對該類別的讀取權限。"
 
 #: indico/modules/categories/forms.py
 #, python-brace-format
@@ -10845,7 +10845,7 @@ msgstr "類別的保護設置已更新"
 #: indico/modules/categories/controllers/management.py
 #, python-brace-format
 msgid "Category \"{}\" has been created."
-msgstr "類別 \"{}\" 已創建。"
+msgstr "類別 \"{}\" 已建立。"
 
 #: indico/modules/categories/controllers/management.py
 #, python-brace-format
@@ -11005,7 +11005,7 @@ msgstr "所有活動"
 #: indico/modules/events/__init__.py
 #: indico/modules/events/templates/forms/event_creation_form.html
 msgid "Create event"
-msgstr "創建活動"
+msgstr "建立活動"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Navigate categories"
@@ -11204,7 +11204,7 @@ msgstr "期間："
 
 #: indico/modules/categories/templates/display/overview/base.html
 msgid "Detail level:"
-msgstr "詳細信息級別："
+msgstr "詳細訊息級別："
 
 #: indico/modules/categories/templates/display/overview/base.html
 msgid "Legend"
@@ -11246,7 +11246,7 @@ msgstr "新類別"
 
 #: indico/modules/categories/templates/management/_create_category_button.html
 msgid "Create subcategory"
-msgstr " 創建子類別"
+msgstr " 建立子類別"
 
 #: indico/modules/categories/templates/management/_events_list.html
 msgctxt "Event"
@@ -11503,7 +11503,7 @@ msgstr "通過在社區中心註冊 Indico 伺服器，您將收到最新版本�
 msgid ""
 "Alongside, the following public information will be periodically collected "
 "as well:"
-msgstr "此外，還將定期收集下列公開信息："
+msgstr "此外，還將定期收集下列公開訊息："
 
 #: indico/modules/cephalopod/templates/cephalopod.html
 msgid "Loading&hellip;"
@@ -11689,7 +11689,7 @@ msgstr "海報/胸牌"
 #: indico/modules/designer/controllers.py
 #, python-brace-format
 msgid "Created copy of template '{}'"
-msgstr "已創建模板 『{}』 的副本"
+msgstr "已建立模板 『{}』 的副本"
 
 #: indico/modules/designer/controllers.py
 msgid "Go to category"
@@ -12319,15 +12319,15 @@ msgstr "資料保留"
 
 #: indico/modules/events/__init__.py
 msgid "Create lecture"
-msgstr "創建演講"
+msgstr "建立演講"
 
 #: indico/modules/events/__init__.py
 msgid "Create meeting"
-msgstr "創建會議"
+msgstr "建立會議"
 
 #: indico/modules/events/__init__.py
 msgid "Create conference"
-msgstr "創建研討會"
+msgstr "建立研討會"
 
 #: indico/modules/events/__init__.py
 #: indico/modules/events/registration/stats.py
@@ -12341,7 +12341,7 @@ msgstr "我的研討會"
 #: indico/modules/events/__init__.py
 #: indico/modules/events/templates/display/privacy.html
 msgid "Privacy Information"
-msgstr "隱私信息"
+msgstr "隱私訊息"
 
 #: indico/modules/events/clone.py
 msgid "Venue/Room"
@@ -12516,15 +12516,15 @@ msgstr "主題"
 
 #: indico/modules/events/forms.py
 msgid "Restrict creation"
-msgstr "限制創建"
+msgstr "限制建立"
 
 #: indico/modules/events/forms.py
 msgid "Restrict creation of unlisted events to the authorized users below."
-msgstr "僅限授權用戶創建未列出的活動。"
+msgstr "僅限授權用戶建立未列出的活動。"
 
 #: indico/modules/events/forms.py
 msgid "These users may create unlisted events."
-msgstr "這些用戶可能會創建未列出的活動。"
+msgstr "這些用戶可能會建立未列出的活動。"
 
 #: indico/modules/events/forms.py
 msgid "Minimum data retention period"
@@ -13295,7 +13295,7 @@ msgstr "已經有用戶使用此電子郵件地址"
 msgid ""
 "You have to create an \"Invited\" abstract notification template in order to"
 " be able to create invited abstracts."
-msgstr "您必須創建一個「受邀」摘要通知模板，以便能夠創建受邀摘要"
+msgstr "您必須建立一個「受邀」摘要通知模板，以便能夠建立受邀摘要"
 
 #: indico/modules/events/abstracts/forms.py
 msgid "The moment users can start submitting abstracts"
@@ -13688,7 +13688,7 @@ msgstr "徵集摘要已關閉。請聯繫活動組織者獲取進一步的幫助
 msgid ""
 "Your abstract '{}' has been successfully submitted. It is registered with "
 "the number #{}. You will be notified by email with the submission details."
-msgstr "您的摘要 '{}' 提交成功。摘要的註冊號是 #{}。您將收到關於提交詳細信息的郵件通知。"
+msgstr "您的摘要 '{}' 提交成功。摘要的註冊號是 #{}。您將收到關於提交詳細訊息的郵件通知。"
 
 #: indico/modules/events/abstracts/controllers/display.py
 #, python-brace-format
@@ -14221,7 +14221,7 @@ msgstr "添加新受邀摘要"
 #: indico/modules/events/abstracts/templates/management/_abstract_list.html
 #: indico/modules/events/abstracts/templates/management/abstract_list.html
 msgid "You first need to create a notification template for invited abstracts"
-msgstr "您首先需要為邀請的摘要創建一個通知模板"
+msgstr "您首先需要為邀請的摘要建立一個通知模板"
 
 #: indico/modules/events/abstracts/templates/management/_abstract_list.html
 #: indico/modules/events/abstracts/templates/management/abstract_list.html
@@ -14392,7 +14392,7 @@ msgstr "所有篩選已清空。"
 
 #: indico/modules/events/abstracts/templates/management/abstract_list_filter.html
 msgid "General abstract info"
-msgstr "一般摘要信息"
+msgstr "一般摘要訊息"
 
 #: indico/modules/events/abstracts/templates/management/abstract_list_filter.html
 #: indico/modules/events/abstracts/templates/management/overview.html
@@ -14799,7 +14799,7 @@ msgid ""
 "%(link_start)scontribution%(link_end)s was created in the event."
 msgstr ""
 "摘要被接受為議題 %(track)s 的 <span class=\"abstract-contribution-"
-"type\">%(type)s</span> 類型，並在活動中創建了 %(link_start)s 報告  %(link_end)s。"
+"type\">%(type)s</span> 類型，並在活動中建立了 %(link_start)s 報告  %(link_end)s。"
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 #, python-format
@@ -14816,14 +14816,14 @@ msgstr ""
 msgid ""
 "The abstract was accepted for track %(track)s and a "
 "%(link_start)scontribution%(link_end)s was created in the event."
-msgstr "摘要已被議題 %(track)s 接收並且在活動中創建了 %(link_start)s 報告 %(link_end)s。"
+msgstr "摘要已被議題 %(track)s 接收並且在活動中建立了 %(link_start)s 報告 %(link_end)s。"
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 #, python-format
 msgid ""
 "The abstract was accepted and a %(link_start)scontribution%(link_end)s was "
 "created in the event."
-msgstr "摘要已接收並且創建了 %(link_start)s 報告 %(link_end)s 。"
+msgstr "摘要已接收並且建立了 %(link_start)s 報告 %(link_end)s 。"
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 msgid "The abstract was rejected."
@@ -14858,7 +14858,7 @@ msgstr[0] "报告人："
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 msgid "More information"
-msgstr "更多信息"
+msgstr "更多訊息"
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 #, python-format
@@ -15176,7 +15176,7 @@ msgstr "拒絕於%(dt)s"
 
 #: indico/modules/events/agreements/templates/agreement_form.html
 msgid "Event information"
-msgstr "活動信息"
+msgstr "活動訊息"
 
 #: indico/modules/events/agreements/templates/agreement_form.html
 msgid "(optional)"
@@ -15510,7 +15510,7 @@ msgstr "編輯（基本）"
 msgid ""
 "Allows submitters to edit basic information of their contribution (title, "
 "description, speakers and authors)"
-msgstr "允許提交人編輯其報告的基本信息（標題、描述、演講者和作者）"
+msgstr "允許提交人編輯其報告的基本訊息（標題、描述、演講者和作者）"
 
 #: indico/modules/events/contributions/forms.py
 msgid "Edit (custom)"
@@ -15625,7 +15625,7 @@ msgstr "此活動的報告尚未公布。"
 #: indico/modules/events/contributions/controllers/management.py
 #, python-brace-format
 msgid "Contribution '{}' created successfully"
-msgstr "報告 '{}' 創建成功"
+msgstr "報告 '{}' 建立成功"
 
 #: indico/modules/events/contributions/controllers/management.py
 #, python-brace-format
@@ -15646,7 +15646,7 @@ msgstr "報告 '{}' 刪除成功"
 #: indico/modules/events/contributions/controllers/management.py
 #, python-brace-format
 msgid "Subcontribution '{}' created successfully"
-msgstr "子報告 '{}' 創建成功"
+msgstr "子報告 '{}' 建立成功"
 
 #: indico/modules/events/contributions/controllers/management.py
 #, python-brace-format
@@ -15738,7 +15738,7 @@ msgstr "編輯報告 '%(title)s'"
 #: indico/modules/events/contributions/templates/display/contribution_author.html
 #, python-format
 msgid "Details for %(full_name)s"
-msgstr "%(full_name)s 的詳細信息"
+msgstr "%(full_name)s 的詳細訊息"
 
 #. Salutation, e.g., 'Mr.' or 'Mrs.'
 #: indico/modules/events/contributions/templates/display/contribution_author.html
@@ -16153,7 +16153,7 @@ msgstr "還沒有報告類型。"
 #: indico/modules/events/controllers/admin.py
 #, python-brace-format
 msgid "External ID type '{}' created successfully"
-msgstr "外部 ID 類型 '{}' 創建成功"
+msgstr "外部 ID 類型 '{}' 建立成功"
 
 #: indico/modules/events/controllers/admin.py
 #, python-brace-format
@@ -16168,7 +16168,7 @@ msgstr "外部 ID 類型 '{}' 刪除成功"
 #: indico/modules/events/controllers/admin.py
 #, python-brace-format
 msgid "Event label '{}' created successfully"
-msgstr "活動標籤 '{}' 已成功創建"
+msgstr "活動標籤 '{}' 已成功建立"
 
 #: indico/modules/events/controllers/admin.py
 msgid "Allowed keywords have been saved"
@@ -16223,7 +16223,7 @@ msgid ""
 "A default publishable PDF file type has been created; if you want to use "
 "other file types in your event's editing workflow, please configure them "
 "accordingly."
-msgstr "默認的可發布PDF文件類型已創建； 如果要在活動的編輯工作流程中使用其他文件類型，請進行相應配置。"
+msgstr "默認的可發布PDF文件類型已建立； 如果要在活動的編輯工作流程中使用其他文件類型，請進行相應配置。"
 
 #: indico/modules/events/editing/__init__.py
 msgid "Papers"
@@ -16659,7 +16659,7 @@ msgstr "顯示公告"
 
 #: indico/modules/events/layout/forms.py
 msgid "Show the announcement message"
-msgstr "顯示公告信息"
+msgstr "顯示公告訊息"
 
 #: indico/modules/events/layout/forms.py
 msgid "Group by room"
@@ -16863,7 +16863,7 @@ msgstr "確定要移除此間隔符嗎？"
 
 #: indico/modules/events/layout/templates/_menu.html
 msgid "Drop here to create a nested entry."
-msgstr "拖放到此處以創建嵌套條目。"
+msgstr "拖放到此處以建立嵌套條目。"
 
 #: indico/modules/events/layout/templates/css_preview_header.html
 msgid "Use selected template"
@@ -17119,7 +17119,7 @@ msgstr "組織者"
 
 #: indico/modules/events/management/forms.py
 msgid "Additional information"
-msgstr "附加信息"
+msgstr "附加訊息"
 
 #: indico/modules/events/management/forms.py
 msgid "This text is displayed on the main conference page."
@@ -17139,7 +17139,7 @@ msgstr "標籤訊息"
 msgid ""
 "You can optionally provide a message that is shown when hovering the "
 "selected label."
-msgstr "您可以選擇提供信息，當光標懸停在標籤上時顯示。"
+msgstr "您可以選擇提供訊息，當光標懸停在標籤上時顯示。"
 
 #: indico/modules/events/management/forms.py
 msgid "Person/Institution"
@@ -17183,7 +17183,7 @@ msgstr "只使用 ACL 而不設置訪問密鑰更安全。<strong>如果活動�
 
 #: indico/modules/events/management/forms.py
 msgid "Contact information shown when someone lacks access to the event"
-msgstr "當某人無法訪問活動時顯示的聯繫人信息"
+msgstr "當某人無法訪問活動時顯示的聯繫人訊息"
 
 #: indico/modules/events/management/forms.py
 msgid ""
@@ -17242,7 +17242,7 @@ msgstr "克隆什麼"
 
 #: indico/modules/events/management/forms.py
 msgid "Refresh user information"
-msgstr "刷新用戶信息"
+msgstr "刷新用戶訊息"
 
 #: indico/modules/events/management/forms.py
 msgid ""
@@ -17256,7 +17256,7 @@ msgstr "你必須選擇類別"
 
 #: indico/modules/events/management/forms.py
 msgid "You can't create events in this category"
-msgstr "您不能在此類別下創建活動"
+msgstr "您不能在此類別下建立活動"
 
 #: indico/modules/events/management/forms.py
 msgid "Starting"
@@ -17517,7 +17517,7 @@ msgstr "歡迎來到您的克隆活動！"
 #: indico/modules/events/management/controllers/cloning.py
 #, python-brace-format
 msgid "{} new events created."
-msgstr "{} 個新活動已創建。"
+msgstr "{} 個新活動已建立。"
 
 #: indico/modules/events/management/controllers/cloning.py
 msgid "Cannot import from the same event"
@@ -17582,7 +17582,7 @@ msgstr "確認類型改變"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Only the event creator and category managers may unlock an event."
-msgstr "只有活動的創建者和類別管理員可以解鎖活動。"
+msgstr "只有活動的建立者和類別管理員可以解鎖活動。"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Unlock"
@@ -17590,7 +17590,7 @@ msgstr "解鎖"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Only the event creator and category managers may lock an event."
-msgstr "只有活動的創建者和類別管理員可以鎖住活動。"
+msgstr "只有活動的建立者和類別管理員可以鎖住活動。"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Lock"
@@ -17635,12 +17635,12 @@ msgstr "從當前活動克隆的活動："
 msgid ""
 "Created by %(name)s (%(email)s) from event on "
 "%(link_start)s%(date)s%(link_end)s"
-msgstr "由 %(name)s (%(email)s) 在 %(link_start)s%(date)s%(link_end)s 創建活動"
+msgstr "由 %(name)s (%(email)s) 在 %(link_start)s%(date)s%(link_end)s 建立活動"
 
 #: indico/modules/events/management/templates/_management_frame.html
 #, python-format
 msgid "Created by %(name)s (%(email)s)"
-msgstr "由 %(name)s (%(email)s) 創建"
+msgstr "由 %(name)s (%(email)s) 建立"
 
 #: indico/modules/events/management/templates/_registrations_visibility_list.html
 msgid "Registrations visibility to other participants"
@@ -17718,7 +17718,7 @@ msgstr "編輯主席"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid "Edit contact info"
-msgstr "編輯聯繫人信息"
+msgstr "編輯聯繫人訊息"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid "Organizer"
@@ -17726,7 +17726,7 @@ msgstr "組織者"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid "Additional info"
-msgstr "附加信息"
+msgstr "附加訊息"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid "Contact title"
@@ -17839,7 +17839,7 @@ msgstr "請注意，若您刪除此活動，您將失去其中包含的所有資
 msgid ""
 "Please note that if you delete the event you will lose all the information "
 "contained in it. This operation is irreversible!"
-msgstr "請注意如果刪除該活動則將丟失其中包含的所有信息。這個操作是不可逆的！"
+msgstr "請注意如果刪除該活動則將丟失其中包含的所有訊息。這個操作是不可逆的！"
 
 #: indico/modules/events/management/templates/delete_event.html
 #, python-format
@@ -17866,7 +17866,7 @@ msgstr "請注意，若您刪除這些活動，您將失去其中包含的所有
 msgid ""
 "Please note that if you delete the events you will lose all the information "
 "contained in them. This operation is irreversible!"
-msgstr "請注意如果刪除該活動則將丟失其中包含的所有信息。這個操作是不可逆的！"
+msgstr "請注意如果刪除該活動則將丟失其中包含的所有訊息。這個操作是不可逆的！"
 
 #: indico/modules/events/management/templates/delete_events.html
 #, python-format
@@ -17895,7 +17895,7 @@ msgstr "基本權限"
 #: indico/modules/events/management/templates/event_protection.html
 msgid ""
 "Restricted session timetable management (add contributions, create breaks)"
-msgstr "受限分會日程表管理（添加報告、創建間歇）"
+msgstr "受限分會日程表管理（添加報告、建立間歇）"
 
 #: indico/modules/events/management/templates/event_protection.html
 msgid "View contribution list (no modifications)"
@@ -17930,7 +17930,7 @@ msgid ""
 "Please note that if you lock this event, you will not be able to change it "
 "anymore. Only the creator of the event or a category manager will be able to"
 " unlock it."
-msgstr "請注意，如果您鎖住該活動，您將不能再修改它。只有活動創建者或者類別管理員可以解鎖它。"
+msgstr "請注意，如果您鎖住該活動，您將不能再修改它。只有活動建立者或者類別管理員可以解鎖它。"
 
 #: indico/modules/events/management/templates/lock_event.html
 msgid "You are about to lock this event!"
@@ -18533,7 +18533,7 @@ msgstr "通過啟用/禁用下面列出的列，或通過應用篩選（%(filter
 
 #: indico/modules/events/papers/templates/paper_list_filter.html
 msgid "General paper assignment info"
-msgstr "常規論文分配信息"
+msgstr "常規論文分配訊息"
 
 #: indico/modules/events/papers/templates/display/_common.html
 msgid "You have been authorized to submit papers"
@@ -19321,7 +19321,7 @@ msgstr "請選擇選項"
 
 #: indico/modules/events/payment/templates/event_checkout.html
 msgid "Payment information"
-msgstr "付款信息"
+msgstr "付款訊息"
 
 #: indico/modules/events/payment/templates/event_plugin_edit.html
 msgid "You cannot modify this payment method."
@@ -19605,7 +19605,7 @@ msgstr "此人目前只是一份摘要的作者，與活動沒有其他關係。
 msgid ""
 "This user seems to have no Indico account. If they do have an account, they "
 "should add %(email)s to their profile"
-msgstr "此用戶似乎沒有Indico帳戶。如果他們確實有帳戶，他們應該在他們的個人信息中添加%(email)s"
+msgstr "此用戶似乎沒有Indico帳戶。如果他們確實有帳戶，他們應該在他們的個人訊息中添加%(email)s"
 
 #: indico/modules/events/persons/templates/management/_person_list_row.html
 msgid "No account"
@@ -19828,11 +19828,11 @@ msgstr "填寫註冊表時顯示的介紹"
 #: indico/modules/events/registration/forms.py
 #: indico/modules/events/registration/templates/display/_regform_info.html
 msgid "Contact info"
-msgstr "聯繫人信息"
+msgstr "聯繫人訊息"
 
 #: indico/modules/events/registration/forms.py
 msgid "How registrants can get in touch with somebody for extra information"
-msgstr "註冊者如何與他人聯繫以獲取更多信息"
+msgstr "註冊者如何與他人聯繫以獲取更多訊息"
 
 #: indico/modules/events/registration/forms.py
 msgid "Moderated"
@@ -19929,15 +19929,15 @@ msgstr "通知發送者地址"
 
 #: indico/modules/events/registration/forms.py
 msgid "Message for pending registrations"
-msgstr "等待註冊的信息"
+msgstr "等待註冊的訊息"
 
 #: indico/modules/events/registration/forms.py
 msgid "Message for unpaid registrations"
-msgstr "未付款註冊信息"
+msgstr "未付款註冊訊息"
 
 #: indico/modules/events/registration/forms.py
 msgid "Message for complete registrations"
-msgstr "完成註冊的信息"
+msgstr "完成註冊的訊息"
 
 #: indico/modules/events/registration/forms.py
 #: indico/modules/events/reminders/forms.py
@@ -20052,7 +20052,7 @@ msgstr "註冊關閉的時刻"
 msgid ""
 "Deadline until which registration information can be modified (defaults to "
 "the end date if empty)"
-msgstr "註冊信息可被修改的最後期限 (如果為空，則默認為結束日期)"
+msgstr "註冊訊息可被修改的最後期限 (如果為空，則默認為結束日期)"
 
 #: indico/modules/events/registration/forms.py
 msgid "Deadline until which registration information can be modified"
@@ -20080,7 +20080,7 @@ msgstr "啟用票單"
 
 #: indico/modules/events/registration/forms.py
 msgid "Create tickets for registrations using this registration form."
-msgstr "為使用這個註冊表的註冊創建票單。"
+msgstr "為使用這個註冊表的註冊建立票單。"
 
 #: indico/modules/events/registration/forms.py
 msgid "Export to Google Wallet"
@@ -20469,14 +20469,14 @@ msgid ""
 "We could not find a registration for you.  If have already registered, "
 "please use the direct access link from the email you received after "
 "registering."
-msgstr "我們找不到您的註冊信息。如果已經註冊，請使用註冊後收到的電子郵件中的直接訪問連結。"
+msgstr "我們找不到您的註冊訊息。如果已經註冊，請使用註冊後收到的電子郵件中的直接訪問連結。"
 
 #: indico/modules/events/registration/controllers/display.py
 msgid ""
 "We could not find a registration for you.  If have already registered, "
 "please use the direct access link from the email you received after "
 "registering or log in to your Indico account."
-msgstr "我們找不到您的註冊信息。如果已經註冊，請使用註冊後收到的電子郵件中的直接訪問連結或登錄到您的Indico帳戶。"
+msgstr "我們找不到您的註冊訊息。如果已經註冊，請使用註冊後收到的電子郵件中的直接訪問連結或登錄到您的Indico帳戶。"
 
 #: indico/modules/events/registration/controllers/display.py
 msgid "Your registration has been withdrawn."
@@ -20774,7 +20774,7 @@ msgstr "包含用作條件欄位的區段無法停用"
 
 #: indico/modules/events/registration/controllers/management/tags.py
 msgid "A new tag has been created."
-msgstr "新標籤已創建。"
+msgstr "新標籤已建立。"
 
 #: indico/modules/events/registration/controllers/management/tags.py
 #, python-brace-format
@@ -20966,7 +20966,7 @@ msgstr "註冊 ID "
 
 #: indico/modules/events/registration/placeholders/registrations.py
 msgid "The link to the registration details"
-msgstr "連接到註冊詳細信息"
+msgstr "連接到註冊詳細訊息"
 
 #: indico/modules/events/registration/placeholders/registrations.py
 msgid "The reason why the registration was rejected"
@@ -21958,11 +21958,11 @@ msgstr "標記為未報到"
 msgid ""
 "Are you sure you want to reset the check-in info? The original check-in time"
 " will be lost."
-msgstr "您確定要重置報到信息嗎？原始的報到時間將丟失。"
+msgstr "您確定要重置報到訊息嗎？原始的報到時間將丟失。"
 
 #: indico/modules/events/registration/templates/management/_registration_details.html
 msgid "Reset check-in info"
-msgstr "重置報到信息"
+msgstr "重置報到訊息"
 
 #: indico/modules/events/registration/templates/management/_registration_details.html
 msgid "reset"
@@ -22112,7 +22112,7 @@ msgid ""
 "To create a new registration form, specify the participant visibility "
 "settings below. These settings can only be changed while there are no "
 "registrations."
-msgstr "要創建新註冊表，請在下面指定參會者可見性設置。這些設置只能在沒有註冊的情況下更改。"
+msgstr "要建立新註冊表，請在下面指定參會者可見性設置。這些設置只能在沒有註冊的情況下更改。"
 
 #: indico/modules/events/registration/templates/management/regform.html
 msgid "This form is private"
@@ -22152,7 +22152,7 @@ msgstr "註冊表"
 
 #: indico/modules/events/registration/templates/management/regform.html
 msgid "Add, remove or modify information registrants may fill out."
-msgstr "添加、刪除或修改註冊人可以填寫的信息。"
+msgstr "添加、刪除或修改註冊人可以填寫的訊息。"
 
 #: indico/modules/events/registration/templates/management/regform.html
 msgid "Choose who can see the participants of this event."
@@ -22192,14 +22192,14 @@ msgstr "狀況"
 
 #: indico/modules/events/registration/templates/management/regform_create.html
 msgid "Create a new registration form"
-msgstr "創建新的註冊表"
+msgstr "建立新的註冊表"
 
 #: indico/modules/events/registration/templates/management/regform_create.html
 msgid ""
 "To create a new registration form, specify the title and participant "
 "visibility settings below. The visibility settings can only be changed while"
 " there are no registrations."
-msgstr "要創建新註冊表，請在下面指定標題和參與者可見性設置。只有在沒有註冊的情況下才能更改可見性設置。"
+msgstr "要建立新註冊表，請在下面指定標題和參與者可見性設置。只有在沒有註冊的情況下才能更改可見性設置。"
 
 #: indico/modules/events/registration/templates/management/regform_display.html
 msgid "Participants display"
@@ -22216,13 +22216,13 @@ msgstr "此活動沒有註冊表。"
 
 #: indico/modules/events/registration/templates/management/regform_display.html
 msgid "Start by creating a registration form."
-msgstr "從創建註冊表開始。"
+msgstr "從建立註冊表開始。"
 
 #: indico/modules/events/registration/templates/management/regform_display.html
 #: indico/modules/events/registration/templates/management/regform_edit.html
 #: indico/modules/events/registration/templates/management/regform_list.html
 msgid "Create form"
-msgstr "創建表"
+msgstr "建立表"
 
 #: indico/modules/events/registration/templates/management/regform_display.html
 msgid "Merge forms"
@@ -22232,7 +22232,7 @@ msgstr "合併表"
 msgid ""
 "Show all the registrations together, regardless of which form they came "
 "from."
-msgstr " 將所有註冊信息顯示在一起，無論它們來自哪種形式。"
+msgstr " 將所有註冊訊息顯示在一起，無論它們來自哪種形式。"
 
 #: indico/modules/events/registration/templates/management/regform_display.html
 msgid ""
@@ -22352,7 +22352,7 @@ msgstr "定製化"
 
 #: indico/modules/events/registration/templates/management/regform_list.html
 msgid "Create tags to mark and filter registrations"
-msgstr "創建標籤以標記和過濾註冊"
+msgstr "建立標籤以標記和過濾註冊"
 
 #: indico/modules/events/registration/templates/management/regform_list.html
 msgid "Announcement for multiple registration forms"
@@ -22541,7 +22541,7 @@ msgstr "修改 #%(id)s: 在 \"%(regform_title)s\"中的%(name)s "
 
 #: indico/modules/events/registration/templates/management/registration_tags.html
 msgid "Create registration tags to mark and filter registrations."
-msgstr "創建註冊標籤以標記和過濾註冊。"
+msgstr "建立註冊標籤以標記和過濾註冊。"
 
 #: indico/modules/events/registration/templates/management/registration_tags.html
 msgid "Do you really want to delete this tag?"
@@ -22572,7 +22572,7 @@ msgstr "通過啟用/禁用下面列出的列或應用篩選（%(filter_icon)s�
 
 #: indico/modules/events/registration/templates/management/reglist_filter.html
 msgid "General registration info"
-msgstr "一般註冊信息"
+msgstr "一般註冊訊息"
 
 #: indico/modules/events/registration/templates/management/reglist_filter.html
 msgid "Additional data"
@@ -22639,7 +22639,7 @@ msgstr "位於 {} 的提醒已被刪除。"
 
 #: indico/modules/events/reminders/controllers.py
 msgid "The reminder has been sent."
-msgstr "提醒信息已送出。"
+msgstr "提醒訊息已送出。"
 
 #: indico/modules/events/reminders/controllers.py
 msgid "This reminder has already been sent and cannot be modified anymore."
@@ -22653,7 +22653,7 @@ msgstr "位於 {} 提醒已被修改。"
 #: indico/modules/events/reminders/controllers.py
 #, python-brace-format
 msgid "A reminder at {} has been created."
-msgstr "位於 {} 提醒已創建。"
+msgstr "位於 {} 提醒已建立。"
 
 #: indico/modules/events/reminders/forms.py
 msgid "Before the event start time"
@@ -22731,7 +22731,7 @@ msgstr "注釋"
 
 #: indico/modules/events/reminders/forms.py
 msgid "A custom message to include in the email."
-msgstr "包含在電子郵件中的自定義信息"
+msgstr "包含在電子郵件中的自定義訊息"
 
 #: indico/modules/events/reminders/forms.py
 msgid "Include agenda"
@@ -22785,7 +22785,7 @@ msgstr "雜項"
 
 #: indico/modules/events/reminders/templates/reminders.html
 msgid "Reminder details"
-msgstr "提醒詳細信息"
+msgstr "提醒詳細訊息"
 
 #: indico/modules/events/reminders/templates/reminders.html
 msgid "Edit reminder"
@@ -22991,19 +22991,19 @@ msgstr "你已撤回請求。 如果需要此服務，請重新提交您的請�
 #: indico/modules/events/requests/templates/emails/base_to_request_managers.txt
 #: indico/modules/events/requests/templates/event_request_details.html
 msgid "Request details"
-msgstr "請求詳細信息"
+msgstr "請求詳細訊息"
 
 #: indico/modules/events/requests/templates/event_request_details.html
 msgid "These are the details provided by the event manager."
-msgstr "這些是活動管理員提供的詳細信息。"
+msgstr "這些是活動管理員提供的詳細訊息。"
 
 #: indico/modules/events/requests/templates/event_request_details.html
 msgid "Created by"
-msgstr "創建人"
+msgstr "建立人"
 
 #: indico/modules/events/requests/templates/event_request_details.html
 msgid "Created at"
-msgstr "創建於"
+msgstr "建立於"
 
 #: indico/modules/events/requests/templates/event_request_details.html
 msgid "Withdraw request"
@@ -23261,7 +23261,7 @@ msgstr "允許協調人在其分會塊中修改報告。"
 msgid ""
 "Allows coordinators to manage/reschedule session blocks of their sessions.  "
 "This includes creating new session blocks."
-msgstr "允許協調人管理 /重新安排其分會的分會塊。這包括創建新的分會塊。"
+msgstr "允許協調人管理 /重新安排其分會的分會塊。這包括建立新的分會塊。"
 
 #: indico/modules/events/sessions/__init__.py
 #, python-brace-format
@@ -23302,7 +23302,7 @@ msgstr "默認報告時長"
 msgid ""
 "Duration that a contribution created within this session will have by "
 "default."
-msgstr "默認情況下，在此分會中創建的報告將具有的時長。"
+msgstr "默認情況下，在此分會中建立的報告將具有的時長。"
 
 #: indico/modules/events/sessions/forms.py
 msgid "Default location"
@@ -23568,7 +23568,7 @@ msgstr "調查"
 
 #: indico/modules/events/surveys/__init__.py
 msgid "Gives event managers the opportunity to create surveys."
-msgstr "給活動管理員機會去創建調查。"
+msgstr "給活動管理員機會去建立調查。"
 
 #: indico/modules/events/surveys/__init__.py
 msgid "Grants management access to surveys."
@@ -23593,7 +23593,7 @@ msgstr "匿名提交"
 
 #: indico/modules/events/surveys/forms.py
 msgid "User information will not be attached to submissions"
-msgstr "用戶信息不會附加到提交的內容中"
+msgstr "用戶訊息不會附加到提交的內容中"
 
 #: indico/modules/events/surveys/forms.py
 msgid "Require users to be logged in for submitting the survey"
@@ -23794,7 +23794,7 @@ msgstr "調查已刪除"
 
 #: indico/modules/events/surveys/controllers/management/survey.py
 msgid "Survey created"
-msgstr "調查已創建"
+msgstr "調查已建立"
 
 #: indico/modules/events/surveys/controllers/management/survey.py
 msgid "Survey was scheduled"
@@ -24110,7 +24110,7 @@ msgstr "還沒有調查。"
 
 #: indico/modules/events/surveys/templates/management/survey_list.html
 msgid "Create survey"
-msgstr "創建調查"
+msgstr "建立調查"
 
 #: indico/modules/events/surveys/templates/management/survey_questionnaire.html
 #, python-format
@@ -24464,7 +24464,7 @@ msgstr "現有活動標籤"
 
 #: indico/modules/events/templates/admin/event_labels.html
 msgid "Create new event label"
-msgstr "創建新活動標籤"
+msgstr "建立新活動標籤"
 
 #: indico/modules/events/templates/admin/reference_types.html
 msgid "Existing external ID types"
@@ -24476,7 +24476,7 @@ msgstr "建立新的外部 ID 類型"
 
 #: indico/modules/events/templates/admin/reference_types.html
 msgid "Create new type"
-msgstr "創建新類型"
+msgstr "建立新類型"
 
 #: indico/modules/events/templates/admin/unlisted_events.html
 msgid ""
@@ -24565,7 +24565,7 @@ msgstr "登錄查看他們的電子郵件地址"
 
 #: indico/modules/events/templates/display/conference.html
 msgid "Extra information"
-msgstr "額外信息"
+msgstr "額外訊息"
 
 #: indico/modules/events/templates/display/now_happening.html
 msgid "Now happening:"
@@ -24573,7 +24573,7 @@ msgstr "正在發生："
 
 #: indico/modules/events/templates/display/privacy.html
 msgid "There is no privacy information for this event."
-msgstr "此活動沒有隱私信息。"
+msgstr "此活動沒有隱私訊息。"
 
 #: indico/modules/events/templates/display/common/_privacy_info_button.html
 #: indico/modules/events/templates/display/privacy.html
@@ -24650,7 +24650,7 @@ msgstr "編輯保護"
 
 #: indico/modules/events/templates/display/common/_privacy_info_button.html
 msgid "Event privacy information"
-msgstr "活動隱私信息"
+msgstr "活動隱私訊息"
 
 #: indico/modules/events/templates/display/conference/_util.html
 #, python-format
@@ -24802,17 +24802,17 @@ msgstr "塊屬性"
 #: indico/modules/events/templates/management/_create_event_button.html
 #: indico/web/client/js/jquery/extensions/global.js
 msgid "Create new lecture"
-msgstr "創建新演講"
+msgstr "建立新演講"
 
 #: indico/modules/events/templates/management/_create_event_button.html
 #: indico/web/client/js/jquery/extensions/global.js
 msgid "Create new meeting"
-msgstr "創建新會議"
+msgstr "建立新會議"
 
 #: indico/modules/events/templates/management/_create_event_button.html
 #: indico/web/client/js/jquery/extensions/global.js
 msgid "Create new conference"
-msgstr "創建新研討會"
+msgstr "建立新研討會"
 
 #: indico/modules/events/templates/management/_lists.html
 #, python-format
@@ -25119,7 +25119,7 @@ msgstr "您確定要刪除分會塊 %(title)s 嗎?"
 
 #: indico/modules/events/timetable/templates/balloons/block.html
 msgid "View session details"
-msgstr "瀏覽分會詳細信息"
+msgstr "瀏覽分會詳細訊息"
 
 #: indico/modules/events/timetable/templates/balloons/block.html
 msgid "Go to session block timetable"
@@ -25177,7 +25177,7 @@ msgstr "您確定要刪除報告 『%(title)s』 嗎？"
 
 #: indico/modules/events/timetable/templates/balloons/contribution.html
 msgid "View contribution details"
-msgstr "瀏覽報告詳細信息"
+msgstr "瀏覽報告詳細訊息"
 
 #: indico/modules/events/timetable/templates/balloons/contribution.html
 #, python-format
@@ -25279,7 +25279,7 @@ msgstr "議程已更新"
 #: indico/modules/events/tracks/controllers.py
 #, python-brace-format
 msgid "Track \"{}\" has been created."
-msgstr "議題 \"{}\" 已創建"
+msgstr "議題 \"{}\" 已建立"
 
 #: indico/modules/events/tracks/controllers.py
 #, python-brace-format
@@ -25440,7 +25440,7 @@ msgstr "本地"
 #: indico/modules/groups/controllers.py
 #, python-brace-format
 msgid "The group '{name}' has been created."
-msgstr "組 『{name}』 已創建。"
+msgstr "組 『{name}』 已建立。"
 
 #: indico/modules/groups/controllers.py
 #, python-brace-format
@@ -25475,7 +25475,7 @@ msgstr "這個組裡還沒有用戶。"
 
 #: indico/modules/groups/templates/group_details.html
 msgid "Group Details"
-msgstr "組詳細信息"
+msgstr "組詳細訊息"
 
 #: indico/modules/groups/templates/group_details.html
 msgid "Edit group"
@@ -25504,7 +25504,7 @@ msgstr "編輯組"
 
 #: indico/modules/groups/templates/group_edit.html
 msgid "Create Group"
-msgstr "創建組"
+msgstr "建立組"
 
 #: indico/modules/groups/templates/groups.html
 msgid "Members"
@@ -25522,7 +25522,7 @@ msgstr "本地組"
 
 #: indico/modules/groups/templates/groups.html
 msgid "Create new group"
-msgstr "創建新組"
+msgstr "建立新組"
 
 #: indico/modules/groups/templates/groups.html
 msgid "Search groups"
@@ -25590,11 +25590,11 @@ msgstr "我已閱讀、理解並接受{pp_link_start}隱私政策{pp_link_end}�
 
 #: indico/modules/legal/forms.py
 msgid "Network-protected information disclaimer"
-msgstr "網絡-保護信息免責聲明"
+msgstr "網絡-保護訊息免責聲明"
 
 #: indico/modules/legal/forms.py
 msgid "Restricted information disclaimer"
-msgstr "受限信息免責聲明"
+msgstr "受限訊息免責聲明"
 
 #: indico/modules/legal/forms.py
 msgid "The URL to an external page with terms and conditions"
@@ -25861,7 +25861,7 @@ msgstr "IP 網絡可以在類別和活動的 ACLs 內使用，類別和活動可
 
 #: indico/modules/networks/templates/networks.html
 msgid "Create an IP network"
-msgstr "創建 IP 網絡"
+msgstr "建立 IP 網絡"
 
 #: indico/modules/networks/templates/networks.html
 msgid "New IP network"
@@ -26121,7 +26121,7 @@ msgstr "註冊新應用程式"
 msgid ""
 "This is the list of applications authorized to access Indico. Click on the "
 "name of an application to see more information."
-msgstr "這是授權訪問 Indico 的應用程式列表。單擊應用程式的名稱以查看更多信息。"
+msgstr "這是授權訪問 Indico 的應用程式列表。單擊應用程式的名稱以查看更多訊息。"
 
 #: indico/modules/oauth/templates/apps.html
 msgid "There aren't any authorized applications."
@@ -26179,7 +26179,7 @@ msgstr "撤銷"
 
 #: indico/modules/oauth/templates/user_tokens.html
 msgid "Create new token"
-msgstr "創建新令牌"
+msgstr "建立新令牌"
 
 #: indico/modules/oauth/templates/user_tokens.html
 msgid "Tokens you generated to access the Indico APIs."
@@ -26239,7 +26239,7 @@ msgstr "使用此令牌的任何應用程式或腳本將無法再訪問 Indico A
 msgid ""
 "Warning: You will not be able to create a new API token since only Indico "
 "admins can create API tokens."
-msgstr "警告：您將無法創建新的 API 令牌，因為只有 Indico 管理員才能創建 API 令牌。"
+msgstr "警告：您將無法建立新的 API 令牌，因為只有 Indico 管理員才能建立 API 令牌。"
 
 #: indico/modules/rb/__init__.py indico/modules/users/models/export.py
 msgid "Room booking"
@@ -26368,7 +26368,7 @@ msgstr "此文件的格式無效 ({format})。"
 
 #: indico/modules/rb/controllers/backend/bookings.py
 msgid "You cannot create a booking which starts in the past"
-msgstr "您不能創建在過去開始的預訂"
+msgstr "您不能建立在過去開始的預訂"
 
 #: indico/modules/rb/controllers/backend/bookings.py
 #, python-brace-format
@@ -26416,7 +26416,7 @@ msgstr "您不能提前 {} 天預訂此會議室"
 msgid ""
 "Booking could not be created. Probably somebody else booked the room in the "
 "meantime."
-msgstr "無法創建預訂。可能有人在這段時間訂了會議室。"
+msgstr "無法建立預訂。可能有人在這段時間訂了會議室。"
 
 #: indico/modules/rb/templates/booking_list.html
 msgid "Event has already finished"
@@ -26898,7 +26898,7 @@ msgstr "個人資料"
 #: indico/modules/users/__init__.py
 #: indico/modules/users/templates/profile_picture.html
 msgid "Profile picture"
-msgstr "個人信息圖片"
+msgstr "個人訊息圖片"
 
 #: indico/modules/users/__init__.py
 #: indico/modules/users/templates/preferences.html
@@ -26911,7 +26911,7 @@ msgstr "收藏夾"
 
 #: indico/modules/users/__init__.py indico/web/templates/_session_bar.html
 msgid "My profile"
-msgstr "我的個人信息"
+msgstr "我的個人訊息"
 
 #: indico/modules/users/controllers.py
 #, python-brace-format
@@ -26934,7 +26934,7 @@ msgstr "您的個人數據已成功更新。"
 
 #: indico/modules/users/controllers.py
 msgid "You cannot upload this file as profile picture."
-msgstr "您無法將此文件作為個人信息圖片上傳。"
+msgstr "您無法將此文件作為個人訊息圖片上傳。"
 
 #: indico/modules/users/controllers.py
 msgid "Preferences saved"
@@ -27005,7 +27005,7 @@ msgstr "已刪除管理員：{name} ({email})"
 
 #: indico/modules/users/controllers.py
 msgid "The account has been created."
-msgstr "帳號已創建。"
+msgstr "帳號已建立。"
 
 #: indico/modules/users/controllers.py
 msgid "Users are the same!"
@@ -27247,7 +27247,7 @@ msgstr "電子郵件黑名單"
 msgid ""
 "Prevent users from creating Indico accounts with these email addresses. "
 "Supports wildcards, e.g. *@gmail.com"
-msgstr "阻止用戶使用這些電子郵件地址創建 Indico 帳戶。 支持通配符，例如 *@gmail.com"
+msgstr "阻止用戶使用這些電子郵件地址建立 Indico 帳戶。 支持通配符，例如 *@gmail.com"
 
 #: indico/modules/users/forms.py
 msgid "Personal API tokens"
@@ -27258,7 +27258,7 @@ msgid ""
 "Whether users are allowed to generate personal API tokens. If disabled, only"
 " admins can create them, but users will still be able to regenerate the "
 "tokens assigned to them."
-msgstr "是否允許用戶生成個人 API 令牌。 如果禁用，則只有管理員可以創建它們，但用戶仍然可以重新生成分配給他們的令牌。"
+msgstr "是否允許用戶生成個人 API 令牌。 如果禁用，則只有管理員可以建立它們，但用戶仍然可以重新生成分配給他們的令牌。"
 
 #: indico/modules/users/forms.py
 msgid "Mandatory fields in account request"
@@ -27280,7 +27280,7 @@ msgstr "若啟用，使用者只能從預定義的所屬單位中選擇，而不
 
 #: indico/modules/users/forms.py
 msgid "Set login details"
-msgstr "設置登錄詳細信息"
+msgstr "設置登錄詳細訊息"
 
 #: indico/modules/users/util.py
 #, python-brace-format
@@ -27290,7 +27290,7 @@ msgstr "無法取回 {gravatar_type}"
 #: indico/modules/users/views.py
 #, python-brace-format
 msgid "Profile of {name}"
-msgstr "{name} 的個人信息"
+msgstr "{name} 的個人訊息"
 
 #: indico/modules/users/models/export.py
 msgctxt "Export request state"
@@ -27446,7 +27446,7 @@ msgstr "管理員可以不受限制地訪問 Indico 中的所有內容。"
 #: indico/modules/users/templates/base.html
 #, python-format
 msgid "Profile of %(name)s"
-msgstr "%(name)s 的個人信息"
+msgstr "%(name)s 的個人訊息"
 
 #: indico/modules/users/templates/base.html
 msgid "This is the system user. Most user features are not available."
@@ -27462,7 +27462,7 @@ msgstr "上次登錄"
 
 #: indico/modules/users/templates/dashboard.html
 msgid "Created on"
-msgstr "創建在"
+msgstr "建立在"
 
 #: indico/modules/users/templates/dashboard.html
 msgid "Your unlisted events"
@@ -27512,7 +27512,7 @@ msgstr "您的類別中什麼都沒有發生。"
 msgid ""
 "Your <strong>primary email</strong> will be used for account-related "
 "notifications (e.g. registration emails and billing information)."
-msgstr "您的 <strong>主電子郵件</strong> 將用於發送與帳戶相關的通知（例如：註冊電子郵件和帳單信息）。"
+msgstr "您的 <strong>主電子郵件</strong> 將用於發送與帳戶相關的通知（例如：註冊電子郵件和帳單訊息）。"
 
 #: indico/modules/users/templates/emails.html
 msgctxt "E-mail"
@@ -27613,7 +27613,7 @@ msgstr "合併用戶"
 
 #: indico/modules/users/templates/users_admin.html
 msgid "Create new account"
-msgstr "創建新帳號"
+msgstr "建立新帳號"
 
 #: indico/modules/users/templates/users_admin.html
 #, python-format
@@ -27835,7 +27835,7 @@ msgstr "服務管理員"
 
 #: indico/modules/vc/forms.py
 msgid "Users and Groups authorized to create videoconferences"
-msgstr "被授權創建視頻會議的用戶和組"
+msgstr "被授權建立視頻會議的用戶和組"
 
 #: indico/modules/vc/forms.py
 msgid "Notification email addresses"
@@ -27960,7 +27960,7 @@ msgstr "建立 %(plugin_name)s 視訊會議"
 
 #: indico/modules/vc/templates/manage_event.html
 msgid "Create videoconference"
-msgstr "創建視頻會議"
+msgstr "建立視頻會議"
 
 #: indico/modules/vc/templates/manage_event.html
 msgid "Create new videoconference"
@@ -28378,15 +28378,15 @@ msgstr "您使用的永久連接是無效的。"
 msgid ""
 "Your profile has been merged into <strong>{}</strong>. Please log in using "
 "that profile."
-msgstr "您的個人信息已合併到 <strong> {} </strong>。請使用該配置文件登錄。"
+msgstr "您的個人訊息已合併到 <strong> {} </strong>。請使用該配置文件登錄。"
 
 #: indico/web/util.py
 msgid "Your profile has been deleted."
-msgstr "您的個人信息已被刪除。"
+msgstr "您的個人訊息已被刪除。"
 
 #: indico/web/util.py
 msgid "Your profile has been blocked."
-msgstr "您的個人信息已被阻止。"
+msgstr "您的個人訊息已被阻止。"
 
 #: indico/web/fields/base.py
 msgid "Whether the user has to fill out the field"
@@ -28814,7 +28814,7 @@ msgstr "此對象中的某些元素具有不同的保護設置。"
 
 #: indico/web/templates/_protection_messages.html
 msgid "Protection details"
-msgstr "保護詳細信息"
+msgstr "保護詳細訊息"
 
 #: indico/web/templates/_protection_messages.html
 msgid "Show them."
@@ -28822,7 +28822,7 @@ msgstr "顯示它們。"
 
 #: indico/web/templates/_session_bar.html
 msgid "The information on this page is visible to anyone"
-msgstr "此頁的信息任何人可見"
+msgstr "此頁的訊息任何人可見"
 
 #: indico/web/templates/_session_bar.html
 #, python-format
@@ -28832,13 +28832,13 @@ msgid ""
 msgid_plural ""
 "The information on this page is restricted for display on the %(networks)s "
 "networks only."
-msgstr[0] "此页上的信息仅限于在 %(networks)s 的网络上显示。"
+msgstr[0] "此页上的訊息仅限于在 %(networks)s 的网络上显示。"
 
 #: indico/web/templates/_session_bar.html
 msgid ""
 "The information on this page is restricted for display to named individuals "
 "or specific groups."
-msgstr "此頁上的信息僅限於顯示給指定的個人或特定組。"
+msgstr "此頁上的訊息僅限於顯示給指定的個人或特定組。"
 
 #: indico/web/templates/_session_bar.html
 #, python-format
@@ -28991,7 +28991,7 @@ msgstr "<strong> 會議 </strong> 是由多個報告組成的議程活動。"
 msgid ""
 "<strong>Features</strong>: timetable, minutes, poster creation, participants"
 " management, ..."
-msgstr "<strong> 功能 </strong>：日程表，會議紀要，海報創建，參會人管理，..."
+msgstr "<strong> 功能 </strong>：日程表，會議紀要，海報建立，參會人管理，..."
 
 #: indico/web/templates/header.html
 msgid ""
@@ -29032,7 +29032,7 @@ msgstr "電子郵件通知程序"
 msgid ""
 "The selected category does not contain any events, only subcategories. "
 "Please make sure that you really want to create an event there."
-msgstr "所選類別不包含任何活動，僅包含子類別。 請確保您真的想在那裡創建一個活動。"
+msgstr "所選類別不包含任何活動，僅包含子類別。 請確保您真的想在那裡建立一個活動。"
 
 #: indico/web/templates/forms/category_picker_widget.html
 msgid "Choose category"
@@ -29111,7 +29111,7 @@ msgid ""
 " text content. Check the %(link_start)slanguage reference%(link_end)s for "
 "more information."
 msgstr ""
-"Markdown 是一種輕量級的標記語言，它使編寫富文本內容更加容易。有關詳細信息，請檢查 %(link_start)s 語言參考 "
+"Markdown 是一種輕量級的標記語言，它使編寫富文本內容更加容易。有關詳細訊息，請檢查 %(link_start)s 語言參考 "
 "%(link_end)s。"
 
 #: indico/web/templates/forms/markdown_widget.html
@@ -29651,7 +29651,7 @@ msgstr "不能用於您無法提議活動的類別"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js
 msgid "Not possible for categories where you cannot propose/create events"
-msgstr "不能用於您無法提議/創建活動的類別"
+msgstr "不能用於您無法提議/建立活動的類別"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js
 msgid "Not possible for categories where you cannot create events"
@@ -30070,7 +30070,7 @@ msgstr "貢獻(s)。"
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js
 msgid "Please click for more information."
-msgstr "請點擊以得到更多信息。"
+msgstr "請點擊以得到更多訊息。"
 
 #: indico/web/client/js/legacy/libs/timetable/Draw.js
 msgid "This timetable entry does not exist anymore. Please refresh the page."
@@ -30146,7 +30146,7 @@ msgstr "添加選中的"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js
 msgid "Create a new one"
-msgstr "創建一個新的"
+msgstr "建立一個新的"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js
 msgid "You may choose to:"
