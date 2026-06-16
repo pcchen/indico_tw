@@ -2,11 +2,12 @@
 # Deploy Indico with zh_Hant_TW translation for testing.
 #
 # Usage:
-#   ./start.sh          – build image, start all services
-#   ./start.sh stop     – stop and remove all containers
-#   ./start.sh logs     – tail Indico logs
-#   ./start.sh reload   – recompile PO→MO, rebuild app, restart (keeps DB data)
-#   ./start.sh rebuild  – full teardown + rebuild + restart
+#   ./start.sh               – build image, start all services
+#   ./start.sh stop          – stop and remove all containers
+#   ./start.sh logs          – tail Indico logs
+#   ./start.sh reload        – recompile PO→MO, rebuild app, restart (keeps DB)
+#   ./start.sh rebuild       – full teardown + rebuild + restart
+#   ./start.sh create-admin  – create (or reset password of) the admin user
 
 set -euo pipefail
 
@@ -103,6 +104,54 @@ do_reload() {
     echo "Reload complete. Open http://localhost:$PORT"
 }
 
+do_create_admin() {
+    local email="${ADMIN_EMAIL:-admin@example.com}"
+    local password="${ADMIN_PASSWORD:-Admin1234!}"
+    echo "==> Creating admin user: $email ..."
+    docker run --rm \
+        --network "$NETWORK" \
+        -v "$CONF:/opt/indico/etc/indico.conf:ro" \
+        "$IMAGE" \
+        bash -c "
+source /opt/indico/.venv/bin/activate
+python3 - <<'PYEOF'
+from indico.web.flask.app import make_app
+app = make_app()
+with app.app_context():
+    from indico.modules.auth.models.identities import Identity
+    from indico.modules.users import User
+    from indico.modules.users.operations import create_user
+    from indico.core.db import db
+    EMAIL = '$email'
+    PASSWORD = '$password'
+    existing = User.query.filter(User.all_emails == EMAIL, ~User.is_deleted, ~User.is_pending).first()
+    if existing:
+        # Reset password on existing account
+        identity = existing.local_identity
+        if identity:
+            identity.password = PASSWORD
+            db.session.commit()
+            print(f'Password reset for {EMAIL}')
+        else:
+            identity = Identity(provider='indico', identifier=EMAIL.split('@')[0], password=PASSWORD)
+            existing.identities.add(identity)
+            db.session.commit()
+            print(f'Local identity added for {EMAIL}')
+    else:
+        identity = Identity(provider='indico', identifier=EMAIL.split('@')[0], password=PASSWORD)
+        user = create_user(EMAIL, {'first_name': 'Admin', 'last_name': 'User', 'affiliation': ''}, identity)
+        user.is_admin = True
+        db.session.add(user)
+        db.session.commit()
+        print(f'Created admin: {EMAIL}')
+PYEOF
+" 2>&1 | grep -Ev "Fontconfig|UserWarning|config =|Logger|platform"
+    echo ""
+    echo "  Email:    $email"
+    echo "  Password: $password"
+    echo "  URL:      http://localhost:$PORT"
+}
+
 do_rebuild() {
     do_stop
     build_image
@@ -197,10 +246,11 @@ PYEOF
 # ── dispatch ─────────────────────────────────────────────────────────────────
 
 case "${1:-start}" in
-    stop)    do_stop ;;
-    logs)    do_logs ;;
-    reload)  do_reload ;;
-    rebuild) do_rebuild ;;
-    start)   do_start ;;
-    *)       echo "Usage: $0 [start|stop|logs|reload|rebuild]"; exit 1 ;;
+    stop)          do_stop ;;
+    logs)          do_logs ;;
+    reload)        do_reload ;;
+    rebuild)       do_rebuild ;;
+    create-admin)  do_create_admin ;;
+    start)         do_start ;;
+    *)             echo "Usage: $0 [start|stop|logs|reload|rebuild|create-admin]"; exit 1 ;;
 esac
