@@ -391,11 +391,11 @@ msgstr "清除"
 #: indico/modules/events/templates/forms/event_creation_form.html
 #: indico/web/templates/_protection_messages.html
 msgid "Unlisted event"
-msgstr "未列出事件"
+msgstr "未列出活動"
 
 #: indico/modules/categories/client/js/components/CategoryModeration.jsx
 msgid "There are no event move requests."
-msgstr "沒有事件移動請求。"
+msgstr "沒有活動移動請求。"
 
 #: indico/modules/api/templates/admin_keys.html
 #: indico/modules/categories/client/js/components/CategoryModeration.jsx
@@ -419,11 +419,11 @@ msgstr "用戶"
 #: indico/modules/vc/templates/vc_room_list.html
 #: indico/web/forms/fields/protection.py
 msgid "Event"
-msgstr "事件"
+msgstr "活動"
 
 #: indico/modules/categories/client/js/components/CategoryModeration.jsx
 msgid "Event Date"
-msgstr "事件日期"
+msgstr "活動日期"
 
 #: indico/modules/categories/client/js/components/CategoryModeration.jsx
 msgid "Requested Date"
@@ -481,7 +481,7 @@ msgstr "拒絕"
 #: indico/modules/logs/models/entries.py
 #: indico/modules/search/client/js/components/SearchApp.jsx
 msgid "Events"
-msgstr "事件"
+msgstr "活動"
 
 #: indico/modules/attachments/forms.py
 #: indico/modules/categories/client/js/components/CategoryStatistics.jsx
@@ -502,11 +502,11 @@ msgstr "報告"
 
 #: indico/modules/categories/client/js/components/CategoryStatistics.jsx
 msgid "Number of events"
-msgstr "事件數量"
+msgstr "活動數量"
 
 #: indico/modules/categories/client/js/components/CategoryStatistics.jsx
 msgid "The year is the one of the start date of the event."
-msgstr "年份是事件的開始日期之一。"
+msgstr "年份是活動的開始日期之一。"
 
 #: indico/modules/categories/client/js/components/CategoryStatistics.jsx
 msgid "No data available"
@@ -522,7 +522,7 @@ msgstr "年份是報告的開始日期之一。"
 
 #: indico/modules/categories/client/js/components/CategoryStatistics.jsx
 msgid "Total number of events"
-msgstr "事件總數"
+msgstr "活動總數"
 
 #: indico/modules/categories/client/js/components/CategoryStatistics.jsx
 msgid "Total number of contributions"
@@ -545,7 +545,7 @@ msgstr "上次更新時間：{time}"
 msgid ""
 "Add category to favorites (This will make events in this category visible on"
 " your Dashboard.)"
-msgstr "將類別添加到收藏夾（這將使該類別中的事件在您的儀錶板上可見。）"
+msgstr "將類別添加到收藏夾（這將使該類別中的活動在您的儀錶板上可見。）"
 
 #: indico/modules/categories/client/js/favorite.jsx
 msgid "Delete category from favorites."
@@ -762,11 +762,11 @@ msgstr "在此輸入 Markdown..."
 
 #: indico/modules/events/client/js/favorite.jsx
 msgid "Add event to favorites"
-msgstr "添加事件到收藏夾"
+msgstr "添加活動到收藏夾"
 
 #: indico/modules/events/client/js/favorite.jsx
 msgid "Delete event from favorites"
-msgstr "從收藏夾刪除事件"
+msgstr "從收藏夾刪除活動"
 
 #: indico/modules/events/client/js/header.jsx
 msgid "Basic"
@@ -774,7 +774,7 @@ msgstr "基本的"
 
 #: indico/modules/events/client/js/header.jsx
 msgid "Just the event."
-msgstr "只這事件。"
+msgstr "只這活動。"
 
 #: indico/modules/events/client/js/header.jsx
 msgid ""
@@ -1544,7 +1544,7 @@ msgid ""
 "done if you do not plan to enable the service again for this event."
 msgstr ""
 "您是否真的要斷開與編輯工作流程服務的連接？ "
-"如果您的編輯過程已經開始（例如，人們提交了要編輯的內容），則斷開連接很可能不是一個好主意，只有在您不打算為此事件再次啟用該服務時，才應該斷開連接。"
+"如果您的編輯過程已經開始（例如，人們提交了要編輯的內容），則斷開連接很可能不是一個好主意，只有在您不打算為此活動再次啟用該服務時，才應該斷開連接。"
 
 #: indico/modules/events/editing/client/js/management/ManageService.jsx
 msgid "Connect to editing workflow service"
@@ -1569,7 +1569,7 @@ msgid ""
 "Please note that connecting to this service may immediately update your "
 "editing settings and create e.g. new tags and file types. Only connect if "
 "you intend to use this workflow in your event!"
-msgstr "請注意，連接到該服務可能會立即更新您的編輯設置並創建。例如 新標籤和文件類型。 僅在您打算在事件中使用此工作流程時才連接！"
+msgstr "請注意，連接到該服務可能會立即更新您的編輯設置並創建。例如 新標籤和文件類型。 僅在您打算在活動中使用此工作流程時才連接！"
 
 #: indico/modules/events/editing/client/js/management/ManageService.jsx
 #, python-brace-format
@@ -1975,7 +1975,7 @@ msgstr "不能刪除唯一的可發布類型"
 
 #: indico/modules/events/editing/client/js/management/editable_type/file_types/FileTypeManager.tsx
 msgid "There are no file types defined for this event"
-msgstr "沒有為此事件定義文件類型"
+msgstr "沒有為此活動定義文件類型"
 
 #: indico/modules/events/editing/client/js/management/editable_type/file_types/FileTypeManager.tsx
 msgid ""
@@ -2163,7 +2163,7 @@ msgstr "系統標籤由編輯工作流程服務管理，無法修改。"
 
 #: indico/modules/events/editing/client/js/management/tags/TagManager.jsx
 msgid "There are no tags defined for this event"
-msgstr "此事件無已定義的標籤"
+msgstr "此活動無已定義的標籤"
 
 #: indico/modules/events/editing/client/js/management/tags/TagManager.jsx
 msgid "Add new tag"
@@ -2231,42 +2231,42 @@ msgstr "獲取下一個幻燈片"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Publish event"
-msgstr "發布事件"
+msgstr "發布活動"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Move events"
-msgstr "移動事件"
+msgstr "移動活動"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Move event"
-msgstr "移動事件"
+msgstr "移動活動"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Select destination category for the selected events"
-msgstr "為所選事件選擇目標類別"
+msgstr "為所選活動選擇目標類別"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Select destination category for the event"
-msgstr "選擇事件的目標類別"
+msgstr "選擇活動的目標類別"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "The event is already in this category"
-msgstr "該事件已在此類別中"
+msgstr "該活動已在此類別中"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Confirm event move"
-msgstr "確認事件移動"
+msgstr "確認活動移動"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 #, python-brace-format
 msgid "You are about to publish this event to {target}."
-msgstr "您將要將此事件發布到{target}。"
+msgstr "您將要將此活動發布到{target}。"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 #, python-brace-format
 msgid "You are about to move this event to {target}."
 msgid_plural "You are about to move {count} events to {target}."
-msgstr[0] "您将要将 {count} 个事件移动到 {target}。"
+msgstr[0] "您将要将 {count} 个活動移动到 {target}。"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 #, python-brace-format
@@ -2276,7 +2276,7 @@ msgid ""
 msgid_plural ""
 "Moving events there {strong}requires approval{/strong} by a category "
 "manager. Until approved, the events will remain in their current category."
-msgstr[0] "将事件移到那里{strong}需要类别管理员批准{/strong}。 在获得批准之前，这些事件将保留在当前类别中。"
+msgstr[0] "将活動移到那里{strong}需要类别管理员批准{/strong}。 在获得批准之前，这些活動将保留在当前类别中。"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid ""
@@ -2297,11 +2297,11 @@ msgstr "更改類別"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Event has a pending move request"
-msgstr "事件有一個待處理的移動請求"
+msgstr "活動有一個待處理的移動請求"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Move event to another category"
-msgstr "將事件移至另一個類別"
+msgstr "將活動移至另一個類別"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Move"
@@ -2309,15 +2309,15 @@ msgstr "移動"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Move selected events to another category"
-msgstr "移動選中事件到另一個類別"
+msgstr "移動選中活動到另一個類別"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Event has a pending publish request"
-msgstr "事件有一個待處理的發布請求"
+msgstr "活動有一個待處理的發布請求"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 msgid "Publish event to a category"
-msgstr "發布事件到類別"
+msgstr "發布活動到類別"
 
 #: indico/modules/events/management/client/js/EventMove.jsx
 #: indico/modules/events/registration/controllers/management/reglists.py
@@ -2970,7 +2970,7 @@ msgstr "角色"
 
 #: indico/modules/events/persons/client/js/PersonList.jsx
 msgid "This person is registered for the event"
-msgstr "此人已註冊此事件"
+msgstr "此人已註冊此活動"
 
 #: indico/modules/events/persons/client/js/PersonList.jsx
 msgid "This person is not yet registered"
@@ -2982,17 +2982,17 @@ msgstr "找不到符合所選條件的人員。"
 
 #: indico/modules/events/registration/client/js/components/ConsentToPublishDropdown.jsx
 msgid "Your participation will only be visible to organizers of this event."
-msgstr "只有此事件的組織者才能看到您的參與。"
+msgstr "只有此活動的組織者才能看到您的參與。"
 
 #: indico/modules/events/registration/client/js/components/ConsentToPublishDropdown.jsx
 msgid ""
 "Your participation will be displayed to other participants of this event."
-msgstr "您的參與將顯示給此事件的其他參與者。"
+msgstr "您的參與將顯示給此活動的其他參與者。"
 
 #: indico/modules/events/registration/client/js/components/ConsentToPublishDropdown.jsx
 msgid ""
 "Your participation will be displayed to everyone who can see this event."
-msgstr "您的參與將顯示給所有可以看到此事件的人。"
+msgstr "您的參與將顯示給所有可以看到此活動的人。"
 
 #: indico/modules/events/registration/client/js/components/ConsentToPublishDropdown.jsx
 msgid "Do not display my participation to anyone"
@@ -3000,11 +3000,11 @@ msgstr "不要向任何人顯示我的參與"
 
 #: indico/modules/events/registration/client/js/components/ConsentToPublishDropdown.jsx
 msgid "Display my participation only to other participants of this event"
-msgstr "僅向此事件的其他參與者顯示我的參與"
+msgstr "僅向此活動的其他參與者顯示我的參與"
 
 #: indico/modules/events/registration/client/js/components/ConsentToPublishDropdown.jsx
 msgid "Display my participation to everyone who can see this event"
-msgstr "向所有可以看到此事件的人顯示我的參與"
+msgstr "向所有可以看到此活動的人顯示我的參與"
 
 #: indico/modules/events/registration/client/js/components/ImportInvitationsField.tsx
 #, python-brace-format
@@ -4096,7 +4096,7 @@ msgstr "忽略自訂欄位的欄位要求"
 msgid ""
 "Specify whether you consent to being included in the event's list of "
 "participants"
-msgstr "指定您是否同意被包含在事件的參與者列表中"
+msgstr "指定您是否同意被包含在活動的參與者列表中"
 
 #: indico/modules/events/registration/client/js/form_submission/RegistrationFormSubmission.jsx
 #: indico/modules/events/registration/templates/display/registration_summary.html
@@ -4234,7 +4234,7 @@ msgstr "無法取消"
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 #, python-brace-format
 msgid "The occurrence you chose ({date}) cannot be cancelled."
-msgstr "您選擇的事件({date})無法取消。"
+msgstr "您選擇的活動({date})無法取消。"
 
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 #: indico/modules/rb/client/js/common/timeline/RowActionsDropdown.jsx
@@ -4244,11 +4244,11 @@ msgstr "確認取消"
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 #, python-brace-format
 msgid "Are you sure you want to cancel this occurrence ({date})?"
-msgstr "您確定要取消此事件({date})？"
+msgstr "您確定要取消此活動({date})？"
 
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 msgid "Cancel this occurrence"
-msgstr "取消此事件"
+msgstr "取消此活動"
 
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 msgid "Booking reason"
@@ -4334,7 +4334,7 @@ msgstr "您可以在接受預訂時提供可選信息"
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 msgid "Cancel booking"
 msgid_plural "Cancel all occurrences"
-msgstr[0] "取消所有事件"
+msgstr[0] "取消所有活動"
 
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 #, python-brace-format
@@ -4342,11 +4342,11 @@ msgid "Are you sure you want to cancel this booking?"
 msgid_plural ""
 "Are you sure you want to cancel this booking? This will cancel {count} "
 "upcoming occurrences."
-msgstr[0] "您确定要取消此预定吗？这将取消 {count} 个即将发生事件。 "
+msgstr[0] "您确定要取消此预定吗？这将取消 {count} 个即将发生活動。 "
 
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 msgid "Single occurrences can be cancelled via the timeline view."
-msgstr "可以通過時間線視圖取消單個事件。"
+msgstr "可以通過時間線視圖取消單個活動。"
 
 #: indico/modules/rb/client/js/common/bookings/BookingDetails.jsx
 msgid "View Timeline"
@@ -4535,7 +4535,7 @@ msgstr "詳情已隱藏——無存取權限"
 
 #: indico/modules/rb/client/js/common/bookings/BookingObjectLink.jsx
 msgid "This booking will be linked to an event:"
-msgstr "此預訂將被連結到一個事件："
+msgstr "此預訂將被連結到一個活動："
 
 #: indico/modules/rb/client/js/common/bookings/BookingObjectLink.jsx
 msgid "This booking will be linked to a contribution:"
@@ -4569,7 +4569,7 @@ msgstr "提供的URL格式不正確。"
 
 #: indico/modules/rb/client/js/common/linking/LinkBar.jsx
 msgid "Your booking will be linked to an event:"
-msgstr "您的預訂將連結到事件:"
+msgstr "您的預訂將連結到活動:"
 
 #: indico/modules/rb/client/js/common/linking/LinkBar.jsx
 msgid "Your booking will be linked to a contribution:"
@@ -4968,20 +4968,20 @@ msgstr "提示: 點擊並且移動滑鼠去預先預訂！"
 
 #: indico/modules/rb/client/js/common/timeline/ElasticTimeline.jsx
 msgid "No occurrences found"
-msgstr "找不到事件"
+msgstr "找不到活動"
 
 #: indico/modules/rb/client/js/common/timeline/RowActionsDropdown.jsx
 #, python-brace-format
 msgid "Are you sure you want to reject this occurrence ({date})?"
-msgstr "你確定你要拒絕這個事件 ({date}) 嗎?"
+msgstr "你確定你要拒絕這個活動 ({date}) 嗎?"
 
 #: indico/modules/rb/client/js/common/timeline/RowActionsDropdown.jsx
 msgid "Cancel occurrence"
-msgstr "取消事件"
+msgstr "取消活動"
 
 #: indico/modules/rb/client/js/common/timeline/RowActionsDropdown.jsx
 msgid "Reject occurrence"
-msgstr "拒絕事件"
+msgstr "拒絕活動"
 
 #: indico/modules/rb/client/js/common/timeline/RowActionsDropdown.jsx
 msgid "Show room timeline"
@@ -4990,7 +4990,7 @@ msgstr "顯示會議室的時間線"
 #: indico/modules/rb/client/js/common/timeline/RowActionsDropdown.jsx
 #, python-brace-format
 msgid "Are you sure you want to cancel this occurrence ({serializedDate})?"
-msgstr "你確定你要取消這個事件 ({serializedDate}) 嗎？"
+msgstr "你確定你要取消這個活動 ({serializedDate}) 嗎？"
 
 #: indico/modules/rb/client/js/common/timeline/RowActionsDropdown.jsx
 msgid "Confirm rejection"
@@ -5245,7 +5245,7 @@ msgstr "{startDateDay} {startDate} — {endDateDay} {endDate}"
 #: indico/modules/rb/client/js/components/TimeInformation.jsx
 #, python-brace-format
 msgid "{count} occurrences"
-msgstr "{count} 個事件"
+msgstr "{count} 個活動"
 
 #: indico/modules/rb/client/js/components/TimeInformation.jsx
 msgid "See on timeline"
@@ -5426,7 +5426,7 @@ msgstr "地圖URL模板"
 msgid ""
 "Indico can show a link to an external map when a room is associated to an "
 "event."
-msgstr "當會議室與事件關聯時，Indico可以顯示指向外部地圖的連結。"
+msgstr "當會議室與活動關聯時，Indico可以顯示指向外部地圖的連結。"
 
 #: indico/modules/rb/client/js/modules/admin/LocationPage.jsx
 #, python-brace-format
@@ -5683,13 +5683,13 @@ msgstr "允許房間擁有者/管理者在預訂中新增內部備註，僅其�
 
 #: indico/modules/rb/client/js/modules/admin/SettingsPage.jsx
 msgid "Disable booking during event creation"
-msgstr "事件創建期間禁用預訂"
+msgstr "活動創建期間禁用預訂"
 
 #: indico/modules/rb/client/js/modules/admin/SettingsPage.jsx
 msgid ""
 "Specify the IDs of categories for which booking a room during event creation"
 " will not be suggested."
-msgstr "指定類別ID用於事件創建期間預訂會議室是不建議的。"
+msgstr "指定類別ID用於活動創建期間預訂會議室是不建議的。"
 
 #: indico/modules/rb/client/js/modules/admin/SettingsPage.jsx
 msgid "Grace period"
@@ -5822,7 +5822,7 @@ msgid ""
 "Please take into account that rooms blockings should only be used for short "
 "term events and never for long-lasting periods. If you wish to somehow mark "
 "a room as unusable, please ask its owner to set it as such."
-msgstr "請考慮會議室的禁用應該只用於短期事件， 不用於長期事件。如果你希望標記一個會議室為不可用，請要求會議室的擁有者設置會議室為不可用。"
+msgstr "請考慮會議室的禁用應該只用於短期活動， 不用於長期活動。如果你希望標記一個會議室為不可用，請要求會議室的擁有者設置會議室為不可用。"
 
 #: indico/modules/events/agreements/forms.py
 #: indico/modules/events/agreements/templates/emails/new_signature_email_to_manager.txt
@@ -5938,7 +5938,7 @@ msgstr "您需要提供理由"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 msgid "Choose an event"
-msgstr "選擇事件"
+msgstr "選擇活動"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 msgid ""
@@ -5949,7 +5949,7 @@ msgid_plural ""
 "You have events taking place during the selected time. If you are booking "
 "this room for one of your events, please select it below. The room of the "
 "selected event will automatically be updated."
-msgstr[0] "您在所选时间内有若干事件。如果您预订此会议室来举办您的活动之一，请在下面选择它。选中事件的会议室信息将自动更新。"
+msgstr[0] "您在所选时间内有若干活動。如果您预订此会议室来举办您的活动之一，请在下面选择它。选中活動的会议室信息将自动更新。"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 msgid "The space has been successfully pre-booked!"
@@ -6014,7 +6014,7 @@ msgstr "如果您創建此預訂，下面已存在的預先預訂重疊的天數
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 #, python-brace-format
 msgid "Assign the room {room} to this event"
-msgstr "將會議室 {room} 分配給此事件"
+msgstr "將會議室 {room} 分配給此活動"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 #, python-brace-format
@@ -6029,7 +6029,7 @@ msgstr "將會議室 {room} 分配給此分會塊"
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 #, python-brace-format
 msgid "Assign the room {room} to this event (instead of {oldRoom})"
-msgstr "將會議室 {room} 分配給此事件 (而不是 {oldRoom})"
+msgstr "將會議室 {room} 分配給此活動 (而不是 {oldRoom})"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookRoomModal.jsx
 #, python-brace-format
@@ -6106,7 +6106,7 @@ msgstr[0] "跳过 {skip} 天"
 #, python-brace-format
 msgid "We'll skip one occurrence to avoid any conflicts"
 msgid_plural "We'll skip {skip} occurrences to avoid any conflicts"
-msgstr[0] "我们将跳过 {skip} 事件以避免任何冲突"
+msgstr[0] "我们将跳过 {skip} 活動以避免任何冲突"
 
 #: indico/modules/rb/client/js/modules/bookRoom/BookingSuggestion.jsx
 #, python-brace-format
@@ -6400,7 +6400,7 @@ msgstr "與預先預訂衝突"
 
 #: indico/modules/rb/client/js/util.jsx
 msgid "Invalid occurrence"
-msgstr "無效事件"
+msgstr "無效活動"
 
 #: indico/modules/rb/client/js/util.jsx
 msgid "Other booking"
@@ -6438,7 +6438,7 @@ msgstr "從 Indico"
 #: indico/modules/events/layout/templates/layout_conference.html
 #: indico/modules/receipts/client/js/printing/EventImageSelectField.jsx
 msgid "Event Logo"
-msgstr "事件徽標"
+msgstr "活動徽標"
 
 #: indico/modules/receipts/client/js/printing/EventImageSelectField.jsx
 msgid ""
@@ -7084,7 +7084,7 @@ msgstr "確定要刪除所屬單位「{affiliation}」嗎？"
 
 #: indico/modules/users/client/js/dashboard.jsx
 msgid "Events at hand"
-msgstr "手中的事件"
+msgstr "手中的活動"
 
 #: indico/modules/attachments/controllers/event_package.py
 #: indico/modules/users/client/js/dashboard.jsx
@@ -7594,7 +7594,7 @@ msgstr "持續分鐘"
 
 #: indico/web/client/js/react/components/WTFOccurrencesField.jsx
 msgid "Remove occurrence"
-msgstr "刪除事件"
+msgstr "刪除活動"
 
 #: indico/web/client/js/react/components/WTFParticipantVisibilityField.jsx
 msgid "Visibility to participants"
@@ -7858,7 +7858,7 @@ msgstr "此列表現在為空"
 #: indico/web/client/js/react/components/principals/PrincipalListField.jsx
 #: indico/web/templates/forms/permissions_widget.html
 msgid "Event Role"
-msgstr "事件角色"
+msgstr "活動角色"
 
 #: indico/web/client/js/react/components/principals/ACLField.jsx
 #: indico/web/client/js/react/components/principals/PrincipalListField.jsx
@@ -7886,7 +7886,7 @@ msgstr "選擇收藏"
 
 #: indico/web/client/js/react/components/principals/Search.jsx
 msgid "Person exists in event"
-msgstr "事件中存在的人"
+msgstr "活動中存在的人"
 
 #: indico/web/client/js/react/components/principals/Search.jsx
 msgid "Person does not have an Indico account yet"
@@ -7997,7 +7997,7 @@ msgstr "未知組"
 
 #: indico/web/client/js/react/components/principals/util.js
 msgid "Unknown event role"
-msgstr "未知事件角色"
+msgstr "未知活動角色"
 
 #: indico/web/client/js/react/components/principals/util.js
 msgid "Unknown category role"
@@ -8009,7 +8009,7 @@ msgstr "未知註冊表"
 
 #: indico/web/client/js/react/components/principals/util.js
 msgid "Unknown event person"
-msgstr "未知事件人"
+msgstr "未知活動人"
 
 #: indico/web/client/js/react/components/principals/util.js
 msgid "This user does not exist anymore. Please choose someone else."
@@ -8508,7 +8508,7 @@ msgstr "請求無效或包含無效參數。"
 
 #: indico/core/permissions.py
 msgid "Unrestricted management access for the whole event"
-msgstr "對整個事件有無限制管理權限"
+msgstr "對整個活動有無限制管理權限"
 
 #: indico/core/permissions.py
 msgid "Unrestricted management access for the selected session"
@@ -8530,11 +8530,11 @@ msgstr "對地點的完整管理存取權"
 msgid ""
 "Unrestricted management access for this category and all its "
 "subcategories/events"
-msgstr "此類別及其所有子類別/事件的不受限制的管理訪問"
+msgstr "此類別及其所有子類別/活動的不受限制的管理訪問"
 
 #: indico/core/permissions.py
 msgid "Access the public areas of the event"
-msgstr "訪問事件的公開區域"
+msgstr "訪問活動的公開區域"
 
 #: indico/core/permissions.py
 msgid "Access the public areas of the selected session"
@@ -8546,7 +8546,7 @@ msgstr "訪問選中報告的公開區域"
 
 #: indico/core/permissions.py
 msgid "View the category and its events"
-msgstr "查看類別及其事件"
+msgstr "查看類別及其活動"
 
 #: indico/core/permissions.py
 msgid "Access"
@@ -8561,7 +8561,7 @@ msgstr "任務"
 msgid ""
 "The Celery task scheduler does not seem to be running. This means that email"
 " sending and periodic tasks such as event reminders do not work."
-msgstr "Celery 任務調度程序似乎沒有運行。這意味著電子郵件發送和事件提醒等定期任務不工作。"
+msgstr "Celery 任務調度程序似乎沒有運行。這意味著電子郵件發送和活動提醒等定期任務不工作。"
 
 #: indico/core/celery/__init__.py
 msgid "The Celery task scheduler is running a different Indico version."
@@ -8648,7 +8648,7 @@ msgstr "Classic API (只寫)"
 
 #: indico/core/oauth/scopes.py
 msgid "Event registrants"
-msgstr "事件註冊人"
+msgstr "活動註冊人"
 
 #: indico/core/oauth/scopes.py
 msgid "Everything (only GET)"
@@ -9288,7 +9288,7 @@ msgstr "沒有舊的密鑰。"
 
 #: indico/modules/attachments/clone.py
 msgid "The target event already has materials"
-msgstr "目標事件已有材料"
+msgstr "目標活動已有材料"
 
 #: indico/modules/attachments/forms.py
 #: indico/modules/events/management/util.py
@@ -9352,7 +9352,7 @@ msgid ""
 "Always hide the folder and its contents from public display areas of the "
 "event. You can use this for folders to store non-image files used e.g. in "
 "download links. The access permissions still apply."
-msgstr "始終在事件的公開顯示區域中隱藏文件夾及其內容。您可以將此用於文件夾下存儲使用的非圖像文件，例如在下載連結中的文件。訪問權限仍然適用。"
+msgstr "始終在活動的公開顯示區域中隱藏文件夾及其內容。您可以將此用於文件夾下存儲使用的非圖像文件，例如在下載連結中的文件。訪問權限仍然適用。"
 
 #: indico/modules/attachments/forms.py
 msgid "Added Since"
@@ -9387,7 +9387,7 @@ msgstr "包含選中報告中的材料"
 
 #: indico/modules/attachments/forms.py
 msgid "Events scheduled on"
-msgstr "事件安排在"
+msgstr "活動安排在"
 
 #: indico/modules/attachments/forms.py
 msgid ""
@@ -9608,7 +9608,7 @@ msgstr "添加材料到此類別。"
 
 #: indico/modules/attachments/templates/_attachments.html
 msgid "Add materials to the event."
-msgstr "將材料添加到事件。"
+msgstr "將材料添加到活動。"
 
 #: indico/modules/attachments/templates/_attachments.html
 msgid "Add materials to the session."
@@ -9637,7 +9637,7 @@ msgstr "產生材料包。"
 
 #: indico/modules/attachments/templates/_attachments.html
 msgid "You can generate a ZIP file containing materials from the event."
-msgstr "您可以產生一個包含事件材料的 ZIP 壓縮文件。"
+msgstr "您可以產生一個包含活動材料的 ZIP 壓縮文件。"
 
 #: indico/modules/attachments/templates/_attachments.html
 #: indico/modules/attachments/templates/generate_package.html
@@ -10268,7 +10268,7 @@ msgstr "啟用"
 #: indico/modules/bootstrap/templates/bootstrap.html
 #: indico/modules/cephalopod/templates/cephalopod.html
 msgid "Basic statistics (number of events, contributions and users)"
-msgstr "基本統計(事件，報告和用戶數)"
+msgstr "基本統計(活動，報告和用戶數)"
 
 #: indico/modules/bootstrap/templates/bootstrap.html
 #: indico/modules/cephalopod/templates/cephalopod.html
@@ -10359,23 +10359,23 @@ msgstr "日誌"
 #: indico/modules/categories/templates/admin/upcoming_events.html
 #: indico/modules/categories/templates/display/sidebar.html
 msgid "Upcoming events"
-msgstr "即將發生的事件"
+msgstr "即將發生的活動"
 
 #: indico/modules/categories/__init__.py
 msgid "Event creation"
-msgstr "事件創建"
+msgstr "活動創建"
 
 #: indico/modules/categories/__init__.py
 msgid "Allows creating events in the category"
-msgstr "允許在類別中創建事件"
+msgstr "允許在類別中創建活動"
 
 #: indico/modules/categories/__init__.py
 msgid "Request event move"
-msgstr "請求事件移動"
+msgstr "請求活動移動"
 
 #: indico/modules/categories/__init__.py
 msgid "Allows requesting for an event to be moved to this category"
-msgstr "允許請求將事件移至此類別"
+msgstr "允許請求將活動移至此類別"
 
 #: indico/modules/categories/forms.py indico/modules/events/forms.py
 #: indico/modules/events/management/forms.py
@@ -10389,7 +10389,7 @@ msgstr "時區"
 msgid ""
 "Default timezone event lists will show up in. It will also be used as a "
 "default for new events."
-msgstr "將顯示默認時區事件列表。它還將用作新事件的默認值。"
+msgstr "將顯示默認時區活動列表。它還將用作新活動的默認值。"
 
 #: indico/modules/categories/forms.py
 msgid "Theme for Lectures"
@@ -10426,7 +10426,7 @@ msgid ""
 "Allow users to view all the events descending from this category in one "
 "single page. This is not recommended on large categories with thousands of "
 "events."
-msgstr "允許用戶在一個頁面中查看從該類別降序的所有事件。 對於具有數千個事件的大型類別，不建議這樣做。"
+msgstr "允許用戶在一個頁面中查看從該類別降序的所有活動。 對於具有數千個活動的大型類別，不建議這樣做。"
 
 #: indico/modules/categories/forms.py
 msgid "Future months threshold"
@@ -10446,7 +10446,7 @@ msgstr "消息類型"
 #: indico/modules/categories/forms.py
 msgid ""
 "This message will show up at the top of every event page in this category"
-msgstr "此消息將顯示在類別的所有事件的頂部"
+msgstr "此消息將顯示在類別的所有活動的頂部"
 
 #: indico/modules/categories/forms.py
 msgid "Notify managers"
@@ -10456,7 +10456,7 @@ msgstr "通知管理員"
 msgid ""
 "Whether to send email notifications to all managers of this category when an"
 " event is created inside it or in any of its subcategories."
-msgstr "當在該類別或其任何子類別中創建事件時，是否向該類別的所有管理員發送電子郵件通知。"
+msgstr "當在該類別或其任何子類別中創建活動時，是否向該類別的所有管理員發送電子郵件通知。"
 
 #: indico/modules/categories/forms.py
 msgid "Notification E-mails"
@@ -10467,7 +10467,7 @@ msgid ""
 "List of emails that will receive a notification every time a new event is "
 "created inside the category or one of its subcategories. One email address "
 "per line."
-msgstr "每當在類別或其子類別之中創建新事件時，都會收到通知的電子郵件列表。 每行一個電子郵件地址。"
+msgstr "每當在類別或其子類別之中創建新活動時，都會收到通知的電子郵件列表。 每行一個電子郵件地址。"
 
 #: indico/modules/categories/forms.py
 msgid "Configuration"
@@ -10615,7 +10615,7 @@ msgstr "當某人無法訪問該類別時顯示的聯繫人信息"
 
 #: indico/modules/categories/forms.py
 msgid "Event visibility"
-msgstr "事件可見度"
+msgstr "活動可見度"
 
 #: indico/modules/categories/forms.py
 msgid ""
@@ -10626,14 +10626,14 @@ msgstr "從類別樹的該點開始，內容將從（向上的類別數）中可
 
 #: indico/modules/categories/forms.py
 msgid "Event creation mode"
-msgstr "事件創建模式"
+msgstr "活動創建模式"
 
 #: indico/modules/categories/forms.py
 msgid ""
 "Specify who can create events in the category and whether they need to be "
 "approved. Regardless of this setting, users cannot create/propose events "
 "unless they have at least read access to the category."
-msgstr "指定誰可以在該類別中創建事件以及是否需要批准。 無論此設置如何，用戶都無法創建/提議事件，除非他們至少具有對該類別的讀取權限。"
+msgstr "指定誰可以在該類別中創建活動以及是否需要批准。 無論此設置如何，用戶都無法創建/提議活動，除非他們至少具有對該類別的讀取權限。"
 
 #: indico/modules/categories/forms.py
 #, python-brace-format
@@ -10651,7 +10651,7 @@ msgstr "類別名 #1"
 
 #: indico/modules/categories/forms.py
 msgid "Selected events will be moved into a new sub-category with this title."
-msgstr "選中的事件將被移到具有此名稱的新子類別下。"
+msgstr "選中的活動將被移到具有此名稱的新子類別下。"
 
 #: indico/modules/categories/forms.py
 msgid "Category name #2"
@@ -10661,7 +10661,7 @@ msgstr "類別名 #2"
 msgid ""
 "Events that were not selected will be moved into a new sub-category with "
 "this title. If omitted, those events will remain in the current category."
-msgstr "未選中的事件將移動到具有此名稱的新子類別中。如果省略，這些事件將保留在當前類別中。"
+msgstr "未選中的活動將移動到具有此名稱的新子類別中。如果省略，這些活動將保留在當前類別中。"
 
 #: indico/modules/categories/forms.py
 msgid "Category name"
@@ -10669,18 +10669,18 @@ msgstr "類別名"
 
 #: indico/modules/categories/forms.py
 msgid "The events will be moved into a new sub-category with this title."
-msgstr "這個事件將被移到具有這個名字的子類別下。"
+msgstr "這個活動將被移到具有這個名字的子類別下。"
 
 #: indico/modules/categories/forms.py
 msgid "Max. events"
-msgstr "最多事件"
+msgstr "最多活動"
 
 #: indico/modules/categories/forms.py
 msgid ""
 "The maximum number of upcoming events to show. Events are sorted by weight "
 "so events with a lower weight are more likely to be omitted if there are too"
 " many events to show."
-msgstr "要顯示的即將發生的事件的最大數目。事件按權重排序，因此如果要顯示的事件太多，則更可能忽略權重較低的事件。"
+msgstr "要顯示的即將發生的活動的最大數目。活動按權重排序，因此如果要顯示的活動太多，則更可能忽略權重較低的活動。"
 
 #: indico/modules/categories/forms.py indico/web/forms/fields/datetime.py
 msgid "Days"
@@ -10698,7 +10698,7 @@ msgstr "類別 & 子類別"
 msgid ""
 "Specify categories/events shown in the 'upcoming events' list on the home "
 "page."
-msgstr "指定首頁上 '即將發生的事件' 列表中顯示的類別/事件。"
+msgstr "指定首頁上 '即將發生的活動' 列表中顯示的類別/活動。"
 
 #: indico/modules/categories/forms.py
 msgid "'Days' must be a positive integer"
@@ -10716,7 +10716,7 @@ msgstr "無效類別: {}"
 #: indico/modules/categories/forms.py
 #, python-brace-format
 msgid "Invalid event: {}"
-msgstr "無效事件：{}"
+msgstr "無效活動：{}"
 
 #: indico/modules/categories/forms.py indico/modules/events/roles/forms.py
 msgid "The full name of the role"
@@ -10793,7 +10793,7 @@ msgstr "此類別沒有過去的活動"
 
 #: indico/modules/categories/controllers/display.py
 msgid "There are no upcoming events for this category"
-msgstr "此類別下沒有即將發生的事件"
+msgstr "此類別下沒有即將發生的活動"
 
 #: indico/modules/categories/controllers/display.py
 msgid "There are no close events for this category"
@@ -10891,17 +10891,17 @@ msgstr[0] "{0} 个类别移动到 \"{1}\"。"
 #, python-brace-format
 msgid "You have deleted one event"
 msgid_plural "You have deleted {} events"
-msgstr[0] "您删除了{} 事件。"
+msgstr[0] "您删除了{} 活動。"
 
 #: indico/modules/categories/controllers/management.py
 #, python-brace-format
 msgid "Your events have been moved to the category \"{}\""
-msgstr "您的事件已移動到類別 \"{}\""
+msgstr "您的活動已移動到類別 \"{}\""
 
 #: indico/modules/categories/controllers/management.py
 #, python-brace-format
 msgid "Your events have been split into the categories \"{}\" and \"{}\""
-msgstr "您的事件已拆分到類別 \"{}\" 和 \"{}\""
+msgstr "您的活動已拆分到類別 \"{}\" 和 \"{}\""
 
 #: indico/modules/categories/controllers/management.py
 msgid "Split"
@@ -10910,25 +10910,25 @@ msgstr "拆分"
 #: indico/modules/categories/controllers/management.py
 #: indico/modules/events/management/controllers/actions.py
 msgid "You may not move events to this category."
-msgstr "您不能移動事件到此類別。"
+msgstr "您不能移動活動到此類別。"
 
 #: indico/modules/categories/controllers/management.py
 #, python-brace-format
 msgid "You have moved {count} event to the category \"{cat}\""
 msgid_plural "You have moved {count} events to the category \"{cat}\""
-msgstr[0] "您已将 {count} 个事件移至 “{cat}” 类别"
+msgstr[0] "您已将 {count} 个活動移至 “{cat}” 类别"
 
 #: indico/modules/categories/controllers/management.py
 #, python-brace-format
 msgid "You have requested the move of {count} event to the category \"{cat}\""
 msgid_plural ""
 "You have requested the move of {count} events to the category \"{cat}\""
-msgstr[0] "您已请求将 {count} 个事件移至类别“{cat}”"
+msgstr[0] "您已请求将 {count} 个活動移至类别“{cat}”"
 
 #: indico/modules/categories/controllers/util.py
 #, python-brace-format
 msgid "Events of \"{}\""
-msgstr "\"{}\" 事件"
+msgstr "\"{}\" 活動"
 
 #: indico/modules/categories/models/categories.py
 msgctxt "Message type"
@@ -10989,7 +10989,7 @@ msgstr "%(category)s 的統計資料"
 
 #: indico/modules/categories/templates/display/_calendar_ongoing_events.html
 msgid "There are no ongoing events during selected month."
-msgstr "選定月份內沒有正在進行的事件。"
+msgstr "選定月份內沒有正在進行的活動。"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Main categories"
@@ -10997,7 +10997,7 @@ msgstr "主類別"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "All events"
-msgstr "所有事件"
+msgstr "所有活動"
 
 #: indico/modules/categories/templates/display/base.html
 #: indico/modules/categories/templates/management/_events_list.html
@@ -11005,7 +11005,7 @@ msgstr "所有事件"
 #: indico/modules/events/__init__.py
 #: indico/modules/events/templates/forms/event_creation_form.html
 msgid "Create event"
-msgstr "創建事件"
+msgstr "創建活動"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Navigate categories"
@@ -11026,7 +11026,7 @@ msgstr "瀏覽"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "All category events"
-msgstr "所有類別事件"
+msgstr "所有類別活動"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Previous event"
@@ -11034,7 +11034,7 @@ msgstr "上一個活動"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Upcoming event"
-msgstr "即將發生的事件"
+msgstr "即將發生的活動"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Closest event"
@@ -11042,11 +11042,11 @@ msgstr "最近的活動"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Today's events"
-msgstr "今天的事件"
+msgstr "今天的活動"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Week's events"
-msgstr "本周的事件"
+msgstr "本周的活動"
 
 #: indico/modules/categories/templates/display/base.html
 msgid "Category statistics"
@@ -11073,11 +11073,11 @@ msgid ""
 msgid_plural ""
 "There are %(count)s event move requests %(link_start)spending "
 "moderation%(link_end)s."
-msgstr[0] "有 %(count)s 个事件移动请求 %(link_start)s 待审核 %(link_end)s。"
+msgstr[0] "有 %(count)s 个活動移动请求 %(link_start)s 待审核 %(link_end)s。"
 
 #: indico/modules/categories/templates/display/category.html
 msgid "Some events in this category have been hidden."
-msgstr "此類別中的一些事件已隱藏。"
+msgstr "此類別中的一些活動已隱藏。"
 
 #: indico/modules/categories/templates/display/category.html
 msgid "This category is empty."
@@ -11085,7 +11085,7 @@ msgstr "此類別是空的."
 
 #: indico/modules/categories/templates/display/category.html
 msgid "Displaying all the events from subcategories."
-msgstr "顯示子類別中的所有事件。"
+msgstr "顯示子類別中的所有活動。"
 
 #: indico/modules/categories/templates/display/category.html
 msgid "Go back to single category view."
@@ -11110,19 +11110,19 @@ msgstr "公開類別"
 
 #: indico/modules/categories/templates/display/event_list.html
 msgid "Some events in the list below have been hidden."
-msgstr "下面列表中的一些事件已隱藏。"
+msgstr "下面列表中的一些活動已隱藏。"
 
 #: indico/modules/categories/templates/display/event_list.html
 #, python-format
 msgid "There is one event in the future."
 msgid_plural "There are %(count)s events in the future."
-msgstr[0] "未来的 %(count)s 个事件。"
+msgstr[0] "未来的 %(count)s 个活動。"
 
 #: indico/modules/categories/templates/display/event_list.html
 #, python-format
 msgid "There is one event in the past."
 msgid_plural "There are %(count)s events in the past."
-msgstr[0] "以前的%(count)s个事件。"
+msgstr[0] "以前的%(count)s个活動。"
 
 #: indico/modules/categories/templates/display/event_list.html
 #, python-format
@@ -11131,11 +11131,11 @@ msgstr "將 %(title)s 匯出至行事曆"
 
 #: indico/modules/categories/templates/display/event_list.html
 msgid "You have favorited this event."
-msgstr "您已收藏此事件。"
+msgstr "您已收藏此活動。"
 
 #: indico/modules/categories/templates/display/event_list.html
 msgid "This event is hidden."
-msgstr "此事件是隱藏的"
+msgstr "此活動是隱藏的"
 
 #: indico/modules/categories/templates/display/event_list.html
 msgid "hidden"
@@ -11143,7 +11143,7 @@ msgstr "隱藏的"
 
 #: indico/modules/categories/templates/display/event_list.html
 msgid "This event is new."
-msgstr "這是新事件"
+msgstr "這是新活動"
 
 #: indico/modules/categories/templates/display/event_list.html
 msgid "new"
@@ -11212,7 +11212,7 @@ msgstr "解釋"
 
 #: indico/modules/categories/templates/display/overview/base.html
 msgid "Events overview"
-msgstr "事件概覽"
+msgstr "活動概覽"
 
 #: indico/modules/categories/templates/display/overview/day.html
 msgid "Previous day"
@@ -11255,17 +11255,17 @@ msgstr "已隱藏"
 
 #: indico/modules/categories/templates/management/_events_list.html
 msgid "Event has a pending move request to another category"
-msgstr "事件有移動到另一個類別的待審核請求"
+msgstr "活動有移動到另一個類別的待審核請求"
 
 #: indico/modules/categories/templates/management/_events_list.html
 #: indico/modules/events/management/templates/_action_menu.html
 #: indico/modules/events/management/templates/delete_event.html
 msgid "Delete event"
-msgstr "刪除事件"
+msgstr "刪除活動"
 
 #: indico/modules/categories/templates/management/_events_list.html
 msgid "Go to the event display page"
-msgstr "去事件顯示頁"
+msgstr "去活動顯示頁"
 
 #: indico/modules/categories/templates/management/_events_list.html
 #: indico/modules/events/contributions/forms.py
@@ -11321,7 +11321,7 @@ msgstr "無"
 
 #: indico/modules/categories/templates/management/_events_list.html
 msgid "Split selected events into new categories"
-msgstr "將選定事件拆分到新類別"
+msgstr "將選定活動拆分到新類別"
 
 #: indico/modules/categories/templates/management/_events_list.html
 msgid "Split category"
@@ -11329,11 +11329,11 @@ msgstr "拆分類別"
 
 #: indico/modules/categories/templates/management/_events_list.html
 msgid "Delete selected events"
-msgstr "刪除選中事件"
+msgstr "刪除選中活動"
 
 #: indico/modules/categories/templates/management/_events_list.html
 msgid "There are no events in this category"
-msgstr "此類別沒有事件"
+msgstr "此類別沒有活動"
 
 #: indico/modules/categories/templates/management/base.html
 #, python-format
@@ -11386,7 +11386,7 @@ msgstr "顯示 %(count)s 個"
 #: indico/modules/categories/templates/management/content.html
 msgid ""
 "This category is empty. A category can either hold categories or events."
-msgstr "此類別為空。類別可以包含類別或事件。"
+msgstr "此類別為空。類別可以包含類別或活動。"
 
 #: indico/modules/categories/templates/management/delete_categories.html
 msgid "You are about to delete the following category:"
@@ -11426,7 +11426,7 @@ msgstr "Apple 錢包"
 
 #: indico/modules/categories/templates/management/settings.html
 msgid "Event Header"
-msgstr "事件頭"
+msgstr "活動頭"
 
 #: indico/modules/categories/templates/management/settings.html
 msgid "Are you sure you want to remove the icon of this category?"
@@ -11764,11 +11764,11 @@ msgstr "允許克隆"
 #: indico/modules/designer/forms.py
 #: indico/modules/designer/templates/template.html
 msgid "Allow cloning this template in subcategories and events"
-msgstr "允許在子類別和事件中克隆此模板"
+msgstr "允許在子類別和活動中克隆此模板"
 
 #: indico/modules/designer/placeholders.py
 msgid "Event Data"
-msgstr "事件數據"
+msgstr "活動數據"
 
 #: indico/modules/designer/placeholders.py
 msgid "Fixed Data"
@@ -11784,7 +11784,7 @@ msgstr "自訂報名者資料"
 
 #: indico/modules/designer/placeholders.py
 msgid "Event Dates"
-msgstr "事件日期"
+msgstr "活動日期"
 
 #: indico/modules/designer/placeholders.py
 #, python-brace-format
@@ -11793,27 +11793,27 @@ msgstr "{} 到 {}"
 
 #: indico/modules/designer/placeholders.py
 msgid "Event Title"
-msgstr "事件名稱"
+msgstr "活動名稱"
 
 #: indico/modules/designer/placeholders.py
 msgid "Event Description"
-msgstr "事件說明"
+msgstr "活動說明"
 
 #: indico/modules/designer/placeholders.py
 msgid "Event Speakers/Chairs"
-msgstr "事件報告人/主席"
+msgstr "活動報告人/主席"
 
 #: indico/modules/designer/placeholders.py
 msgid "Event Venue"
-msgstr "事件會址"
+msgstr "活動會址"
 
 #: indico/modules/designer/placeholders.py
 msgid "Event Room"
-msgstr "事件會議室"
+msgstr "活動會議室"
 
 #: indico/modules/designer/placeholders.py
 msgid "Event Organizers"
-msgstr "事件組織者"
+msgstr "活動組織者"
 
 #: indico/modules/designer/placeholders.py
 msgid "Category Title"
@@ -11999,7 +11999,7 @@ msgstr "您確定要刪除模板 『%(title)s』 嗎？"
 
 #: indico/modules/designer/templates/_list.html
 msgid "Print poster for the event"
-msgstr "列印事件海報"
+msgstr "列印活動海報"
 
 #: indico/modules/designer/templates/_list.html
 msgid "Poster Printing Settings"
@@ -12007,7 +12007,7 @@ msgstr "海報列印設置"
 
 #: indico/modules/designer/templates/_list.html
 msgid "There are no registration forms in this event"
-msgstr "此事件沒有註冊表"
+msgstr "此活動沒有註冊表"
 
 #: indico/modules/designer/templates/_list.html
 msgid "Add a new blank designer template"
@@ -12280,7 +12280,7 @@ msgstr "%(link_start)s選擇已存在的模板%(link_end)s用於這個模板的�
 msgid "You have been granted manager/submission privileges for an event."
 msgid_plural ""
 "You have been granted manager/submission privileges for {} events."
-msgstr[0] "你已被授权 {} 这个事件的管理/提交权限."
+msgstr[0] "你已被授权 {} 这个活動的管理/提交权限."
 
 #: indico/modules/events/__init__.py
 #: indico/modules/events/abstracts/templates/management/overview.html
@@ -12290,7 +12290,7 @@ msgstr "提交"
 
 #: indico/modules/events/__init__.py
 msgid "Grants management rights for event-wide materials and minutes."
-msgstr "授予事件範圍內材料和會議記錄的管理權限。"
+msgstr "授予活動範圍內材料和會議記錄的管理權限。"
 
 #: indico/modules/events/__init__.py
 msgid "External ID Types"
@@ -12298,7 +12298,7 @@ msgstr "外部 ID 類型"
 
 #: indico/modules/events/__init__.py
 msgid "Event Labels"
-msgstr "事件標籤"
+msgstr "活動標籤"
 
 #: indico/modules/events/__init__.py
 msgid "Allowed Keywords"
@@ -12307,7 +12307,7 @@ msgstr "允許的關鍵字"
 #: indico/modules/events/__init__.py
 #: indico/modules/events/templates/admin/unlisted_events.html
 msgid "Unlisted events"
-msgstr "未列出的事件"
+msgstr "未列出的活動"
 
 #: indico/modules/events/__init__.py
 msgid "Auto-linker"
@@ -12349,7 +12349,7 @@ msgstr "會址/會議室"
 
 #: indico/modules/events/clone.py
 msgid "The target event already has a venue/room"
-msgstr "目標事件已有場地/房間"
+msgstr "目標活動已有場地/房間"
 
 #: indico/modules/events/clone.py
 msgid "Persons"
@@ -12357,7 +12357,7 @@ msgstr "人們"
 
 #: indico/modules/events/clone.py
 msgid "The target event already has persons"
-msgstr "目標事件已有人"
+msgstr "目標活動已有人"
 
 #: indico/modules/events/clone.py indico/modules/events/management/forms.py
 #: indico/modules/events/management/templates/_settings.html
@@ -12369,11 +12369,11 @@ msgstr "主席"
 
 #: indico/modules/events/clone.py
 msgid "The target event already has speakers"
-msgstr "目標事件已有報告人"
+msgstr "目標活動已有報告人"
 
 #: indico/modules/events/clone.py
 msgid "The target event already has chairpersons"
-msgstr "目標事件已有主席"
+msgstr "目標活動已有主席"
 
 #: indico/modules/events/clone.py
 msgid "ACLs and protection settings"
@@ -12381,11 +12381,11 @@ msgstr "訪問控制列表和保護設置"
 
 #: indico/modules/events/clone.py
 msgid "The target event already has an access key"
-msgstr "目標事件已有訪問密碼"
+msgstr "目標活動已有訪問密碼"
 
 #: indico/modules/events/clone.py
 msgid "The target event already has a custom ACL"
-msgstr "目標事件已有自定義ACL"
+msgstr "目標活動已有自定義ACL"
 
 #: indico/modules/events/clone.py
 msgid "Add to event series"
@@ -12498,12 +12498,12 @@ msgstr "保持不公開"
 
 #: indico/modules/events/forms.py indico/modules/events/management/forms.py
 msgid "Event title"
-msgstr "事件名稱"
+msgstr "活動名稱"
 
 #: indico/modules/events/forms.py
 #: indico/modules/events/templates/forms/event_creation_form.html
 msgid "You are not allowed to create events in this category."
-msgstr "你不能在此類別建立事件。"
+msgstr "你不能在此類別建立活動。"
 
 #: indico/modules/events/forms.py
 msgid "Dates"
@@ -12520,11 +12520,11 @@ msgstr "限制創建"
 
 #: indico/modules/events/forms.py
 msgid "Restrict creation of unlisted events to the authorized users below."
-msgstr "僅限授權用戶創建未列出的事件。"
+msgstr "僅限授權用戶創建未列出的活動。"
 
 #: indico/modules/events/forms.py
 msgid "These users may create unlisted events."
-msgstr "這些用戶可能會創建未列出的事件。"
+msgstr "這些用戶可能會創建未列出的活動。"
 
 #: indico/modules/events/forms.py
 msgid "Minimum data retention period"
@@ -12561,7 +12561,7 @@ msgstr "最短保留期限不能大於最長保留期限。"
 #: indico/modules/events/placeholders.py
 #: indico/modules/events/registration/placeholders/registrations.py
 msgid "The title of the event"
-msgstr "事件名稱"
+msgstr "活動名稱"
 
 #: indico/modules/events/placeholders.py
 msgid "Event start date"
@@ -12574,7 +12574,7 @@ msgstr "活動開始時間"
 #: indico/modules/events/placeholders.py
 #: indico/modules/events/registration/placeholders/registrations.py
 msgid "Link to the event"
-msgstr "事件連結"
+msgstr "活動連結"
 
 #: indico/modules/events/placeholders.py
 #: indico/modules/events/registration/placeholders/registrations.py
@@ -12615,12 +12615,12 @@ msgstr "未知的佔位符：{}"
 
 #: indico/modules/events/util.py
 msgid "This event has been locked so no modifications are possible."
-msgstr "此事件被鎖住了所以不能修改。"
+msgstr "此活動被鎖住了所以不能修改。"
 
 #: indico/modules/events/util.py
 #, python-brace-format
 msgid "The theme '{}' is not valid for this event."
-msgstr "主題 『{}』 對此事件無效。"
+msgstr "主題 『{}』 對此活動無效。"
 
 #: indico/modules/events/util.py
 #, python-brace-format
@@ -12631,7 +12631,7 @@ msgstr "主題 『{}』 不存在。"
 msgid ""
 "Your action requires modification of event boundaries, but you are not "
 "authorized to manage the event."
-msgstr "您的操作請求修改事件邊界，但您無權管理該事件。"
+msgstr "您的操作請求修改活動邊界，但您無權管理該活動。"
 
 #: indico/modules/events/util.py
 msgid ""
@@ -12651,7 +12651,7 @@ msgstr "註冊人不能具有管理權限：{}"
 
 #: indico/modules/events/util.py
 msgid "Invalid event URL"
-msgstr "無效的事件URL"
+msgstr "無效的活動URL"
 
 #: indico/modules/events/util.py
 msgid "Events from other Indico instances cannot be imported"
@@ -12659,7 +12659,7 @@ msgstr "無法匯入其他 Indico 實例的活動"
 
 #: indico/modules/events/util.py
 msgid "This event does not exist"
-msgstr "此事件不存在"
+msgstr "此活動不存在"
 
 #: indico/modules/events/abstracts/__init__.py
 #: indico/modules/events/abstracts/templates/display/_base.html
@@ -12673,7 +12673,7 @@ msgstr "徵集摘要"
 msgid ""
 "Gives event managers the opportunity to open a \"Call for Abstracts\" and "
 "use the abstract reviewing workflow."
-msgstr "為事件管理員提供打開 「徵集摘要」 並使用摘要審閱工作流程的機會。"
+msgstr "為活動管理員提供打開 「徵集摘要」 並使用摘要審閱工作流程的機會。"
 
 #: indico/modules/events/abstracts/__init__.py
 msgid "Review for all tracks"
@@ -12681,7 +12681,7 @@ msgstr "查看所有議題"
 
 #: indico/modules/events/abstracts/__init__.py
 msgid "Grants abstract reviewing rights to all tracks of the event."
-msgstr "授予事件所有議題的摘要審核權限。"
+msgstr "授予活動所有議題的摘要審核權限。"
 
 #: indico/modules/events/abstracts/__init__.py
 msgid "Grants track reviewer rights in a track."
@@ -12694,7 +12694,7 @@ msgstr "摘要"
 
 #: indico/modules/events/abstracts/__init__.py
 msgid "Grants abstract management rights on an event."
-msgstr "授予事件的摘要管理權限。"
+msgstr "授予活動的摘要管理權限。"
 
 #: indico/modules/events/abstracts/__init__.py
 #: indico/modules/events/abstracts/templates/display/tracks.html
@@ -12703,7 +12703,7 @@ msgstr "審核人"
 
 #: indico/modules/events/abstracts/__init__.py
 msgid "Grants abstract reviewing rights on an event."
-msgstr "授予事件的摘要審核權限。"
+msgstr "授予活動的摘要審核權限。"
 
 #: indico/modules/events/abstracts/__init__.py
 #: indico/modules/events/papers/__init__.py
@@ -12716,11 +12716,11 @@ msgstr "徵集摘要(配置，電子郵件模板，審核問題)"
 
 #: indico/modules/events/abstracts/clone.py
 msgid "The target event already has review questions"
-msgstr "目標事件已有審核題"
+msgstr "目標活動已有審核題"
 
 #: indico/modules/events/abstracts/clone.py
 msgid "The target event already has email templates"
-msgstr "目標事件已有電子郵件模板"
+msgstr "目標活動已有電子郵件模板"
 
 #: indico/modules/events/abstracts/fields.py
 msgid "Rules may not be empty"
@@ -12926,7 +12926,7 @@ msgstr "這些說明將在提交表單之前顯示"
 
 #: indico/modules/events/abstracts/forms.py
 msgid "The event has no contribution types defined."
-msgstr "事件沒有定義的報告類型。"
+msgstr "活動沒有定義的報告類型。"
 
 #: indico/modules/events/abstracts/forms.py
 #: indico/modules/events/papers/forms.py
@@ -13450,7 +13450,7 @@ msgstr "作為"
 
 #: indico/modules/events/abstracts/placeholders.py
 msgid "The URL of the event"
-msgstr "事件的連結URL"
+msgstr "活動的連結URL"
 
 #: indico/modules/events/abstracts/placeholders.py
 #: indico/modules/events/persons/placeholders.py
@@ -13534,7 +13534,7 @@ msgstr "目標摘要提交人的姓， 沒有標題 (合併或副本)"
 
 #: indico/modules/events/abstracts/placeholders.py
 msgid "Comments written by event organizer (upon final decision)"
-msgstr "事件組織者寫的評論 (最終決定後)"
+msgstr "活動組織者寫的評論 (最終決定後)"
 
 #: indico/modules/events/abstracts/settings.py
 msgid "Abstract title"
@@ -13675,13 +13675,13 @@ msgstr "請注意，以下設置的任何更改將僅影響LaTeX文件，而不�
 #: indico/modules/events/abstracts/controllers/boa.py
 #: indico/modules/events/timetable/controllers/display.py
 msgid "The contributions of this event have not been published yet"
-msgstr "此事件的報告尚未公布"
+msgstr "此活動的報告尚未公布"
 
 #: indico/modules/events/abstracts/controllers/display.py
 msgid ""
 "The Call for Abstracts is closed. Please contact the event organizer for "
 "further assistance."
-msgstr "徵集摘要已關閉。請聯繫事件組織者獲取進一步的幫助。"
+msgstr "徵集摘要已關閉。請聯繫活動組織者獲取進一步的幫助。"
 
 #: indico/modules/events/abstracts/controllers/display.py
 #, python-brace-format
@@ -13862,7 +13862,7 @@ msgstr "提交摘要"
 msgid ""
 "You have been invited to submit an abstract in this event. After you submit "
 "the abstract it will subject to the reviewing process."
-msgstr "您受邀提交此事件的摘要。提交摘要後，將對其進行審核。"
+msgstr "您受邀提交此活動的摘要。提交摘要後，將對其進行審核。"
 
 #: indico/modules/events/abstracts/templates/invited_abstract.html
 #, python-format
@@ -14151,7 +14151,7 @@ msgstr "添加新規則"
 msgid ""
 "Since this event has no tracks, reviewer roles are disabled. Only judgment "
 "is available."
-msgstr "由於此事件沒有議題，審核者角色被禁用。只有評委可用。"
+msgstr "由於此活動沒有議題，審核者角色被禁用。只有評委可用。"
 
 #: indico/modules/events/abstracts/templates/forms/track_role_widget.html
 msgid "All Tracks"
@@ -14159,7 +14159,7 @@ msgstr "所有議題"
 
 #: indico/modules/events/abstracts/templates/forms/track_role_widget.html
 msgid "These users will be able to access/review all tracks in the event."
-msgstr "這些用戶將能夠訪問/審核事件的所有議題。"
+msgstr "這些用戶將能夠訪問/審核活動的所有議題。"
 
 #: indico/modules/events/abstracts/templates/management/_abstract_list.html
 #: indico/modules/events/papers/templates/_paper_list.html
@@ -14734,7 +14734,7 @@ msgstr "撤回"
 msgid ""
 "You cannot withdraw this abstract as it has already been accepted. Please "
 "contact the event organizers if you want to withdraw the abstract anyway."
-msgstr "您不能撤回此摘要因為它已經被接收了。如果您要撤回此摘要請聯繫該事件的組織者。"
+msgstr "您不能撤回此摘要因為它已經被接收了。如果您要撤回此摘要請聯繫該活動的組織者。"
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 msgid "This abstract has been withdrawn but can be restored."
@@ -14799,7 +14799,7 @@ msgid ""
 "%(link_start)scontribution%(link_end)s was created in the event."
 msgstr ""
 "摘要被接受為議題 %(track)s 的 <span class=\"abstract-contribution-"
-"type\">%(type)s</span> 類型，並在事件中創建了 %(link_start)s 報告  %(link_end)s。"
+"type\">%(type)s</span> 類型，並在活動中創建了 %(link_start)s 報告  %(link_end)s。"
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 #, python-format
@@ -14809,14 +14809,14 @@ msgid ""
 "created in the event."
 msgstr ""
 "摘要被接收為 <span class=\"abstract-contribution-type\">%(type)s</span> 類型並且 "
-"在事件中建立了%(link_start)s 報告 %(link_end)s 。"
+"在活動中建立了%(link_start)s 報告 %(link_end)s 。"
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 #, python-format
 msgid ""
 "The abstract was accepted for track %(track)s and a "
 "%(link_start)scontribution%(link_end)s was created in the event."
-msgstr "摘要已被議題 %(track)s 接收並且在事件中創建了 %(link_start)s 報告 %(link_end)s。"
+msgstr "摘要已被議題 %(track)s 接收並且在活動中創建了 %(link_start)s 報告 %(link_end)s。"
 
 #: indico/modules/events/abstracts/templates/reviewing/public.html
 #, python-format
@@ -15063,7 +15063,7 @@ msgstr "此協議的URL無效。"
 #: indico/modules/events/agreements/controllers.py
 #, python-brace-format
 msgid "The '{}' agreement is not used in this event."
-msgstr "在此事件中不使用 『{}』 協議。"
+msgstr "在此活動中不使用 『{}』 協議。"
 
 #: indico/modules/events/agreements/controllers.py
 msgid "Reminders sent"
@@ -15176,7 +15176,7 @@ msgstr "拒絕於%(dt)s"
 
 #: indico/modules/events/agreements/templates/agreement_form.html
 msgid "Event information"
-msgstr "事件信息"
+msgstr "活動信息"
 
 #: indico/modules/events/agreements/templates/agreement_form.html
 msgid "(optional)"
@@ -15194,7 +15194,7 @@ msgstr "通知管理員籤字"
 
 #: indico/modules/events/agreements/templates/agreement_type_details.html
 msgid "Event managers will receive emails every time an agreement is signed"
-msgstr "每次籤署協議時，事件管理員都會收到電子郵件"
+msgstr "每次籤署協議時，活動管理員都會收到電子郵件"
 
 #: indico/modules/events/agreements/templates/agreement_type_details.html
 msgid "Paper form available"
@@ -15391,7 +15391,7 @@ msgstr "授予材料和紀要的管理權限。"
 
 #: indico/modules/events/contributions/clone.py
 msgid "The target event already has contribution types"
-msgstr "目標事件已有報告類型"
+msgstr "目標活動已有報告類型"
 
 #: indico/modules/events/contributions/clone.py
 msgid "Contribution fields"
@@ -15399,11 +15399,11 @@ msgstr "報告欄位"
 
 #: indico/modules/events/contributions/clone.py
 msgid "The target event already has contribution fields"
-msgstr "目標事件已有報告欄位"
+msgstr "目標活動已有報告欄位"
 
 #: indico/modules/events/contributions/clone.py
 msgid "The target event already has contributions"
-msgstr "目標事件已有報告"
+msgstr "目標活動已有報告"
 
 #: indico/modules/events/contributions/contrib_fields.py
 #: indico/web/fields/base.py
@@ -15476,7 +15476,7 @@ msgstr "在當前持續時間內，報告超過塊結束日期"
 
 #: indico/modules/events/contributions/forms.py
 msgid "With the current duration the contribution exceeds the event end date"
-msgstr "在當前持續時間內，報告超過事件結束日期"
+msgstr "在當前持續時間內，報告超過活動結束日期"
 
 #: indico/modules/events/contributions/forms.py
 msgid "The speakers of the subcontribution"
@@ -15488,7 +15488,7 @@ msgstr "管理此子報告的外部資源"
 
 #: indico/modules/events/contributions/forms.py
 msgid "With this time, the contribution would exceed the event end time."
-msgstr "此時間，報告將超過事件結束時間。"
+msgstr "此時間，報告將超過活動結束時間。"
 
 #: indico/modules/events/contributions/forms.py
 msgid "With this time, the contribution would exceed the current day."
@@ -15496,7 +15496,7 @@ msgstr "此時間，報告將超過今天。"
 
 #: indico/modules/events/contributions/forms.py
 msgid "With this duration, the contribution would exceed the event end time."
-msgstr "此持續時間，報告將超過事件結束時間。"
+msgstr "此持續時間，報告將超過活動結束時間。"
 
 #: indico/modules/events/contributions/forms.py
 msgid "With this duration, the contribution would exceed the current day."
@@ -15620,7 +15620,7 @@ msgstr "TeX 檔案"
 
 #: indico/modules/events/contributions/controllers/display.py
 msgid "The contributions of this event have not been published yet."
-msgstr "此事件的報告尚未公布。"
+msgstr "此活動的報告尚未公布。"
 
 #: indico/modules/events/contributions/controllers/management.py
 #, python-brace-format
@@ -15670,7 +15670,7 @@ msgstr[0] "{} 个报告已导入。"
 
 #: indico/modules/events/contributions/controllers/management.py
 msgid "Event dates/times adjusted due to imported data."
-msgstr "由於導入的數據而調整事件日期/時間。"
+msgstr "由於導入的數據而調整活動日期/時間。"
 
 #: indico/modules/events/contributions/controllers/management.py
 msgid "Default contribution duration was changed successfully"
@@ -15773,7 +15773,7 @@ msgstr "編輯報告"
 msgid ""
 "The contributions of this event have not been published yet. You can only "
 "access this page because you are an event manager."
-msgstr "此事件的報告還沒有公開。您可以訪問此頁面，因為您是事件管理員。"
+msgstr "此活動的報告還沒有公開。您可以訪問此頁面，因為您是活動管理員。"
 
 #: indico/modules/events/contributions/templates/display/contribution_display.html
 #: indico/modules/events/contributions/templates/display/subcontribution_display.html
@@ -15828,7 +15828,7 @@ msgstr "為所選篩選生成 URL。"
 #: indico/modules/events/sessions/templates/display/session_list.html
 #: indico/modules/events/surveys/templates/display/survey_list.html
 msgid "Back to the event"
-msgstr "返回事件"
+msgstr "返回活動"
 
 #: indico/modules/events/contributions/templates/display/contribution_person_list_base.html
 msgid "Speaker at"
@@ -15872,7 +15872,7 @@ msgstr "此報告安排在分會塊中，並且持續時間不能修改。"
 
 #: indico/modules/events/contributions/templates/management/_contribution_list.html
 msgid "This speaker registered for the event"
-msgstr "此發言人註冊了此事件"
+msgstr "此發言人註冊了此活動"
 
 #: indico/modules/events/contributions/templates/management/_contribution_list.html
 msgid "This speaker did not register yet"
@@ -16000,7 +16000,7 @@ msgid ""
 "<strong>contribution types</strong> and <strong>custom fields</strong> from "
 "the settings menu above."
 msgstr ""
-"從下面的列表中管理事件的報告，或從上面的 「設置」 菜單中配置<strong>報告類型</strong>和<strong>自定義欄位</strong>。"
+"從下面的列表中管理活動的報告，或從上面的 「設置」 菜單中配置<strong>報告類型</strong>和<strong>自定義欄位</strong>。"
 
 #: indico/modules/events/contributions/templates/management/contributions.html
 msgid "Add new contribution"
@@ -16168,7 +16168,7 @@ msgstr "外部 ID 類型 '{}' 刪除成功"
 #: indico/modules/events/controllers/admin.py
 #, python-brace-format
 msgid "Event label '{}' created successfully"
-msgstr "事件標籤 '{}' 已成功創建"
+msgstr "活動標籤 '{}' 已成功創建"
 
 #: indico/modules/events/controllers/admin.py
 msgid "Allowed keywords have been saved"
@@ -16177,21 +16177,21 @@ msgstr "允許的關鍵字已儲存"
 #: indico/modules/events/controllers/admin.py
 #, python-brace-format
 msgid "Event label '{}' successfully updated"
-msgstr "事件標籤 '{}' 已成功更新"
+msgstr "活動標籤 '{}' 已成功更新"
 
 #: indico/modules/events/controllers/admin.py
 #, python-brace-format
 msgid "Event label '{}' successfully deleted"
-msgstr "事件標籤 '{}' 已成功刪除"
+msgstr "活動標籤 '{}' 已成功刪除"
 
 #: indico/modules/events/controllers/base.py
 msgid "An event with this ID does not exist."
-msgstr "具有此 ID 的事件不存在。"
+msgstr "具有此 ID 的活動不存在。"
 
 #: indico/modules/events/controllers/base.py
 #: indico/modules/events/controllers/entry.py
 msgid "This event has been deleted."
-msgstr "此事件已刪除。"
+msgstr "此活動已刪除。"
 
 #: indico/modules/events/controllers/base.py
 msgid ""
@@ -16200,11 +16200,11 @@ msgstr "非管理員用戶當前看不到此頁（禁用菜單項）！"
 
 #: indico/modules/events/controllers/base.py
 msgid "You are not authorized to access this event."
-msgstr "您無權限訪問此事件。"
+msgstr "您無權限訪問此活動。"
 
 #: indico/modules/events/controllers/entry.py
 msgid "An event with this ID/shortcut does not exist."
-msgstr "具有此 ID/短連結 的事件不存在。"
+msgstr "具有此 ID/短連結 的活動不存在。"
 
 #: indico/modules/events/editing/__init__.py
 #: indico/modules/events/editing/templates/management/base.html
@@ -16216,14 +16216,14 @@ msgstr "編輯"
 msgid ""
 "Gives event managers the opportunity to let contributors submit papers "
 "and/or slides to be edited and eventually published."
-msgstr "給事件管理員機會讓參與者提交論文和/或幻燈片進行編輯並最終發布。"
+msgstr "給活動管理員機會讓參與者提交論文和/或幻燈片進行編輯並最終發布。"
 
 #: indico/modules/events/editing/__init__.py
 msgid ""
 "A default publishable PDF file type has been created; if you want to use "
 "other file types in your event's editing workflow, please configure them "
 "accordingly."
-msgstr "默認的可發布PDF文件類型已創建； 如果要在事件的編輯工作流程中使用其他文件類型，請進行相應配置。"
+msgstr "默認的可發布PDF文件類型已創建； 如果要在活動的編輯工作流程中使用其他文件類型，請進行相應配置。"
 
 #: indico/modules/events/editing/__init__.py
 msgid "Papers"
@@ -16247,7 +16247,7 @@ msgstr "論文編輯人"
 
 #: indico/modules/events/editing/__init__.py
 msgid "Grants editor rights for paper editing on an event."
-msgstr "授予編輯人對事件的論文進行編輯的權限"
+msgstr "授予編輯人對活動的論文進行編輯的權限"
 
 #: indico/modules/events/editing/__init__.py
 msgid "Slides Editor"
@@ -16255,7 +16255,7 @@ msgstr "幻燈片編輯人"
 
 #: indico/modules/events/editing/__init__.py
 msgid "Grants editor rights for slides editing on an event."
-msgstr "授予編輯人對事件的幻燈片進行編輯的權限。"
+msgstr "授予編輯人對活動的幻燈片進行編輯的權限。"
 
 #: indico/modules/events/editing/__init__.py
 msgid "Poster Editor"
@@ -16263,7 +16263,7 @@ msgstr "海報編輯人"
 
 #: indico/modules/events/editing/__init__.py
 msgid "Grants editor rights for poster editing on an event."
-msgstr "授予編輯人權限以對事件進行海報編輯。"
+msgstr "授予編輯人權限以對活動進行海報編輯。"
 
 #: indico/modules/events/editing/clone.py
 msgid "Editing (configured tags, file types, review conditions)"
@@ -16338,7 +16338,7 @@ msgstr "不能刪除唯一可發布文件類型"
 #: indico/modules/events/editing/controllers/backend/service.py
 #, python-brace-format
 msgid "Could not register event with service: {}"
-msgstr "無法用服務註冊事件: {}"
+msgstr "無法用服務註冊活動: {}"
 
 #: indico/modules/events/editing/controllers/backend/service.py
 #, python-brace-format
@@ -16509,7 +16509,7 @@ msgstr "還沒有分配編輯團隊"
 msgid "Feature disabled: {features} (not available for this event type)"
 msgid_plural ""
 "Features disabled: {features} (not available for this event type)"
-msgstr[0] "功能已禁用：{features}（不适用于此事件类型）"
+msgstr[0] "功能已禁用：{features}（不适用于此活動类型）"
 
 #: indico/modules/events/features/controllers.py
 #, python-brace-format
@@ -16532,7 +16532,7 @@ msgstr "此活動未啟用「{feature_name}」功能。"
 msgid ""
 "You can enable/disable various features for your event. Disabling a feature "
 "will hide it from both managers and users."
-msgstr "您可以為事件啟用/禁用各種功能。禁用某個功能將會對管理員和用戶隱藏。"
+msgstr "您可以為活動啟用/禁用各種功能。禁用某個功能將會對管理員和用戶隱藏。"
 
 #: indico/modules/events/layout/__init__.py
 #: indico/modules/events/layout/templates/layout_conference.html
@@ -16561,11 +16561,11 @@ msgid ""
 "Allows event managers to attach images to the event, which can then be used "
 "from HTML code. Very useful for e.g. sponsor logos and conference custom "
 "pages."
-msgstr "允許事件管理員將圖像附加到事件，然後可以從 HTML 代碼中使用圖像。對於贊助商徽標和會議自定義頁面非常有用。"
+msgstr "允許活動管理員將圖像附加到活動，然後可以從 HTML 代碼中使用圖像。對於贊助商徽標和會議自定義頁面非常有用。"
 
 #: indico/modules/events/layout/clone.py
 msgid "The target event already has images"
-msgstr "目標事件已有圖片"
+msgstr "目標活動已有圖片"
 
 #: indico/modules/events/layout/clone.py
 msgid "Layout settings and menu customization"
@@ -16595,7 +16595,7 @@ msgstr "啟用查詢"
 
 #: indico/modules/events/layout/forms.py
 msgid "Enable search within the event"
-msgstr "在事件裡啟用查詢"
+msgstr "在活動裡啟用查詢"
 
 #: indico/modules/events/layout/forms.py
 msgid "Show navigation bar"
@@ -16834,7 +16834,7 @@ msgstr "插件連結"
 
 #: indico/modules/events/layout/templates/_menu.html
 msgid "Toggle default event homepage"
-msgstr "切換默認事件首頁"
+msgstr "切換默認活動首頁"
 
 #: indico/modules/events/layout/templates/_menu.html
 msgid "Toggle visibility"
@@ -16897,7 +16897,7 @@ msgstr "您確定要刪除 '%(filename)s' 嗎?"
 #: indico/modules/events/layout/templates/image_list.html
 msgid ""
 "There are no images in this event. You can upload some using the form above."
-msgstr "這個事件沒有圖片。你可以用上面的表格上傳一些。"
+msgstr "這個活動沒有圖片。你可以用上面的表格上傳一些。"
 
 #: indico/modules/events/layout/templates/images.html
 msgid "Upload images"
@@ -16945,7 +16945,7 @@ msgstr "菜單自定義當前已啟用。禁用它將還原所有更改。"
 msgid ""
 "When enabling menu customization, you can re-arrange menu entries and add "
 "custom links/pages to your event."
-msgstr "啟用菜單自定義時，可以重新排列菜單項並將自定義連結/頁面添加到事件中。"
+msgstr "啟用菜單自定義時，可以重新排列菜單項並將自定義連結/頁面添加到活動中。"
 
 #: indico/modules/events/layout/templates/menu_edit.html
 msgid ""
@@ -16963,7 +16963,7 @@ msgstr "添加條目"
 
 #: indico/modules/events/layout/templates/menu_edit.html
 msgid "Add new entries to the event menu."
-msgstr "添加新條目到事件菜單。"
+msgstr "添加新條目到活動菜單。"
 
 #: indico/modules/events/layout/templates/menu_edit.html
 msgid "Add an entry"
@@ -17046,7 +17046,7 @@ msgstr "URL短連結不能用斜槓開始/結束。"
 
 #: indico/modules/events/management/forms.py
 msgid "The URL shortcut is already used in another event."
-msgstr "此URL短連結已在其它事件中使用。"
+msgstr "此URL短連結已在其它活動中使用。"
 
 #: indico/modules/events/management/forms.py
 msgid "This URL shortcut is not available."
@@ -17060,7 +17060,7 @@ msgstr "更新日程表"
 msgid ""
 "Move sessions/contributions/breaks in the timetable according to the new "
 "event start time."
-msgstr "根據新的事件開始時間在日程表中移動分會/報告/間歇。"
+msgstr "根據新的活動開始時間在日程表中移動分會/報告/間歇。"
 
 #: indico/modules/events/management/forms.py
 msgid ""
@@ -17083,12 +17083,12 @@ msgstr "要使用此開始日期，必須更新日程表。"
 msgid ""
 "The event is too short to fit all timetable entries. It must be at least {} "
 "longer."
-msgstr "事件太短，無法容納所有的日程表條目。它必須至少 {} 長。"
+msgstr "活動太短，無法容納所有的日程表條目。它必須至少 {} 長。"
 
 #: indico/modules/events/management/forms.py
 #, python-brace-format
 msgid "The event cannot end before its last timetable entry, which is at {}."
-msgstr "事件不能在其最後一個日程表項之前結束， 它是 {}。"
+msgstr "活動不能在其最後一個日程表項之前結束， 它是 {}。"
 
 #: indico/modules/events/management/forms.py
 #: indico/modules/events/management/templates/_settings.html
@@ -17179,11 +17179,11 @@ msgstr "訪問密碼"
 msgid ""
 "It is more secure to use only the ACL and not set an access key. <strong>It "
 "will have no effect if the event is not protected</strong>"
-msgstr "只使用 ACL 而不設置訪問密鑰更安全。<strong>如果事件不受保護，它將不起作用</strong>"
+msgstr "只使用 ACL 而不設置訪問密鑰更安全。<strong>如果活動不受保護，它將不起作用</strong>"
 
 #: indico/modules/events/management/forms.py
 msgid "Contact information shown when someone lacks access to the event"
-msgstr "當某人無法訪問事件時顯示的聯繫人信息"
+msgstr "當某人無法訪問活動時顯示的聯繫人信息"
 
 #: indico/modules/events/management/forms.py
 msgid ""
@@ -17192,7 +17192,7 @@ msgid ""
 "the event is moved, this number will be preserved. The \"Invisible\" option "
 "will also hide the event from the category's event list except for managers."
 msgstr ""
-"從類別樹中的哪個點開始可以看到此事件（類別編號向上）。適用於「今天的事件」，日曆。如果事件被移動，此數字將被保留。「不可見」選項還將從類別的事件列表中隱藏事件，但管理員除外。"
+"從類別樹中的哪個點開始可以看到此活動（類別編號向上）。適用於「今天的活動」，日曆。如果活動被移動，此數字將被保留。「不可見」選項還將從類別的活動列表中隱藏活動，但管理員除外。"
 
 #: indico/modules/events/management/forms.py
 msgid "Public registration"
@@ -17204,7 +17204,7 @@ msgid ""
 "registration forms to anyone with a link to the event, so you can let users "
 "register without giving access to anything else in your event."
 msgstr ""
-"允許無法訪問事件的用戶進行註冊。 這會將公開的註冊表格公開給具有該事件連結的任何人，因此您可以讓用戶進行註冊而無需訪問您事件中的其他任何內容。"
+"允許無法訪問活動的用戶進行註冊。 這會將公開的註冊表格公開給具有該活動連結的任何人，因此您可以讓用戶進行註冊而無需訪問您活動中的其他任何內容。"
 
 #: indico/modules/events/management/forms.py
 msgid "Speakers can submit"
@@ -17217,7 +17217,7 @@ msgstr "子貢獻講者可以編輯會議記錄和上傳材料。"
 #: indico/modules/events/management/forms.py
 #, python-brace-format
 msgid "This event's visibility is currently limited by that of '{}'."
-msgstr "此事件的可見性當前受 '{}' 的限制。"
+msgstr "此活動的可見性當前受 '{}' 的限制。"
 
 #: indico/modules/events/management/forms.py
 msgid "Horizontal margins"
@@ -17256,7 +17256,7 @@ msgstr "你必須選擇類別"
 
 #: indico/modules/events/management/forms.py
 msgid "You can't create events in this category"
-msgstr "您不能在此類別下創建事件"
+msgstr "您不能在此類別下創建活動"
 
 #: indico/modules/events/management/forms.py
 msgid "Starting"
@@ -17300,7 +17300,7 @@ msgstr "分會塊"
 
 #: indico/modules/events/management/forms.py
 msgid "Event URL"
-msgstr "事件URL"
+msgstr "活動URL"
 
 #: indico/modules/events/management/forms.py
 msgid "There is nothing to import"
@@ -17471,32 +17471,32 @@ msgstr[0] "如果您认为这些用户应该访问这些功能请联系管理员
 #: indico/modules/events/management/controllers/actions.py
 #, python-brace-format
 msgid "Event \"{}\" successfully deleted."
-msgstr "事件 \"{}\" 已成功刪除。"
+msgstr "活動 \"{}\" 已成功刪除。"
 
 #: indico/modules/events/management/controllers/actions.py
 #, python-brace-format
 msgid "The event type has been changed to {}."
-msgstr "事件類型被改為 {}。"
+msgstr "活動類型被改為 {}。"
 
 #: indico/modules/events/management/controllers/actions.py
 msgid "The event is now locked."
-msgstr "事件現在已鎖住。"
+msgstr "活動現在已鎖住。"
 
 #: indico/modules/events/management/controllers/actions.py
 msgid "The event is now unlocked."
-msgstr "事件現在已解鎖。"
+msgstr "活動現在已解鎖。"
 
 #: indico/modules/events/management/controllers/actions.py
 #, python-brace-format
 msgid "Event \"{event}\" has been moved to category \"{category}\""
-msgstr " 事件 「{event}」 已移至類別 「{category}」"
+msgstr " 活動 「{event}」 已移至類別 「{category}」"
 
 #: indico/modules/events/management/controllers/actions.py
 #, python-brace-format
 msgid ""
 "Moving the event \"{event}\" to \"{category}\" has been requested and is "
 "pending approval"
-msgstr "已請求將事件 「{event}」 移動到 「{category}」，正在等待批准"
+msgstr "已請求將活動 「{event}」 移動到 「{category}」，正在等待批准"
 
 #: indico/modules/events/management/controllers/actions.py
 msgid "The move request has been withdrawn"
@@ -17504,7 +17504,7 @@ msgstr "移動請求已被撤回"
 
 #: indico/modules/events/management/controllers/base.py
 msgid "You are not authorized to manage this event."
-msgstr "您無權管理此事件。"
+msgstr "您無權管理此活動。"
 
 #: indico/modules/events/management/controllers/cloning.py
 msgid "You can clone maximum of 100 times at once"
@@ -17512,24 +17512,24 @@ msgstr "你最多一次可以克隆100個"
 
 #: indico/modules/events/management/controllers/cloning.py
 msgid "Welcome to your cloned event!"
-msgstr "歡迎來到您的克隆事件！"
+msgstr "歡迎來到您的克隆活動！"
 
 #: indico/modules/events/management/controllers/cloning.py
 #, python-brace-format
 msgid "{} new events created."
-msgstr "{} 個新事件已創建。"
+msgstr "{} 個新活動已創建。"
 
 #: indico/modules/events/management/controllers/cloning.py
 msgid "Cannot import from the same event"
-msgstr "無法從同一事件導入"
+msgstr "無法從同一活動導入"
 
 #: indico/modules/events/management/controllers/cloning.py
 msgid "Cannot import from a different type of event"
-msgstr "無法從其他類型的事件中導入"
+msgstr "無法從其他類型的活動中導入"
 
 #: indico/modules/events/management/controllers/cloning.py
 msgid "You do not have management rights to this event"
-msgstr "您沒有此事件的管理權限"
+msgstr "您沒有此活動的管理權限"
 
 #: indico/modules/events/management/controllers/cloning.py
 msgid "Import successful!"
@@ -17574,7 +17574,7 @@ msgstr "改變類型"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "This is the event's current type."
-msgstr "這是事件當前的類型。"
+msgstr "這是活動當前的類型。"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Confirm type change"
@@ -17582,7 +17582,7 @@ msgstr "確認類型改變"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Only the event creator and category managers may unlock an event."
-msgstr "只有事件的創建者和類別管理員可以解鎖事件。"
+msgstr "只有活動的創建者和類別管理員可以解鎖活動。"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Unlock"
@@ -17590,7 +17590,7 @@ msgstr "解鎖"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Only the event creator and category managers may lock an event."
-msgstr "只有事件的創建者和類別管理員可以鎖住事件。"
+msgstr "只有活動的創建者和類別管理員可以鎖住活動。"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Lock"
@@ -17598,44 +17598,44 @@ msgstr "鎖住"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Unlock event"
-msgstr "解鎖事件"
+msgstr "解鎖活動"
 
 #: indico/modules/events/management/templates/_action_menu.html
 #: indico/modules/events/management/templates/lock_event.html
 msgid "Lock event"
-msgstr "鎖住事件"
+msgstr "鎖住活動"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Import from event"
-msgstr "從事件導入"
+msgstr "從活動導入"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Import from other event"
-msgstr "從其他事件導入"
+msgstr "從其他活動導入"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Clone event"
-msgstr "克隆事件"
+msgstr "克隆活動"
 
 #: indico/modules/events/management/templates/_action_menu.html
 #: indico/modules/events/templates/display/common/_manage_button.html
 msgid "Clone Event"
-msgstr "克隆事件"
+msgstr "克隆活動"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Event actions"
-msgstr "事件操作"
+msgstr "活動操作"
 
 #: indico/modules/events/management/templates/_action_menu.html
 msgid "Events cloned from the current event:"
-msgstr "從當前事件克隆的事件："
+msgstr "從當前活動克隆的活動："
 
 #: indico/modules/events/management/templates/_management_frame.html
 #, python-format
 msgid ""
 "Created by %(name)s (%(email)s) from event on "
 "%(link_start)s%(date)s%(link_end)s"
-msgstr "由 %(name)s (%(email)s) 在 %(link_start)s%(date)s%(link_end)s 創建事件"
+msgstr "由 %(name)s (%(email)s) 在 %(link_start)s%(date)s%(link_end)s 創建活動"
 
 #: indico/modules/events/management/templates/_management_frame.html
 #, python-format
@@ -17674,7 +17674,7 @@ msgstr "無"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid "Edit basic event data"
-msgstr "編輯基本事件數據"
+msgstr "編輯基本活動數據"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid "Short URL"
@@ -17689,7 +17689,7 @@ msgstr "將連結複製到剪貼板"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid "Edit event dates"
-msgstr "編輯事件日期"
+msgstr "編輯活動日期"
 
 #: indico/modules/events/management/templates/_settings.html
 #: indico/modules/events/management/templates/event_dates.html
@@ -17698,7 +17698,7 @@ msgstr "屏幕日期"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid "Edit event location"
-msgstr "編輯事件地點"
+msgstr "編輯活動地點"
 
 #: indico/modules/events/management/templates/_settings.html
 msgid ""
@@ -17766,7 +17766,7 @@ msgstr "沒有代碼"
 
 #: indico/modules/events/management/templates/assign_program_codes.html
 msgid "There are no objects of this type in the event."
-msgstr "事件中沒有此類型的對象。"
+msgstr "活動中沒有此類型的對象。"
 
 #: indico/modules/events/management/templates/assign_program_codes.html
 msgid ""
@@ -17785,11 +17785,11 @@ msgstr "新代碼"
 
 #: indico/modules/events/management/templates/base.html
 msgid "See the display page of the event"
-msgstr "看事件的顯示頁面"
+msgstr "看活動的顯示頁面"
 
 #: indico/modules/events/management/templates/base.html
 msgid "This event has been locked and cannot be modified."
-msgstr "此事件被鎖住了並且不能修改。"
+msgstr "此活動被鎖住了並且不能修改。"
 
 #: indico/modules/events/management/templates/clone_event.html
 msgid "1. Repetition"
@@ -17810,7 +17810,7 @@ msgstr "4. 日期"
 
 #: indico/modules/events/management/templates/clone_event.html
 msgid "How should the event be cloned?"
-msgstr "事件應該如果克隆？"
+msgstr "活動應該如果克隆？"
 
 #: indico/modules/events/management/templates/clone_event.html
 msgid "What should be cloned?"
@@ -17818,7 +17818,7 @@ msgstr "要克隆什麼？"
 
 #: indico/modules/events/management/templates/clone_event.html
 msgid "Where should the events be placed?"
-msgstr "事件應該放在哪裡？"
+msgstr "活動應該放在哪裡？"
 
 #: indico/modules/events/management/templates/clone_event.html
 #, python-format
@@ -17839,7 +17839,7 @@ msgstr "請注意，若您刪除此活動，您將失去其中包含的所有資
 msgid ""
 "Please note that if you delete the event you will lose all the information "
 "contained in it. This operation is irreversible!"
-msgstr "請注意如果刪除該事件則將丟失其中包含的所有信息。這個操作是不可逆的！"
+msgstr "請注意如果刪除該活動則將丟失其中包含的所有信息。這個操作是不可逆的！"
 
 #: indico/modules/events/management/templates/delete_event.html
 #, python-format
@@ -17847,12 +17847,12 @@ msgid ""
 "You are about to <strong>delete</strong> the whole event "
 "<strong>%(event_title)s (%(event_date)s)</strong>"
 msgstr ""
-"您將要<strong>刪除</strong>整個事件 <strong>%(event_title)s (%(event_date)s) "
+"您將要<strong>刪除</strong>整個活動 <strong>%(event_title)s (%(event_date)s) "
 "</strong>"
 
 #: indico/modules/events/management/templates/delete_events.html
 msgid "Delete events"
-msgstr "刪除事件"
+msgstr "刪除活動"
 
 #: indico/modules/events/management/templates/delete_events.html
 #, python-format
@@ -17866,7 +17866,7 @@ msgstr "請注意，若您刪除這些活動，您將失去其中包含的所有
 msgid ""
 "Please note that if you delete the events you will lose all the information "
 "contained in them. This operation is irreversible!"
-msgstr "請注意如果刪除該事件則將丟失其中包含的所有信息。這個操作是不可逆的！"
+msgstr "請注意如果刪除該活動則將丟失其中包含的所有信息。這個操作是不可逆的！"
 
 #: indico/modules/events/management/templates/delete_events.html
 #, python-format
@@ -17874,7 +17874,7 @@ msgid "You are about to <strong>delete</strong> the following event:"
 msgid_plural ""
 "You are about to <strong>delete</strong> the following "
 "<strong>%(count)s</strong> events:"
-msgstr[0] "您将要<strong>删除</strong>下面“<strong>%(count)s</strong>”事件！"
+msgstr[0] "您将要<strong>删除</strong>下面“<strong>%(count)s</strong>”活動！"
 
 #: indico/modules/events/management/templates/event_contact_info.html
 msgid "Contact/Support"
@@ -17882,7 +17882,7 @@ msgstr "聯繫人/技術支持"
 
 #: indico/modules/events/management/templates/event_protection.html
 msgid "Event protection"
-msgstr "事件保護"
+msgstr "活動保護"
 
 #: indico/modules/events/management/templates/event_protection.html
 msgid "Session coordinator rights"
@@ -17911,15 +17911,15 @@ msgstr "子貢獻權限"
 
 #: indico/modules/events/management/templates/import_event.html
 msgid "1. Select event"
-msgstr "1. 選擇事件"
+msgstr "1. 選擇活動"
 
 #: indico/modules/events/management/templates/import_event.html
 msgid "Which event should be imported?"
-msgstr "應該導入哪個事件？"
+msgstr "應該導入哪個活動？"
 
 #: indico/modules/events/management/templates/import_event.html
 msgid "You will import data from the following event:"
-msgstr "您將從以下事件中導入數據："
+msgstr "您將從以下活動中導入數據："
 
 #: indico/modules/events/management/templates/import_event.html
 msgid "What should be imported?"
@@ -17930,11 +17930,11 @@ msgid ""
 "Please note that if you lock this event, you will not be able to change it "
 "anymore. Only the creator of the event or a category manager will be able to"
 " unlock it."
-msgstr "請注意，如果您鎖住該事件，您將不能再修改它。只有事件創建者或者類別管理員可以解鎖它。"
+msgstr "請注意，如果您鎖住該活動，您將不能再修改它。只有活動創建者或者類別管理員可以解鎖它。"
 
 #: indico/modules/events/management/templates/lock_event.html
 msgid "You are about to lock this event!"
-msgstr "您將要鎖住該事件！"
+msgstr "您將要鎖住該活動！"
 
 #: indico/modules/events/management/templates/non_inheriting_objects.html
 msgid ""
@@ -18010,15 +18010,15 @@ msgstr "等待審核"
 msgid ""
 "There is a pending request to move this event to <a "
 "href=\"%(url)s\">%(category)s</a>."
-msgstr "有一個將此事件移動到 <a href=\"%(url)s\">%(category)s</a>的待處理請求。"
+msgstr "有一個將此活動移動到 <a href=\"%(url)s\">%(category)s</a>的待處理請求。"
 
 #: indico/modules/events/management/templates/settings.html
 msgid "Book the event location"
-msgstr "預定事件地點"
+msgstr "預定活動地點"
 
 #: indico/modules/events/management/templates/settings.html
 msgid "There is no active booking linked to this event."
-msgstr "沒有可用的預訂連結到此事件。"
+msgstr "沒有可用的預訂連結到此活動。"
 
 #: indico/modules/events/management/templates/settings.html
 msgid "Book the room"
@@ -18026,7 +18026,7 @@ msgstr "預訂會議室"
 
 #: indico/modules/events/management/templates/settings.html
 msgid "This event is currently unlisted"
-msgstr "此事件當前未列出"
+msgstr "此活動當前未列出"
 
 #: indico/modules/events/management/templates/settings.html
 msgid ""
@@ -18035,8 +18035,8 @@ msgid ""
 "preserve events long-term, you should consider publishing them to a "
 "category."
 msgstr ""
-"未列出的事件不會顯示在任何類別中，只有明確授權的用戶才能看到它們。<br> <strong> "
-"請注意：</strong>如果您想長期保存事件，您應該考慮將它們發布到一個類別中。"
+"未列出的活動不會顯示在任何類別中，只有明確授權的用戶才能看到它們。<br> <strong> "
+"請注意：</strong>如果您想長期保存活動，您應該考慮將它們發布到一個類別中。"
 
 #: indico/modules/events/models/events.py
 #: indico/modules/events/templates/management/_create_event_button.html
@@ -18061,11 +18061,11 @@ msgstr "會議紀要"
 
 #: indico/modules/events/notes/clone.py
 msgid "The target event already has minutes"
-msgstr "目標事件已有紀要"
+msgstr "目標活動已有紀要"
 
 #: indico/modules/events/notes/templates/_note.html
 msgid "There are minutes attached to this event."
-msgstr "會議紀要附加到事件。"
+msgstr "會議紀要附加到活動。"
 
 #: indico/modules/events/notes/templates/_note.html
 msgid "Show them"
@@ -19076,7 +19076,7 @@ msgstr "設置論文評判最後期限"
 
 #: indico/modules/events/papers/templates/management/overview.html
 msgid "Manage paper templates that can be downloaded in the event area"
-msgstr "管理可在事件區域下載的論文模板"
+msgstr "管理可在活動區域下載的論文模板"
 
 #: indico/modules/events/papers/templates/management/overview.html
 msgid "Manage paper templates"
@@ -19225,7 +19225,7 @@ msgstr "付款"
 #: indico/modules/events/payment/__init__.py
 msgid ""
 "Gives event managers the opportunity to process payments for registrations."
-msgstr "給事件管理員機會去處理註冊費用。"
+msgstr "給活動管理員機會去處理註冊費用。"
 
 #: indico/modules/events/payment/controllers.py
 #, python-brace-format
@@ -19253,7 +19253,7 @@ msgid ""
 "currency, existing events will keep using it. The currency code must be a "
 "valid <a href='{0}'>ISO-4217</a> code such as 'EUR' or 'CHF'."
 msgstr ""
-"此事件可選擇的貨幣列表。當刪除一個貨幣時，現有的事件將繼續使用它。貨幣代碼必須是有效的 <a href='{0}'> ISO-4217 </a> "
+"此活動可選擇的貨幣列表。當刪除一個貨幣時，現有的活動將繼續使用它。貨幣代碼必須是有效的 <a href='{0}'> ISO-4217 </a> "
 "代碼，如 ''EUR 或 'CHF'。"
 
 #: indico/modules/events/payment/forms.py
@@ -19265,7 +19265,7 @@ msgstr "貨幣"
 msgid ""
 "The default currency for new events. If you add a new currency, you need to "
 "save the settings first for it to show up here."
-msgstr "新事件的默認貨幣。如果添加了新貨幣，則需要先保存設置，使其顯示在此處。"
+msgstr "新活動的默認貨幣。如果添加了新貨幣，則需要先保存設置，使其顯示在此處。"
 
 #: indico/modules/events/payment/forms.py
 msgid "Conditions"
@@ -19285,7 +19285,7 @@ msgid ""
 "enabled for any event. To install a payment plugin, install the plugin's "
 "Python package and enable it in <code>indico.conf</code>."
 msgstr ""
-"沒有安裝支付插件，因此無法為任何事件啟用支付模塊。要安裝支付插件，請安裝該插件的Python包並在<code>indico.conf</code>中啟用它。"
+"沒有安裝支付插件，因此無法為任何活動啟用支付模塊。要安裝支付插件，請安裝該插件的Python包並在<code>indico.conf</code>中啟用它。"
 
 #: indico/modules/events/payment/templates/admin_settings.html
 msgid "The following payment plugins are available:"
@@ -19375,7 +19375,7 @@ msgstr "報名 ID %(id)s 的付款金額似乎不正確（收到 %(paid_amount)s
 
 #: indico/modules/events/payment/templates/management/payments.html
 msgid "Event-wide payment settings"
-msgstr "事件範圍內的付款設置"
+msgstr "活動範圍內的付款設置"
 
 #: indico/modules/events/payment/templates/management/payments.html
 msgid "Configure general settings for payments."
@@ -19446,7 +19446,7 @@ msgstr[0] "提交权限已从 {} 用户处撤销"
 
 #: indico/modules/events/persons/controllers.py
 msgid "Only users with no ties to the event can be deleted."
-msgstr "只能刪除與事件無關的用戶。"
+msgstr "只能刪除與活動無關的用戶。"
 
 #: indico/modules/events/persons/controllers.py
 msgid "Persons with no associated users cannot be synced."
@@ -19591,14 +19591,14 @@ msgstr "此人還沒有註冊"
 
 #: indico/modules/events/persons/templates/management/_person_list_row.html
 msgid "This person currently has no ties to the event."
-msgstr "此人目前與該事件沒有任何關聯。"
+msgstr "此人目前與該活動沒有任何關聯。"
 
 #: indico/modules/events/persons/templates/management/_person_list_row.html
 msgid ""
 "This person is currently just an author of an abstract with no other ties to"
 " the event. Their data may have been provided by the submitter of the "
 "abstract."
-msgstr "此人目前只是一份摘要的作者，與事件沒有其他關係。他們的數據可能是由摘要的提交人提供的。"
+msgstr "此人目前只是一份摘要的作者，與活動沒有其他關係。他們的數據可能是由摘要的提交人提供的。"
 
 #: indico/modules/events/persons/templates/management/_person_list_row.html
 #, python-format
@@ -19625,7 +19625,7 @@ msgstr "將人員與使用者同步"
 
 #: indico/modules/events/persons/templates/management/_person_list_row.html
 msgid "Do you really want to delete this person from the event?"
-msgstr "您真的要從此事件中刪除此人嗎？"
+msgstr "您真的要從此活動中刪除此人嗎？"
 
 #: indico/modules/events/persons/templates/management/person_list.html
 msgid "Manage person lists"
@@ -19753,7 +19753,7 @@ msgstr[0] "{n} 个注册已链接到您的帐户。"
 msgid ""
 "Gives event managers the opportunity to handle registrations within the "
 "event."
-msgstr "給事件管理員機會去處理事件註冊。"
+msgstr "給活動管理員機會去處理活動註冊。"
 
 #: indico/modules/events/registration/__init__.py
 msgid "Registration (everything)"
@@ -19795,7 +19795,7 @@ msgstr "目標活動已有報名標籤"
 
 #: indico/modules/events/registration/clone.py
 msgid "The target event already has registration forms"
-msgstr "目標事件已有註冊表"
+msgstr "目標活動已有註冊表"
 
 #: indico/modules/events/registration/clone.py
 #: indico/modules/events/registration/templates/management/regform_list.html
@@ -19805,7 +19805,7 @@ msgstr "註冊"
 
 #: indico/modules/events/registration/clone.py
 msgid "The target event already has registrations"
-msgstr "目標事件已有註冊"
+msgstr "目標活動已有註冊"
 
 #: indico/modules/events/registration/forms.py
 msgid ""
@@ -19907,7 +19907,7 @@ msgstr "發布報到狀態"
 
 #: indico/modules/events/registration/forms.py
 msgid "Check-in status will be shown publicly on the event page"
-msgstr "報到情況將在事件頁上公開顯示"
+msgstr "報到情況將在活動頁上公開顯示"
 
 #: indico/modules/events/registration/forms.py
 #: indico/modules/events/registration/templates/display/_regform_info.html
@@ -20003,7 +20003,7 @@ msgstr "參會人列表可見性"
 msgid ""
 "Specify under which conditions the participant list will be visible to other"
 " participants and everyone else who can access the event"
-msgstr "指定參會者列表在哪些條件下對其他參會者和可以訪問該事件的所有人可見"
+msgstr "指定參會者列表在哪些條件下對其他參會者和可以訪問該活動的所有人可見"
 
 #: indico/modules/events/registration/forms.py
 msgid "Retention period"
@@ -20114,7 +20114,7 @@ msgstr "完成註冊後發送含有 PDF 票單的郵件給用戶。"
 
 #: indico/modules/events/registration/forms.py
 msgid "Download from event homepage"
-msgstr "從事件頁面下載"
+msgstr "從活動頁面下載"
 
 #: indico/modules/events/registration/forms.py
 msgid "Allow users to download their ticket from the conference homepage."
@@ -20177,7 +20177,7 @@ msgstr "為下一次保存值"
 
 #: indico/modules/events/registration/forms.py
 msgid "Save these values in the event settings"
-msgstr "在事件配置中保存這些值"
+msgstr "在活動配置中保存這些值"
 
 #: indico/modules/events/registration/forms.py
 msgid "Dashed border around each badge"
@@ -20462,7 +20462,7 @@ msgstr "您正在嘗試使用要求您登錄的表單進行註冊"
 
 #: indico/modules/events/registration/controllers/display.py
 msgid "You cannot register for this event"
-msgstr "您不能註冊此事件"
+msgstr "您不能註冊此活動"
 
 #: indico/modules/events/registration/controllers/display.py
 msgid ""
@@ -21004,7 +21004,7 @@ msgstr "關閉"
 msgid ""
 "You have been invited to register for this event. If you do not wish to "
 "participate, please inform the organizers by declining the invitation."
-msgstr "已邀請您註冊此事件。如果您不想參加，請通過拒絕邀請的方式通知組織者。"
+msgstr "已邀請您註冊此活動。如果您不想參加，請通過拒絕邀請的方式通知組織者。"
 
 #: indico/modules/events/registration/templates/display/_regform_invitation_info.html
 msgid "Decline Invitation"
@@ -21211,11 +21211,11 @@ msgstr "您已註冊此會議。"
 
 #: indico/modules/events/registration/templates/display/conference_home.html
 msgid "Application for this event is currently open."
-msgstr "此事件的申請當前已打開。"
+msgstr "此活動的申請當前已打開。"
 
 #: indico/modules/events/registration/templates/display/conference_home.html
 msgid "Registration for this event is currently open."
-msgstr "此事件的註冊當前已打開。"
+msgstr "此活動的註冊當前已打開。"
 
 #: indico/modules/events/registration/templates/display/conference_home.html
 #: indico/modules/events/registration/templates/display/event_header.html
@@ -21233,7 +21233,7 @@ msgstr "現在註冊"
 
 #: indico/modules/events/registration/templates/display/event_header.html
 msgid "This event is open to new participants."
-msgstr "此事件對新參會人是打開的。"
+msgstr "此活動對新參會人是打開的。"
 
 #: indico/modules/events/registration/templates/display/event_header.html
 #: indico/modules/events/registration/templates/display/registration_modify.html
@@ -21294,7 +21294,7 @@ msgstr "此預覽顯示已報名參加者所見的參加者清單。"
 msgid ""
 "The lists of participants grouped by the registration form they used to "
 "register for the event."
-msgstr "此事件的按註冊表分組的參會人列表"
+msgstr "此活動的按註冊表分組的參會人列表"
 
 #: indico/modules/events/registration/templates/display/regform_display.html
 #, python-format
@@ -21305,7 +21305,7 @@ msgstr "添加註冊到 \"%(title)s\""
 #: indico/modules/events/registration/templates/display/regform_list.html
 msgid ""
 "Access to the rest of this event is restricted to registered participants."
-msgstr "只有註冊的參加人才能訪問此事件的其餘部分。"
+msgstr "只有註冊的參加人才能訪問此活動的其餘部分。"
 
 #: indico/modules/events/registration/templates/display/regform_display.html
 msgid "Registrations are complete"
@@ -21339,7 +21339,7 @@ msgstr "需要註冊的帳戶"
 
 #: indico/modules/events/registration/templates/display/regform_display.html
 msgid "In order to apply for this event you have to be logged in."
-msgstr "你需要登錄才能申請此事件。"
+msgstr "你需要登錄才能申請此活動。"
 
 #: indico/modules/events/registration/templates/display/regform_display.html
 msgid "In order to register for this event you have to be logged in."
@@ -21351,7 +21351,7 @@ msgstr "登錄去處理"
 
 #: indico/modules/events/registration/templates/display/regform_display.html
 msgid "Participation in this event is moderated"
-msgstr "此事件的參加是有審核的"
+msgstr "此活動的參加是有審核的"
 
 #: indico/modules/events/registration/templates/display/regform_display.html
 msgid "The organizers will have to approve your application."
@@ -21382,7 +21382,7 @@ msgstr "已達到註冊的最大數量。"
 
 #: indico/modules/events/registration/templates/display/regform_list.html
 msgid "No registration forms available for this event"
-msgstr "該事件沒有可用的註冊表"
+msgstr "該活動沒有可用的註冊表"
 
 #: indico/modules/events/registration/templates/display/registration_modify.html
 msgid "Skip to registration form"
@@ -21398,7 +21398,7 @@ msgstr "您的註冊已被拒絕"
 
 #: indico/modules/events/registration/templates/display/registration_summary.html
 msgid "Contact an event manager if you think this is an error."
-msgstr "如果您認為這是一個錯誤，請與事件管理員聯繫。"
+msgstr "如果您認為這是一個錯誤，請與活動管理員聯繫。"
 
 #: indico/modules/events/registration/templates/display/registration_summary.html
 msgid "You have withdrawn your registration"
@@ -21406,7 +21406,7 @@ msgstr "您已撤銷註冊"
 
 #: indico/modules/events/registration/templates/display/registration_summary.html
 msgid "Contact an event manager if you changed your mind."
-msgstr "如果您改變主意，請與事件管理員聯繫。"
+msgstr "如果您改變主意，請與活動管理員聯繫。"
 
 #: indico/modules/events/registration/templates/display/registration_summary.html
 msgid "Your registration is awaiting approval"
@@ -21414,7 +21414,7 @@ msgstr "你的註冊等待批准"
 
 #: indico/modules/events/registration/templates/display/registration_summary.html
 msgid "An event manager will manually validate it."
-msgstr "事件管理員將手工驗證它。"
+msgstr "活動管理員將手工驗證它。"
 
 #: indico/modules/events/registration/templates/display/registration_summary.html
 msgid "Your registration is awaiting payment"
@@ -21995,7 +21995,7 @@ msgstr "撤銷註冊"
 msgid ""
 "If the participant decided to no longer attend the event, you can withdraw "
 "their registration."
-msgstr "如果參加人決定不再參加事件，則可以撤消其註冊。"
+msgstr "如果參加人決定不再參加活動，則可以撤消其註冊。"
 
 #: indico/modules/events/registration/templates/management/_registration_details.html
 msgid ""
@@ -22140,7 +22140,7 @@ msgid ""
 msgid_plural ""
 "Registrations will be permanently deleted %(count)s weeks after the event "
 "ended (on %(date)s)."
-msgstr[0] "注册将在事件结束 %(count)s 周后（于 %(date)s）永久删除。"
+msgstr[0] "注册将在活動结束 %(count)s 周后（于 %(date)s）永久删除。"
 
 #: indico/modules/events/registration/templates/management/regform.html
 msgid "Edit settings for this form."
@@ -22156,7 +22156,7 @@ msgstr "添加、刪除或修改註冊人可以填寫的信息。"
 
 #: indico/modules/events/registration/templates/management/regform.html
 msgid "Choose who can see the participants of this event."
-msgstr "選擇誰可以看到此事件的參與者。"
+msgstr "選擇誰可以看到此活動的參與者。"
 
 #: indico/modules/events/registration/templates/management/regform.html
 msgid "List of registrations"
@@ -22172,7 +22172,7 @@ msgstr "邀請"
 
 #: indico/modules/events/registration/templates/management/regform.html
 msgid "Manage invitations to register for your event."
-msgstr "管理您的事件的註冊邀請。"
+msgstr "管理您的活動的註冊邀請。"
 
 #: indico/modules/events/registration/templates/management/regform.html
 msgid "Tickets"
@@ -22212,7 +22212,7 @@ msgstr "自定義如何在參會人列表頁上顯示註冊。"
 
 #: indico/modules/events/registration/templates/management/regform_display.html
 msgid "There are no registration forms for this event."
-msgstr "此事件沒有註冊表。"
+msgstr "此活動沒有註冊表。"
 
 #: indico/modules/events/registration/templates/management/regform_display.html
 msgid "Start by creating a registration form."
@@ -22294,7 +22294,7 @@ msgstr "邀請 「%(title)s」"
 
 #: indico/modules/events/registration/templates/management/regform_invitations.html
 msgid "Invite people to register for your event."
-msgstr "邀請大家註冊事件"
+msgstr "邀請大家註冊活動"
 
 #: indico/modules/events/registration/templates/management/regform_invitations.html
 msgid "Remind pending invitees"
@@ -22314,11 +22314,11 @@ msgstr "付款禁用"
 
 #: indico/modules/events/registration/templates/management/regform_list.html
 msgid "Payments are disabled for this event"
-msgstr "此事件的付款禁用了"
+msgstr "此活動的付款禁用了"
 
 #: indico/modules/events/registration/templates/management/regform_list.html
 msgid "Enable payments for the whole event?"
-msgstr "對整個事件啟用付款嗎？"
+msgstr "對整個活動啟用付款嗎？"
 
 #: indico/modules/events/registration/templates/management/regform_list.html
 msgid ""
@@ -22502,7 +22502,7 @@ msgstr[0] "距報名截止<br>剩餘天數"
 
 #: indico/modules/events/registration/templates/management/regform_stats.html
 msgid "event full"
-msgstr "事件已滿"
+msgstr "活動已滿"
 
 #: indico/modules/events/registration/templates/management/regform_stats.html
 #, python-format
@@ -22626,7 +22626,7 @@ msgstr "提醒"
 
 #: indico/modules/events/reminders/__init__.py
 msgid "The target event already has reminders"
-msgstr "目標事件已有提醒"
+msgstr "目標活動已有提醒"
 
 #: indico/modules/events/reminders/controllers.py
 msgid "Sent reminders cannot be deleted."
@@ -22717,7 +22717,7 @@ msgstr "參加者必須擁有所有選定的標籤，否則至少擁有其中一
 
 #: indico/modules/events/reminders/forms.py
 msgid "Send the reminder to all speakers/chairpersons of the event."
-msgstr "將提醒發送給事件的所有發言人/主席。"
+msgstr "將提醒發送給活動的所有發言人/主席。"
 
 #: indico/modules/events/reminders/forms.py
 msgid "The email address that will show up as the sender."
@@ -22751,7 +22751,7 @@ msgstr "在電子郵件中包含會議說明。"
 
 #: indico/modules/events/reminders/forms.py
 msgid "Attach an iCalendar file to the event reminder."
-msgstr "附加 iCalendar 文件到事件提醒。"
+msgstr "附加 iCalendar 文件到活動提醒。"
 
 #: indico/modules/events/reminders/forms.py
 msgid "At least one type of recipient is required."
@@ -22995,7 +22995,7 @@ msgstr "請求詳細信息"
 
 #: indico/modules/events/requests/templates/event_request_details.html
 msgid "These are the details provided by the event manager."
-msgstr "這些是事件管理員提供的詳細信息。"
+msgstr "這些是活動管理員提供的詳細信息。"
 
 #: indico/modules/events/requests/templates/event_request_details.html
 msgid "Created by"
@@ -23029,7 +23029,7 @@ msgstr "處理於"
 msgid ""
 "You can request additional services for your event. Click one of the service"
 " buttons below to send a request or to view/modify an existing request."
-msgstr "您可以為您的事件請求其他服務。單擊下面的一個服務按鈕發送請求或查看/修改現有請求。"
+msgstr "您可以為您的活動請求其他服務。單擊下面的一個服務按鈕發送請求或查看/修改現有請求。"
 
 #: indico/modules/events/requests/templates/event_requests.html
 msgid "Accepted"
@@ -23172,11 +23172,11 @@ msgstr "一個 %(title)s 申請已被撤回。"
 
 #: indico/modules/events/roles/clone.py
 msgid "Event roles"
-msgstr "事件角色"
+msgstr "活動角色"
 
 #: indico/modules/events/roles/clone.py
 msgid "The target event already has event roles"
-msgstr "目標事件已有事件角色"
+msgstr "目標活動已有活動角色"
 
 #: indico/modules/events/roles/forms.py
 msgid "You need to upload a CSV or TXT file."
@@ -23284,7 +23284,7 @@ msgstr "我的分會"
 
 #: indico/modules/events/sessions/clone.py
 msgid "The target event already has sessions"
-msgstr "目標事件已有分會"
+msgstr "目標活動已有分會"
 
 #: indico/modules/events/sessions/forms.py
 msgid "Session code"
@@ -23452,7 +23452,7 @@ msgstr "分會類型"
 msgid ""
 "Manage the sessions of the event from the list below or configure the "
 "<strong>session types</strong> from the settings menu above."
-msgstr "從下面的列表中管理事件的分會，或從上面的設置菜單中配置<strong>分會類型</strong>。"
+msgstr "從下面的列表中管理活動的分會，或從上面的設置菜單中配置<strong>分會類型</strong>。"
 
 #: indico/modules/events/contributions/client/js/index.jsx
 #: indico/modules/events/sessions/templates/management/session_list.html
@@ -23523,7 +23523,7 @@ msgstr "建立離線副本"
 msgid ""
 "This will build an offline copy of the event. This is useful if you want to "
 "make it available where no Internet connection is available."
-msgstr "這將建立事件的離線副本。如果您希望在沒有網際網路連接的情況下使其可用，則此選項非常有用。"
+msgstr "這將建立活動的離線副本。如果您希望在沒有網際網路連接的情況下使其可用，則此選項非常有用。"
 
 #: indico/modules/events/static/templates/static_sites.html
 msgid "Existing Offline Copies"
@@ -23541,7 +23541,7 @@ msgstr "申請時間"
 
 #: indico/modules/events/static/templates/static_sites.html
 msgid "There are no offline copies of this event."
-msgstr "此事件沒有離線副本"
+msgstr "此活動沒有離線副本"
 
 #: indico/modules/events/static/templates/emails/download_notification_email.txt
 msgid "Offline copy of an event ready for download"
@@ -23568,7 +23568,7 @@ msgstr "調查"
 
 #: indico/modules/events/surveys/__init__.py
 msgid "Gives event managers the opportunity to create surveys."
-msgstr "給事件管理員機會去創建調查。"
+msgstr "給活動管理員機會去創建調查。"
 
 #: indico/modules/events/surveys/__init__.py
 msgid "Grants management access to surveys."
@@ -23576,7 +23576,7 @@ msgstr "授予管理層訪問調查的權限。"
 
 #: indico/modules/events/surveys/clone.py
 msgid "The target event already has surveys"
-msgstr "目標事件已有調查"
+msgstr "目標活動已有調查"
 
 #: indico/modules/events/surveys/forms.py
 #: indico/modules/events/surveys/placeholders.py
@@ -23629,11 +23629,11 @@ msgstr "允許在不提交調查的情況下保存答案。"
 
 #: indico/modules/events/surveys/forms.py
 msgid "Send email notifications for specific events related to the survey."
-msgstr "為指定事件發送與調查有關的電子郵件通知。"
+msgstr "為指定活動發送與調查有關的電子郵件通知。"
 
 #: indico/modules/events/surveys/forms.py
 msgid "Notify participants of the event when this survey starts."
-msgstr "調查開始時通知事件參加人。"
+msgstr "調查開始時通知活動參加人。"
 
 #: indico/modules/events/surveys/forms.py
 msgid "Start notification recipients"
@@ -23654,7 +23654,7 @@ msgstr "當有新的提交時用於通知的電子郵件地址"
 #: indico/modules/events/surveys/forms.py
 #, python-brace-format
 msgid "There is already a survey named \"{}\" on this event"
-msgstr "此事件上已存在名為 \"{}」 的調查"
+msgstr "此活動上已存在名為 \"{}」 的調查"
 
 #: indico/modules/events/surveys/forms.py
 msgid "Moment when the survey will open for submissions"
@@ -23873,7 +23873,7 @@ msgstr "繼續"
 
 #: indico/modules/events/surveys/templates/display/survey_list.html
 msgid "No surveys available for this event"
-msgstr "沒有可用於此事件的調查"
+msgstr "沒有可用於此活動的調查"
 
 #: indico/modules/events/surveys/templates/display/survey_questionnaire.html
 msgid "Save answers"
@@ -24077,7 +24077,7 @@ msgstr "移除提交"
 msgid ""
 "Surveys can be used to make questionnaires for the event and collect "
 "people's answers."
-msgstr "調查可用於為事件製作問卷並收集人們的答案。"
+msgstr "調查可用於為活動製作問卷並收集人們的答案。"
 
 #: indico/modules/events/surveys/templates/management/survey_list.html
 msgid "The survey is live."
@@ -24285,11 +24285,11 @@ msgstr "轉到Indico首頁"
 
 #: indico/modules/events/templates/header.html
 msgid "Oldest event"
-msgstr "最早事件"
+msgstr "最早活動"
 
 #: indico/modules/events/templates/header.html
 msgid "Older event"
-msgstr "較早事件"
+msgstr "較早活動"
 
 #: indico/modules/events/templates/header.html
 msgid "Up to category"
@@ -24297,11 +24297,11 @@ msgstr "回到上一級類別"
 
 #: indico/modules/events/templates/header.html
 msgid "Newer event"
-msgstr "較新事件"
+msgstr "較新活動"
 
 #: indico/modules/events/templates/header.html
 msgid "Newest event"
-msgstr "最新事件"
+msgstr "最新活動"
 
 #: indico/modules/events/templates/header.html
 msgid "Change theme"
@@ -24338,7 +24338,7 @@ msgstr "下載材料"
 
 #: indico/modules/events/templates/header.html
 msgid "Switch to the management area of this event"
-msgstr "切換到此事件的管理區域"
+msgstr "切換到此活動的管理區域"
 
 #: indico/modules/events/templates/header.html
 msgid "Back to Conference View"
@@ -24372,28 +24372,28 @@ msgstr "還沒有審核問題。"
 #, python-format
 msgid "One additional event has been created."
 msgid_plural "%(count)s additional events have been created."
-msgstr[0] "%(count)s的附加事件已创建。"
+msgstr[0] "%(count)s的附加活動已创建。"
 
 #: indico/modules/events/templates/admin/_event_label_list.html
 #, python-format
 msgid "Edit event label '%(name)s'"
-msgstr "編輯事件標籤 『%(name)s』"
+msgstr "編輯活動標籤 『%(name)s』"
 
 #: indico/modules/events/templates/admin/_event_label_list.html
 #, python-format
 msgid "Delete event label '%(name)s'?"
-msgstr "刪除事件標籤 '%(name)s' ?"
+msgstr "刪除活動標籤 '%(name)s' ?"
 
 #: indico/modules/events/templates/admin/_event_label_list.html
 #, python-format
 msgid ""
 "Are you sure you want to permanently delete the event label '%(name)s'? This"
 " action will remove it from all events that use it."
-msgstr "確實要永久刪除事件標籤 '%(name)s' 嗎？此操作將從所有使用它的事件中刪除它。"
+msgstr "確實要永久刪除活動標籤 '%(name)s' 嗎？此操作將從所有使用它的活動中刪除它。"
 
 #: indico/modules/events/templates/admin/_event_label_list.html
 msgid "There are no event labels yet."
-msgstr " 還沒有事件標籤。"
+msgstr " 還沒有活動標籤。"
 
 #: indico/modules/events/templates/admin/_reference_type_list.html
 #, python-format
@@ -24410,7 +24410,7 @@ msgstr "刪除外部ID類型 %(name)s ？"
 msgid ""
 "Are you sure you want to permanently delete the external ID type '%(name)s'?"
 " This action will remove it from all events that use it."
-msgstr "您確實要永久刪除外部 ID 類型 『%(name)s』 嗎？此操作將從所有使用它的事件中刪除它。"
+msgstr "您確實要永久刪除外部 ID 類型 『%(name)s』 嗎？此操作將從所有使用它的活動中刪除它。"
 
 #: indico/modules/events/templates/admin/_reference_type_list.html
 msgid "There are no external ID types yet."
@@ -24460,11 +24460,11 @@ msgstr "可以在此設定允許的最短和最長資料保留期限。"
 
 #: indico/modules/events/templates/admin/event_labels.html
 msgid "Existing event labels"
-msgstr "現有事件標籤"
+msgstr "現有活動標籤"
 
 #: indico/modules/events/templates/admin/event_labels.html
 msgid "Create new event label"
-msgstr "創建新事件標籤"
+msgstr "創建新活動標籤"
 
 #: indico/modules/events/templates/admin/reference_types.html
 msgid "Existing external ID types"
@@ -24482,7 +24482,7 @@ msgstr "創建新類型"
 msgid ""
 "Unlisted events enable users to set up and customize events before "
 "publishing them into a category."
-msgstr "未列出的事件允許用戶在將事件發布到類別之前設置和自定義事件。"
+msgstr "未列出的活動允許用戶在將活動發布到類別之前設置和自定義活動。"
 
 #: indico/modules/events/templates/admin/unlisted_events.html
 msgid "Potential misconfiguration"
@@ -24511,7 +24511,7 @@ msgstr "拒絕訪問"
 
 #: indico/modules/events/templates/display/access_key.html
 msgid "This event is protected with an access key."
-msgstr "此事件受訪問密鑰保護。"
+msgstr "此活動受訪問密鑰保護。"
 
 #: indico/modules/events/templates/display/access_key.html
 msgid "Please enter it below."
@@ -24573,12 +24573,12 @@ msgstr "正在發生："
 
 #: indico/modules/events/templates/display/privacy.html
 msgid "There is no privacy information for this event."
-msgstr "此事件沒有隱私信息。"
+msgstr "此活動沒有隱私信息。"
 
 #: indico/modules/events/templates/display/common/_privacy_info_button.html
 #: indico/modules/events/templates/display/privacy.html
 msgid "Event privacy notice"
-msgstr "事件隱私聲明"
+msgstr "活動隱私聲明"
 
 #: indico/modules/events/templates/display/common/_privacy_info_button.html
 #: indico/modules/events/templates/display/privacy.html
@@ -24612,7 +24612,7 @@ msgstr "添加會議記錄"
 
 #: indico/modules/events/templates/display/common/_manage_button.html
 msgid "Edit Event"
-msgstr "編輯事件"
+msgstr "編輯活動"
 
 #: indico/modules/events/templates/display/common/_manage_button.html
 msgid "Compile Minutes"
@@ -24650,7 +24650,7 @@ msgstr "編輯保護"
 
 #: indico/modules/events/templates/display/common/_privacy_info_button.html
 msgid "Event privacy information"
-msgstr "事件隱私信息"
+msgstr "活動隱私信息"
 
 #: indico/modules/events/templates/display/conference/_util.html
 #, python-format
@@ -24672,7 +24672,7 @@ msgstr "在地圖上顯示會議室"
 
 #: indico/modules/events/templates/display/indico/_common.html
 msgid "Start/end date/time of the event"
-msgstr "事件的 開始/結束 日期/時間"
+msgstr "活動的 開始/結束 日期/時間"
 
 #: indico/modules/events/templates/display/indico/_details.html
 msgid "From the same series"
@@ -24762,7 +24762,7 @@ msgstr "在此查看所有移動申請："
 
 #: indico/modules/events/templates/forms/event_creation_form.html
 msgid "The event will be publicly accessible since it is set as public."
-msgstr "此事件將可以公開訪問因為事件設置為公開。"
+msgstr "此活動將可以公開訪問因為活動設置為公開。"
 
 #: indico/modules/events/templates/forms/event_creation_form.html
 msgid ""
@@ -24770,26 +24770,26 @@ msgid ""
 "<strong>managers</strong> of <strong>parent categories</strong> and users "
 "you give access to."
 msgstr ""
-"事件 <strong> 只能 </strong> 被 <strong> 父類別 </strong>的 <strong> 管理員</strong> "
+"活動 <strong> 只能 </strong> 被 <strong> 父類別 </strong>的 <strong> 管理員</strong> "
 "和授予訪問權限的用戶訪問。"
 
 #: indico/modules/events/templates/forms/event_creation_form.html
 msgid ""
 "This event will not be publicly accessible since the category <strong "
 "class=\"js-category-title\"></strong> is protected."
-msgstr "此事件將不可公開訪問由於類別 <strong class=\"js-category-title\"></strong> 被保護。"
+msgstr "此活動將不可公開訪問由於類別 <strong class=\"js-category-title\"></strong> 被保護。"
 
 #: indico/modules/events/templates/forms/event_creation_form.html
 msgid ""
 "This event will be publicly accessible since the category <strong "
 "class=\"js-category-title\"></strong> is not protected."
-msgstr "此事件將公開訪問，因為類別 <strong class=\"js-category-title\"></strong> 不受保護。"
+msgstr "此活動將公開訪問，因為類別 <strong class=\"js-category-title\"></strong> 不受保護。"
 
 #: indico/modules/events/templates/forms/event_creation_form.html
 msgid ""
 "Users will not see this event yet. You can publish the event in a category "
 "once it is ready."
-msgstr "用戶將不會看到此事件。 準備就緒後，您可以在類別中發布事件。"
+msgstr "用戶將不會看到此活動。 準備就緒後，您可以在類別中發布活動。"
 
 #: indico/modules/events/templates/forms/session_block_form.html
 msgid "Session properties"
@@ -24899,11 +24899,11 @@ msgstr "評分 %(pretty_score)s"
 
 #: indico/modules/events/timetable/clone.py
 msgid "The target event already has a timetable"
-msgstr "目標事件已有時間表"
+msgstr "目標活動已有時間表"
 
 #: indico/modules/events/timetable/clone.py
 msgid "The source event is longer than the target event"
-msgstr "源事件比目標事件長"
+msgstr "源活動比目標活動長"
 
 #: indico/modules/events/timetable/forms.py
 msgid "Start time"
@@ -25006,17 +25006,17 @@ msgstr "選擇的時間間隔將導致持續時間少於一分鐘的條目。請
 msgid ""
 "This action cannot be completed because the event dates have changed. Please"
 " reload the page and try again."
-msgstr "無法完成此操作，因為事件日期已更改。請重新加載頁面並重試。"
+msgstr "無法完成此操作，因為活動日期已更改。請重新加載頁面並重試。"
 
 #: indico/modules/events/timetable/util.py
 #, python-brace-format
 msgid "Event start time changed to {}"
-msgstr "事件開始時間更改為 {}"
+msgstr "活動開始時間更改為 {}"
 
 #: indico/modules/events/timetable/util.py
 #, python-brace-format
 msgid "Event end time changed to {}"
-msgstr "事件結束時間更改為 {}"
+msgstr "活動結束時間更改為 {}"
 
 #: indico/modules/events/timetable/util.py
 #, python-brace-format
@@ -25254,7 +25254,7 @@ msgstr "召集所有議題"
 
 #: indico/modules/events/tracks/__init__.py
 msgid "Grants convene rights to all tracks of the event."
-msgstr "給此事件所有議題授予召集權限"
+msgstr "給此活動所有議題授予召集權限"
 
 #: indico/modules/events/tracks/__init__.py
 msgid "Track convener"
@@ -25262,7 +25262,7 @@ msgstr "議題召集人"
 
 #: indico/modules/events/tracks/__init__.py
 msgid "Grants track convener rights in an event."
-msgstr "在事件中授予議題召集人權限"
+msgstr "在活動中授予議題召集人權限"
 
 #: indico/modules/events/tracks/clone.py
 msgid "Tracks and scientific program"
@@ -25270,7 +25270,7 @@ msgstr "議題和科學議程"
 
 #: indico/modules/events/tracks/clone.py
 msgid "The target event already has tracks or a program"
-msgstr "目標事件已有議題或議程"
+msgstr "目標活動已有議題或議程"
 
 #: indico/modules/events/tracks/controllers.py
 msgid "The program has been updated."
@@ -25811,7 +25811,7 @@ msgid ""
 "Deleting the network will remove the ACL entries referencing it. This may "
 "lead to people not being able to access the categories and events mentioned "
 "above."
-msgstr "刪除網絡將刪除引用它的 ACL 條目。這可能導致人們無法訪問上述類別和事件。"
+msgstr "刪除網絡將刪除引用它的 ACL 條目。這可能導致人們無法訪問上述類別和活動。"
 
 #: indico/modules/networks/templates/delete_network.html
 #, python-format
@@ -25857,7 +25857,7 @@ msgstr "刪除網絡"
 msgid ""
 "IP networks can be used inside the ACLs of categories and events to limit "
 "their access to certain ranges of IP addresses."
-msgstr "IP 網絡可以在類別和事件的 ACLs 內使用，類別和事件可以被指定的IP位址範圍訪問。"
+msgstr "IP 網絡可以在類別和活動的 ACLs 內使用，類別和活動可以被指定的IP位址範圍訪問。"
 
 #: indico/modules/networks/templates/networks.html
 msgid "Create an IP network"
@@ -26405,7 +26405,7 @@ msgstr "輸入分會塊名。"
 
 #: indico/modules/rb/models/reservations.py
 msgid "Reservation has no valid occurrences"
-msgstr "預訂沒有有效的事件"
+msgstr "預訂沒有有效的活動"
 
 #: indico/modules/rb/models/rooms.py
 #, python-brace-format
@@ -26420,7 +26420,7 @@ msgstr "無法創建預訂。可能有人在這段時間訂了會議室。"
 
 #: indico/modules/rb/templates/booking_list.html
 msgid "Event has already finished"
-msgstr "事件已經結束"
+msgstr "活動已經結束"
 
 #: indico/modules/rb/templates/booking_list.html
 msgid "Link existing booking"
@@ -27111,23 +27111,23 @@ msgstr "使用我的時區"
 
 #: indico/modules/users/forms.py
 msgid "Always use my current timezone instead of an event's timezone."
-msgstr "總是使用我當前的時區而不是事件的時區。"
+msgstr "總是使用我當前的時區而不是活動的時區。"
 
 #: indico/modules/users/forms.py
 msgid "Show future events"
-msgstr "顯示未來事件"
+msgstr "顯示未來活動"
 
 #: indico/modules/users/forms.py
 msgid "Show future events by default."
-msgstr "默認情況下顯示未來事件。"
+msgstr "默認情況下顯示未來活動。"
 
 #: indico/modules/users/forms.py
 msgid "Show past events"
-msgstr "顯示過去事件"
+msgstr "顯示過去活動"
 
 #: indico/modules/users/forms.py
 msgid "Show past events by default."
-msgstr "默認情況下顯示過去事件。"
+msgstr "默認情況下顯示過去活動。"
 
 #: indico/modules/users/forms.py
 msgid "Default format in which names are displayed"
@@ -27149,7 +27149,7 @@ msgstr "向iCal添加警報"
 
 #: indico/modules/users/forms.py
 msgid "Add an event reminder to exported iCal files/URLs."
-msgstr "嚮導出的 iCal 文件/URL 添加事件提醒。"
+msgstr "嚮導出的 iCal 文件/URL 添加活動提醒。"
 
 #: indico/modules/users/forms.py
 msgid "iCal notification time"
@@ -27157,7 +27157,7 @@ msgstr "iCal 通知時間"
 
 #: indico/modules/users/forms.py
 msgid "Number of minutes to notify before an event."
-msgstr "事件前通知的分鐘數。"
+msgstr "活動前通知的分鐘數。"
 
 #: indico/modules/users/forms.py
 msgid "Markdown editor for minutes"
@@ -27466,11 +27466,11 @@ msgstr "創建在"
 
 #: indico/modules/users/templates/dashboard.html
 msgid "Your unlisted events"
-msgstr "您的未列出事件"
+msgstr "您的未列出活動"
 
 #: indico/modules/users/templates/dashboard.html
 msgid "Your events at hand"
-msgstr "您手中的事件"
+msgstr "您手中的活動"
 
 #: indico/modules/users/templates/dashboard.html
 msgid "You are a reviewer"
@@ -27486,7 +27486,7 @@ msgstr "您已收藏此活動"
 
 #: indico/modules/users/templates/dashboard.html
 msgid "You have no events."
-msgstr "您沒有事件。"
+msgstr "您沒有活動。"
 
 #: indico/modules/users/templates/dashboard.html
 msgid "You might be interested in the following categories..."
@@ -27759,7 +27759,7 @@ msgstr "有一個視訊會議與此議程區塊相關聯，已改為連結至活
 
 #: indico/modules/vc/clone.py
 msgid "The target event already has a videoconference"
-msgstr "目標事件已有視頻會議"
+msgstr "目標活動已有視頻會議"
 
 #: indico/modules/vc/controllers.py
 #, python-brace-format
@@ -27917,7 +27917,7 @@ msgstr "將來的天數"
 #: indico/modules/vc/util.py
 #, python-brace-format
 msgid "{} (event)"
-msgstr "{} (事件)"
+msgstr "{} (活動)"
 
 #: indico/modules/vc/util.py
 #, python-brace-format
@@ -27931,7 +27931,7 @@ msgstr "{} (分會塊)"
 
 #: indico/modules/vc/templates/event_vc.html
 msgid "There are no bookings associated with this event."
-msgstr "沒有與該事件有關的預定。"
+msgstr "沒有與該活動有關的預定。"
 
 #: indico/modules/vc/templates/manage_event.html
 msgid "Current videoconferences"
@@ -28361,7 +28361,7 @@ msgstr "找不到指定的項。"
 
 #: indico/web/breadcrumbs.py
 msgid "My unlisted events"
-msgstr "我的未列出事件"
+msgstr "我的未列出活動"
 
 #: indico/web/rh.py
 msgid ""
@@ -28802,7 +28802,7 @@ msgid ""
 "specified</strong> above. The protection mode can be configured once the "
 "event has been published in a category."
 msgstr ""
-"此對象<strong>只能</strong>由上面<strong>指定的用戶</strong>訪問。 一旦事件在某個類別中發布，就可以配置保護模式。"
+"此對象<strong>只能</strong>由上面<strong>指定的用戶</strong>訪問。 一旦活動在某個類別中發布，就可以配置保護模式。"
 
 #: indico/web/templates/_protection_messages.html
 msgid "Children with different protection"
@@ -28869,7 +28869,7 @@ msgstr "根據以下設定使用時區："
 
 #: indico/web/templates/_session_bar.html
 msgid "Use the event/category timezone"
-msgstr "使用 事件/類別 的時區"
+msgstr "使用 活動/類別 的時區"
 
 #: indico/web/templates/_session_bar.html
 msgid "Event/category"
@@ -28974,7 +28974,7 @@ msgstr "Indico 標誌"
 
 #: indico/web/templates/header.html
 msgid "A <strong>lecture</strong> is a simple event to announce a talk."
-msgstr "<strong> 講座 </strong> 是發布報告的簡單事件。"
+msgstr "<strong> 講座 </strong> 是發布報告的簡單活動。"
 
 #: indico/web/templates/header.html
 msgid ""
@@ -28985,7 +28985,7 @@ msgstr "<strong>功能</strong>：海報製作，參與者管理, ......"
 msgid ""
 "A <strong>meeting</strong> is an event that defines an agenda with multiple "
 "talks."
-msgstr "<strong> 會議 </strong> 是由多個報告組成的議程事件。"
+msgstr "<strong> 會議 </strong> 是由多個報告組成的議程活動。"
 
 #: indico/web/templates/header.html
 msgid ""
@@ -28997,7 +28997,7 @@ msgstr "<strong> 功能 </strong>：日程表，會議紀要，海報創建，�
 msgid ""
 "A <strong>conference</strong> is a complex event with features to manage the"
 " whole life cycle of a conference."
-msgstr "<strong> 大型會議 </strong> 是一個複雜的事件，具有管理會議整個生命周期的功能。"
+msgstr "<strong> 大型會議 </strong> 是一個複雜的活動，具有管理會議整個生命周期的功能。"
 
 #: indico/web/templates/header.html
 msgid ""
@@ -29032,7 +29032,7 @@ msgstr "電子郵件通知程序"
 msgid ""
 "The selected category does not contain any events, only subcategories. "
 "Please make sure that you really want to create an event there."
-msgstr "所選類別不包含任何事件，僅包含子類別。 請確保您真的想在那裡創建一個事件。"
+msgstr "所選類別不包含任何活動，僅包含子類別。 請確保您真的想在那裡創建一個活動。"
 
 #: indico/web/templates/forms/category_picker_widget.html
 msgid "Choose category"
@@ -29204,11 +29204,11 @@ msgstr "今天"
 #, python-brace-format
 msgid "{0} long-lasting event not shown"
 msgid_plural "{0} long-lasting events not shown"
-msgstr[0] "{0} 个持久事件未显示"
+msgstr[0] "{0} 个持久活動未显示"
 
 #: indico/modules/categories/client/js/calendar.js
 msgid "Long lasting events"
-msgstr "持久事件"
+msgstr "持久活動"
 
 #: indico/modules/categories/client/js/display.js
 msgid "empty"
@@ -29219,7 +29219,7 @@ msgstr "空"
 #, python-brace-format
 msgid "{0} event"
 msgid_plural "{0} events"
-msgstr[0] "{0} 个事件"
+msgstr[0] "{0} 个活動"
 
 #: indico/modules/categories/client/js/management.js
 msgid "The category order has been restored."
@@ -29264,13 +29264,13 @@ msgstr "先選擇要移動的類別"
 #, python-brace-format
 msgid "*"
 msgid_plural "All {0} events in this category are currently selected."
-msgstr[0] "当前已选择此类别中的所有{0}个事件。"
+msgstr[0] "当前已选择此类别中的所有{0}个活動。"
 
 #: indico/modules/categories/client/js/management.js
 #, python-brace-format
 msgid "Only {0} out of {1} events is currently selected."
 msgid_plural "Only {0} out of {1} events are currently selected."
-msgstr[0] "当前只选择了{1}个事件中的{0}个。"
+msgstr[0] "当前只选择了{1}个活動中的{0}个。"
 
 #: indico/modules/categories/client/js/management.js
 msgid "Move category"
@@ -29647,15 +29647,15 @@ msgstr "選擇類別"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js
 msgid "Not possible for categories where you cannot propose events"
-msgstr "不能用於您無法提議事件的類別"
+msgstr "不能用於您無法提議活動的類別"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js
 msgid "Not possible for categories where you cannot propose/create events"
-msgstr "不能用於您無法提議/創建事件的類別"
+msgstr "不能用於您無法提議/創建活動的類別"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js
 msgid "Not possible for categories where you cannot create events"
-msgstr "不適用於不能建立事件的類別"
+msgstr "不適用於不能建立活動的類別"
 
 #: indico/web/client/js/jquery/widgets/categorynavigator.js
 msgid "Not possible for categories where you are not a manager"
@@ -29868,7 +29868,7 @@ msgstr "父類別管理員"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js
 msgid "Event Managers"
-msgstr "事件管理員"
+msgstr "活動管理員"
 
 #: indico/web/client/js/jquery/widgets/jinja/permissions_widget.js
 #, python-brace-format
@@ -29977,7 +29977,7 @@ msgstr "</strong> 被移動了從"
 msgid ""
 "The <strong>starting time</strong> of the <strong>Event</strong> was moved "
 "from "
-msgstr "<strong> 事件 </strong> 的 <strong> 開始時間 </strong> 被移動了從"
+msgstr "<strong> 活動 </strong> 的 <strong> 開始時間 </strong> 被移動了從"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js
 msgid "The <strong>ending time</strong> of the session interval <strong>"
@@ -29987,7 +29987,7 @@ msgstr "分會間隔 <strong> 的 <strong> 結束時間 </strong>"
 msgid ""
 "The <strong>ending time</strong> of the <strong>Event</strong> was moved "
 "from "
-msgstr "<strong> 事件 </strong> <strong> 結束時間 </strong> 被移動了從"
+msgstr "<strong> 活動 </strong> <strong> 結束時間 </strong> 被移動了從"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js
 msgid "The contents of the interval <strong>"
@@ -30036,7 +30036,7 @@ msgstr "較少的..."
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js
 msgid "Go to event timetable"
-msgstr "去事件日程表"
+msgstr "去活動日程表"
 
 #: indico/web/client/js/legacy/libs/timetable/Base.js
 msgid "Up to timetable"
@@ -30194,7 +30194,7 @@ msgstr "開始時間。"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js
 msgid "The first entry will start when the event starts ("
-msgstr "當事件開始的時候，第一個條目將開始（"
+msgstr "當活動開始的時候，第一個條目將開始（"
 
 #: indico/web/client/js/legacy/libs/timetable/Management.js
 msgid "The first entry will start when the interval starts ("
