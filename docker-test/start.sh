@@ -2,7 +2,7 @@
 # Deploy Indico with zh_Hant_TW translation for testing.
 #
 # Usage:
-#   ./start.sh          – build image, start all services, open browser
+#   ./start.sh          – build image, start all services
 #   ./start.sh stop     – stop and remove all containers
 #   ./start.sh logs     – tail Indico logs
 #   ./start.sh rebuild  – rebuild image and restart (after translation changes)
@@ -14,8 +14,8 @@ PG=indico-postgres
 REDIS=indico-redis
 APP=indico-app
 IMAGE=indico-zh-hant-tw:local
-CONF="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/indico.conf"
-ADMIN_SCRIPT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/create_admin.py"
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CONF="$DIR/indico.conf"
 PORT=8080
 
 # ── helpers ──────────────────────────────────────────────────────────────────
@@ -33,22 +33,25 @@ wait_for_http() {
     echo "   Waiting for Indico at http://localhost:$PORT ..."
     for i in $(seq 1 40); do
         code=$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:$PORT/" 2>/dev/null || true)
-        if [[ "$code" == "200" || "$code" == "302" ]]; then return; fi
+        if [[ "$code" == "200" || "$code" == "302" ]]; then
+            echo "   -> Ready!"
+            return
+        fi
         sleep 3
     done
-    echo "   (Indico may still be starting — check: ./start.sh logs)"
+    echo "   (may still be starting — check: ./start.sh logs)"
 }
 
-run_in_indico() {
+run_indico() {
     docker run --rm \
         --network "$NETWORK" \
-        -v "$CONF:/etc/indico/indico.conf:ro" \
+        -v "$CONF:/opt/indico/etc/indico.conf:ro" \
         "$IMAGE" "$@"
 }
 
 build_image() {
     echo "==> Building Indico image with zh_Hant_TW translation..."
-    docker build -t "$IMAGE" "$(dirname "$CONF")"
+    docker build -t "$IMAGE" "$DIR"
 }
 
 # ── commands ─────────────────────────────────────────────────────────────────
@@ -89,43 +92,69 @@ do_start() {
 
     wait_for_pg
 
-    echo "==> Preparing database (first run)..."
-    run_in_indico indico db prepare 2>&1 | grep -v "^$" || true
+    echo "==> Installing required PostgreSQL extensions..."
+    docker exec "$PG" psql -U indico -d indico \
+        -c "CREATE EXTENSION IF NOT EXISTS pg_trgm; CREATE EXTENSION IF NOT EXISTS unaccent;" \
+        -q
 
-    echo "==> Creating admin user (if needed)..."
+    echo "==> Initialising Indico database (first run only)..."
+    run_indico indico db prepare 2>&1 \
+        | grep -v "^Fontconfig\|UserWarning\|config =\|Logger" || true
+
+    echo "==> Creating admin user..."
     docker run --rm \
         --network "$NETWORK" \
-        -v "$CONF:/etc/indico/indico.conf:ro" \
-        -v "$ADMIN_SCRIPT:/tmp/create_admin.py:ro" \
+        -v "$CONF:/opt/indico/etc/indico.conf:ro" \
         "$IMAGE" \
-        indico shell /tmp/create_admin.py 2>&1 | grep -E "Created|already" || true
+        bash -c "
+source /opt/indico/.venv/bin/activate
+python3 - << 'PYEOF'
+from indico.web.flask.app import make_app
+app = make_app()
+with app.app_context():
+    from indico.modules.auth.models.identities import Identity
+    from indico.modules.users import User
+    from indico.modules.users.operations import create_user
+    from indico.core.db import db
+    EMAIL = 'admin@example.com'
+    PASSWORD = 'Admin1234!'
+    if User.query.filter(User.all_emails == EMAIL, ~User.is_deleted, ~User.is_pending).has_rows():
+        print('Admin user already exists.')
+    else:
+        identity = Identity(provider='indico', identifier='admin', password=PASSWORD)
+        user = create_user(EMAIL, {'first_name': 'Admin', 'last_name': 'User', 'affiliation': ''}, identity)
+        user.is_admin = True
+        db.session.add(user)
+        db.session.commit()
+        print(f'Created admin: {EMAIL} / {PASSWORD}')
+PYEOF
+" 2>&1 | grep -E "Created|already|Error" || true
 
     echo "==> Starting Indico web server..."
     docker run -d \
         --name "$APP" \
         --network "$NETWORK" \
         -p "$PORT:8080" \
-        -v "$CONF:/etc/indico/indico.conf:ro" \
+        -v "$CONF:/opt/indico/etc/indico.conf:ro" \
         "$IMAGE" \
-        indico run -h 0.0.0.0 -p 8080
+        indico run -h 0.0.0.0 -p 8080 --reloader none --url "http://localhost:$PORT"
 
     wait_for_http
 
     echo ""
     echo "╔══════════════════════════════════════════════════════╗"
-    echo "║  Indico is running at  http://localhost:$PORT          ║"
+    echo "║  Indico →  http://localhost:$PORT                     ║"
     echo "║                                                      ║"
     echo "║  Login:    admin@example.com                         ║"
     echo "║  Password: Admin1234!                                ║"
     echo "║                                                      ║"
-    echo "║  Switch language:                                    ║"
-    echo "║    Profile → Preferences → Language                  ║"
-    echo "║    → 中文（臺灣）/ Chinese (Taiwan)                    ║"
+    echo "║  Switch to Traditional Chinese (Taiwan):             ║"
+    echo "║    Profile (top-right) → Preferences → Language      ║"
+    echo "║    → 中文（臺灣）                                      ║"
     echo "║                                                      ║"
-    echo "║  Commands:                                           ║"
-    echo "║    ./start.sh logs     – follow Indico logs          ║"
-    echo "║    ./start.sh rebuild  – rebuild after PO changes    ║"
-    echo "║    ./start.sh stop     – stop everything             ║"
+    echo "║  ./start.sh logs     – follow logs                   ║"
+    echo "║  ./start.sh rebuild  – rebuild after PO changes      ║"
+    echo "║  ./start.sh stop     – stop everything               ║"
     echo "╚══════════════════════════════════════════════════════╝"
 }
 
