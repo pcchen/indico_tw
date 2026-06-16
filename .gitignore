@@ -52,3 +52,7 @@ htmlcov/
 # node/webpack
 webpack-build-config.json
 *.lock
+
+# Docker test deployment
+docker-test/*.mo
+docker-test/*.po
