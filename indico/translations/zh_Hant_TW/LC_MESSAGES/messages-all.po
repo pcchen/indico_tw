@@ -2366,7 +2366,7 @@ msgstr "系列選項"
 
 #: indico/modules/events/management/client/js/SeriesManagement.jsx
 msgid "Show the sequence number in the event titles (lectures only)"
-msgstr "在活動標題中顯示序號（僅限講座）"
+msgstr "在活動標題中顯示序號（僅限演講）"
 
 #: indico/modules/events/management/client/js/SeriesManagement.jsx
 msgid "Show links to the other events of the series on the main event page"
@@ -10393,11 +10393,11 @@ msgstr "將顯示默認時區活動列表。它還將用作新活動的默認值
 
 #: indico/modules/categories/forms.py
 msgid "Theme for Lectures"
-msgstr "講座主題"
+msgstr "演講主題"
 
 #: indico/modules/categories/forms.py
 msgid "Default timetable theme used for lecture events"
-msgstr "用於講座的默認日程表主題"
+msgstr "用於演講的默認日程表主題"
 
 #: indico/modules/categories/forms.py
 msgid "Theme for Meetings"
@@ -12319,7 +12319,7 @@ msgstr "資料保留"
 
 #: indico/modules/events/__init__.py
 msgid "Create lecture"
-msgstr "創建講座"
+msgstr "創建演講"
 
 #: indico/modules/events/__init__.py
 msgid "Create meeting"
@@ -12327,7 +12327,7 @@ msgstr "創建會議"
 
 #: indico/modules/events/__init__.py
 msgid "Create conference"
-msgstr "創建大會"
+msgstr "創建研討會"
 
 #: indico/modules/events/__init__.py
 #: indico/modules/events/registration/stats.py
@@ -12336,7 +12336,7 @@ msgstr "概覽"
 
 #: indico/modules/events/__init__.py
 msgid "My Conference"
-msgstr "我的大會"
+msgstr "我的研討會"
 
 #: indico/modules/events/__init__.py
 #: indico/modules/events/templates/display/privacy.html
@@ -18041,7 +18041,7 @@ msgstr ""
 #: indico/modules/events/models/events.py
 #: indico/modules/events/templates/management/_create_event_button.html
 msgid "Lecture"
-msgstr "講座"
+msgstr "演講"
 
 #: indico/modules/events/models/events.py
 #: indico/modules/events/templates/management/_create_event_button.html
@@ -18051,7 +18051,7 @@ msgstr "會議"
 #: indico/modules/events/models/events.py
 #: indico/modules/events/templates/management/_create_event_button.html
 msgid "Conference"
-msgstr "大會"
+msgstr "研討會"
 
 #: indico/modules/events/notes/clone.py
 #: indico/modules/events/notes/templates/_note.html
@@ -24696,7 +24696,7 @@ msgstr "Indico 中的新會議"
 
 #: indico/modules/events/templates/emails/event_creation.txt
 msgid "New lecture in Indico"
-msgstr "Indico 中的新講座"
+msgstr "Indico 中的新演講"
 
 #: indico/modules/events/templates/emails/event_creation.txt
 msgid "Creator"
@@ -24802,7 +24802,7 @@ msgstr "塊屬性"
 #: indico/modules/events/templates/management/_create_event_button.html
 #: indico/web/client/js/jquery/extensions/global.js
 msgid "Create new lecture"
-msgstr "創建新講座"
+msgstr "創建新演講"
 
 #: indico/modules/events/templates/management/_create_event_button.html
 #: indico/web/client/js/jquery/extensions/global.js
@@ -24812,7 +24812,7 @@ msgstr "創建新會議"
 #: indico/modules/events/templates/management/_create_event_button.html
 #: indico/web/client/js/jquery/extensions/global.js
 msgid "Create new conference"
-msgstr "創建新大會"
+msgstr "創建新研討會"
 
 #: indico/modules/events/templates/management/_lists.html
 #, python-format
@@ -28974,7 +28974,7 @@ msgstr "Indico 標誌"
 
 #: indico/web/templates/header.html
 msgid "A <strong>lecture</strong> is a simple event to announce a talk."
-msgstr "<strong> 講座 </strong> 是發布報告的簡單活動。"
+msgstr "<strong> 演講 </strong> 是發布報告的簡單活動。"
 
 #: indico/web/templates/header.html
 msgid ""
